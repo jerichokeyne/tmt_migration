@@ -1,0 +1,13 @@
+summary: "Create Nodepool with tuning config"
+description: "[SDA-8382]Create Nodepool with tuning config"
+id: OCP-63178
+tier: "0"
+manual: false
+tag: [automated, nodepool, hcp]
+author: amalykhi
+contact: [aaraj]
+extra-runner: tradisso
+link:
+  - documented-by: /tests/machine-pools/OCP-63178_create-nodepool-with-tuning-config/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-62909
+  - verifies: https://redhat.atlassian.net/browse/SDA-8382

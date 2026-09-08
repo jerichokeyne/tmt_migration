@@ -1,0 +1,16 @@
+summary: "Check some failure during 'rosa init'"
+description: "[SDA-3280][moactl] Check some failure during 'rosa init'"
+id: OCP-37626
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, moactl, classic]
+author: yuwan
+contact: [jkeyne]
+link:
+  - documented-by: /tests/init/OCP-37626_check-some-failure-during-rosa-init/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - verifies: https://redhat.atlassian.net/browse/SDA-3280
+  - verifies: https://redhat.atlassian.net/browse/SDA-3279
+  - verifies: https://redhat.atlassian.net/browse/SDA-2919
+  - verifies: https://redhat.atlassian.net/browse/SDA-3611

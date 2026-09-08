@@ -1,0 +1,13 @@
+summary: "User can edit cluster via rosa-cli in the interactive mode"
+description: "[rosacli]User can edit cluster via rosa-cli in the interactive mode"
+id: OCP-66910
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, jset0813, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-66910_user-can-edit-cluster-via-rosa-cli-in-the-interactive-mode/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-60275

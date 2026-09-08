@@ -1,0 +1,18 @@
+summary: "Additional security group can work well via interactive mode of rosacli day1/day2"
+description: "[OCM-3695] Additional security group can work well via interactive mode of rosacli day1/day2"
+id: OCP-68176
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, security-group, fr, classic, hcp]
+author: xueli
+contact: [xueli]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-68176_additional-security-group-can-work-well-via-interactive-mode-of-rosacli-day1-day/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6053
+  - verifies: https://redhat.atlassian.net/browse/OCM-7079
+  - verifies: https://redhat.atlassian.net/browse/OCM-6054
+  - verifies: https://redhat.atlassian.net/browse/OCM-4602
+  - verifies: https://redhat.atlassian.net/browse/OCM-3695
+  - verifies: https://redhat.atlassian.net/browse/OCM-3837

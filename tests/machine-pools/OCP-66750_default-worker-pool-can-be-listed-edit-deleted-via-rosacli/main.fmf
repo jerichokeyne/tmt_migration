@@ -1,0 +1,11 @@
+summary: "Default worker pool can be listed/edit/deleted via rosacli"
+description: "[OCM-23]Default worker pool can be listed/edit/deleted via rosacli"
+id: OCP-66750
+tier: "0"
+manual: false
+tag: [automated, classic]
+author: xueli
+contact: [oaharoni]
+link:
+  - documented-by: /tests/machine-pools/OCP-66750_default-worker-pool-can-be-listed-edit-deleted-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-23

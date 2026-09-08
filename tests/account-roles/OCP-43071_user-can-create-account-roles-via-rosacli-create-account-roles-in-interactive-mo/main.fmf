@@ -1,0 +1,24 @@
+summary: "User can create account-roles via rosacli create account-roles in interactive mode"
+description: "[SDA-4329] User can create account-roles via rosacli create account-roles in interactive mode"
+id: OCP-43071
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, smoke, ocp-release, fr, classic, hcp]
+author: xueli
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/account-roles/OCP-43071_user-can-create-account-roles-via-rosacli-create-account-roles-in-interactive-mo/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-3439
+  - verifies: https://redhat.atlassian.net/browse/OCM-1755
+  - verifies: https://redhat.atlassian.net/browse/OCM-1594
+  - verifies: https://redhat.atlassian.net/browse/SDA-8123
+  - verifies: https://redhat.atlassian.net/browse/SDA-8123
+  - verifies: https://redhat.atlassian.net/browse/SDA-6439
+  - verifies: https://redhat.atlassian.net/browse/SDA-6010
+  - verifies: https://redhat.atlassian.net/browse/SDA-4613
+  - verifies: https://redhat.atlassian.net/browse/SDA-4329
+  - verifies: https://redhat.atlassian.net/browse/SDA-4593
+  - verifies: https://redhat.atlassian.net/browse/SDA-5429
+  - verifies: https://redhat.atlassian.net/browse/SDA-7784

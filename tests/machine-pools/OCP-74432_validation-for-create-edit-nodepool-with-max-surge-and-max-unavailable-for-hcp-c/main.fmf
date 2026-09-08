@@ -1,0 +1,13 @@
+summary: "Validation for create/edit nodepool with max-surge and max-unavailable for HCP cluster in interactive mode"
+description: "[OCM-7289] Validation for create/edit nodepool with max-surge and max-unavailable for HCP cluster in interactive mode"
+id: OCP-74432
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, hcp]
+author: aaraj
+contact: [aaraj]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/machine-pools/OCP-74432_validation-for-create-edit-nodepool-with-max-surge-and-max-unavailable-for-hcp-c/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7289

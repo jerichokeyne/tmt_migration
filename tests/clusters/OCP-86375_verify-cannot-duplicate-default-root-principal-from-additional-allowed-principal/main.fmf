@@ -1,0 +1,13 @@
+summary: "Verify cannot duplicate default root principal from additional allowed principals"
+description: "Verify cannot duplicate default root principal from additional allowed principals"
+id: OCP-86375
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: gcalixto
+contact: [gcalixto]
+link:
+  - documented-by: /tests/clusters/OCP-86375_verify-cannot-duplicate-default-root-principal-from-additional-allowed-principal/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-74433
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-86374
+  - verifies: https://redhat.atlassian.net/browse/OCM-8315

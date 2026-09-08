@@ -1,0 +1,12 @@
+summary: "Create/List/Describe/Delete external_auth for a HCP cluster can work well via rosa client"
+description: "[OCM-4459]Create/List/Describe/Delete external_auth for a HCP cluster can work well via rosa client"
+id: OCP-72536
+tier: "0"
+manual: false
+tag: [automated, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/external-auth-provider/OCP-72536_create-list-describe-delete-external-auth-for-a-hcp-cluster-can-work-well-via-ro/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4459
+  - verifies: https://redhat.atlassian.net/browse/OCM-7792

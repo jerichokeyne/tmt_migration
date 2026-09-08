@@ -1,0 +1,12 @@
+summary: "Create machinepool to hosted cluster with additional security group IDs will work"
+description: "[OCM-6054]Create machinepool to hosted cluster with additional security group IDs will work"
+id: OCP-72195
+tier: "0"
+manual: false
+tag: [automated, hcp]
+author: xueli
+contact: [xueli]
+link:
+  - documented-by: /tests/machine-pools/OCP-72195_create-machinepool-to-hosted-cluster-with-additional-security-group-ids-will-wor/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6054
+  - verifies: https://redhat.atlassian.net/browse/OCM-6055

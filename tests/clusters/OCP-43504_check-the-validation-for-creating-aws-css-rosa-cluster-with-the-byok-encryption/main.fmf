@@ -1,0 +1,16 @@
+summary: "Check the validation for creating aws-css/rosa cluster with the BYOK encryption by rosa-cli"
+description: "[SDA-4571] Check the validation for creating aws-css/rosa cluster with the BYOK encryption by rosa-cli"
+id: OCP-43504
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-43504_check-the-validation-for-creating-aws-css-rosa-cluster-with-the-byok-encryption/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43181
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43183
+  - verifies: https://redhat.atlassian.net/browse/SDA-4571
+  - verifies: https://redhat.atlassian.net/browse/OCM-3155

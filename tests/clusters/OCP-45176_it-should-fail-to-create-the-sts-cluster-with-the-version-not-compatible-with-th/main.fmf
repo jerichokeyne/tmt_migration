@@ -1,0 +1,14 @@
+summary: "It should fail to create the sts cluster with the version not compatible with the role version"
+description: "[SDA-4744] It should fail to create the sts cluster with the version not compatible with the role version"
+id: OCP-45176
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-45176_it-should-fail-to-create-the-sts-cluster-with-the-version-not-compatible-with-th/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-41822
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-45161
+  - verifies: https://redhat.atlassian.net/browse/SDA-4744

@@ -1,0 +1,11 @@
+summary: "Validations will work for editing machine pool via rosa cli"
+description: "[OCM-4597] Validations will work for editing machine pool via rosa cli"
+id: OCP-73391
+tier: "2"
+manual: false
+tag: [automated, rosacli, hcp]
+author: aaraj
+contact: [aaraj]
+link:
+  - documented-by: /tests/machine-pools/OCP-73391_validations-will-work-for-editing-machine-pool-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4597

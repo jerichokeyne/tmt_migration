@@ -1,0 +1,15 @@
+summary: "Enable/disable/update the autoscaling for Hypershift cluster via the rosa cli"
+description: "[SDA-7166] Enable/disable/update the autoscaling for Hypershift cluster via the rosa cli"
+id: OCP-59430
+tier: "0"
+manual: false
+tag: [automated, moactl, hcp]
+author: amalykhi
+contact: [tradisso]
+extra-runner: yingzhan
+link:
+  - documented-by: /tests/autoscalers/OCP-59430_enable-disable-update-the-autoscaling-for-hypershift-cluster-via-the-rosa-cli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-37430
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38194
+  - verifies: https://redhat.atlassian.net/browse/OCM-3397
+  - verifies: https://redhat.atlassian.net/browse/SDA-7166

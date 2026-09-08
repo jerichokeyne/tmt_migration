@@ -1,0 +1,12 @@
+summary: "Users can upgrade STS rosa cluster across Y stream via ROSA cli in interactive manual mode"
+description: "[rosacli] Users can upgrade STS rosa cluster across Y stream via ROSA cli in interactive manual mode"
+id: OCP-55884
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, ocp-release, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/upgrades/OCP-55884_users-can-upgrade-sts-rosa-cluster-across-y-stream-via-rosa-cli-in-interactive-m/manual.md

@@ -1,0 +1,14 @@
+summary: "Create log forwarding as day-1 and day-2 on hosted cluster via rosacli in the interactive mode"
+description: "[OCM-21146] Create log forwarding as day-1 and day-2 on hosted cluster via rosacli in the interactive mode"
+id: OCP-86416
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, idms, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/log-forwarders/OCP-86416_create-log-forwarding-as-day-1-and-day-2-on-hosted-cluster-via-rosacli-in-the-in/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-21146
+  - verifies: https://redhat.atlassian.net/browse/OCM-21152

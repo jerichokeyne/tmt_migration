@@ -1,0 +1,15 @@
+summary: "Addon lifecycle can work well via rosacli"
+description: "[SDA-6605]Addon lifecycle can work well via rosacli"
+id: OCP-53953
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, classic]
+author: yingzhan
+contact: [akanni]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/addons/OCP-53953_addon-lifecycle-can-work-well-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6605
+  - verifies: https://redhat.atlassian.net/browse/SDB-3189
+  - verifies: https://redhat.atlassian.net/browse/SDA-7026

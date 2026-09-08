@@ -1,0 +1,14 @@
+summary: "Create rosa cluster with additional security groups will work well via rosacli"
+description: "[OCM-3695] Create rosa cluster with additional security groups will work well via rosacli"
+id: OCP-68172
+tier: "0"
+manual: false
+tag: [automated, security-group, classic, hcp]
+author: xueli
+contact: [xueli]
+link:
+  - documented-by: /tests/clusters/OCP-68172_create-rosa-cluster-with-additional-security-groups-will-work-well-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6053
+  - verifies: https://redhat.atlassian.net/browse/OCM-4602
+  - verifies: https://redhat.atlassian.net/browse/OCM-3695
+  - verifies: https://redhat.atlassian.net/browse/OCMUI-1326

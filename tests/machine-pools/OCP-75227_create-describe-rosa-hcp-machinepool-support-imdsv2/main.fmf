@@ -1,0 +1,12 @@
+summary: "Create/describe rosa hcp machinepool support IMDSv2"
+description: "[OCM-9176] [day2] Create/describe rosa hcp machinepool support IMDSv2"
+id: OCP-75227
+tier: "0"
+manual: false
+tag: [automated, imdsv2, hcp]
+author: aaraj
+contact: [aaraj]
+link:
+  - documented-by: /tests/machine-pools/OCP-75227_create-describe-rosa-hcp-machinepool-support-imdsv2/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-9176
+  - verifies: https://redhat.atlassian.net/browse/OCM-9160

@@ -1,0 +1,13 @@
+summary: "Force to create operator roles and account-roles to ensure the policies action updated"
+description: "[SDA-7898]Force to create operator roles and account-roles to ensure the policies action updated"
+id: OCP-59551
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/account-roles/OCP-59551_force-to-create-operator-roles-and-account-roles-to-ensure-the-policies-action-u/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-7898
+  - verifies: https://redhat.atlassian.net/browse/OCM-264

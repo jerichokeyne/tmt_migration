@@ -1,0 +1,12 @@
+summary: "Create hosted-cp cluster with log forwarding via rosacli by command"
+description: "[OCM-21146] Create hosted-cp cluster with log forwarding via rosacli by command"
+id: OCP-86415
+tier: "0"
+manual: false
+tag: [automated, idms, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-86415_create-hosted-cp-cluster-with-log-forwarding-via-rosacli-by-command/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-21146

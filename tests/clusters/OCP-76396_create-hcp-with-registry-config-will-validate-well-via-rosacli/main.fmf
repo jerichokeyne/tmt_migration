@@ -1,0 +1,11 @@
+summary: "Create hcp with registry config will validate well via rosacli"
+description: "[OCM-7315]Create hcp with registry config will validate well via rosacli"
+id: OCP-76396
+tier: "2"
+manual: false
+tag: [automated, registry-config, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/clusters/OCP-76396_create-hcp-with-registry-config-will-validate-well-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7315

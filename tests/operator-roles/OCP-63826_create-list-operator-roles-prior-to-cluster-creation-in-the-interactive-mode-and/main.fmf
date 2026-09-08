@@ -1,0 +1,16 @@
+summary: "Create/List operator-roles prior to cluster creation in the interactive mode and manual mode"
+description: "[SDA-8354] Create/List operator-roles prior to cluster creation in the interactive mode and manual mode"
+id: OCP-63826
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, jset0813, excludemanual, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/operator-roles/OCP-63826_create-list-operator-roles-prior-to-cluster-creation-in-the-interactive-mode-and/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-60971
+  - verifies: https://redhat.atlassian.net/browse/SDA-8354
+  - verifies: https://redhat.atlassian.net/browse/SDA-8507
+  - verifies: https://redhat.atlassian.net/browse/SDA-8636

@@ -1,0 +1,35 @@
+execute:
+    how: manual
+provision:
+  how: local
+report:
+    - name: output to terminal
+      how: display
+    - name: save junit file
+      how: junit
+      file: test.xml
+      include-output-log: true
+      prettify: true
+
+/classic:
+    summary: All critical/high manual tests for Classic ROSA clusters in commercial environment
+    discover:
+        how: fmf-manual
+        filter: "tag: classic & tag: -automated & tag: -fr-only & tag: -excludemanual & manual: true & tier: 0, 1"
+/hcp:
+    summary: All critical/high manual tests for HCP ROSA clusters in commercial environment
+    discover:
+        how: fmf-manual
+        filter: "tag: hcp & tag: -automated & tag: -fr-only & tag: -excludemanual & manual: true & tier: 0, 1"
+
+/fedramp:
+    /classic:
+        summary: All critical/high manual tests for Classic ROSA clusters in FedRAMP environment
+        discover:
+            how: fmf-manual
+            filter: "tag: classic & tag: -automated & tag: fr, fr-only & tag: -excludemanual & manual: true & tier: 0, 1"
+    /hcp:
+        summary: All critical/high manual tests for HCP ROSA clusters in FedRAMP environment
+        discover:
+            how: fmf-manual
+            filter: "tag: hcp & tag: -automated & tag: fr, fr-only & tag: -excludemanual & manual: true & tier: 0, 1"

@@ -1,0 +1,11 @@
+summary: "Check and manage config via `rosa config` command"
+description: "[OCM-5804] Check and manage config via `rosa config` command"
+id: OCP-72166
+tier: "0"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [yuwan]
+link:
+  - documented-by: /tests/config/OCP-72166_check-and-manage-config-via-rosa-config-command/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-5804

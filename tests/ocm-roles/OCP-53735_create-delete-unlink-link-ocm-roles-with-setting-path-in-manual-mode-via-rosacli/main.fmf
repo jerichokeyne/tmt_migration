@@ -1,0 +1,14 @@
+summary: "Create/delete/unlink/link ocm-roles with setting path in manual mode via rosacli (including interative mode)"
+description: "[SDA-6560] Create/delete/unlink/link ocm-roles with setting path in manual mode via rosacli (including interative mode)"
+id: OCP-53735
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, fr, excludemanual, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/ocm-roles/OCP-53735_create-delete-unlink-link-ocm-roles-with-setting-path-in-manual-mode-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6560
+  - verifies: https://redhat.atlassian.net/browse/SDA-6439

@@ -1,0 +1,11 @@
+summary: "Create and update of MaxUnavailable/MaxSurge for HCP NodePools e2e"
+description: "[OCM-7288] Create and update of MaxUnavailable/MaxSurge for HCP NodePools e2e"
+id: OCP-74550
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/machine-pools/OCP-74550_create-and-update-of-maxunavailable-maxsurge-for-hcp-nodepools-e2e/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7219

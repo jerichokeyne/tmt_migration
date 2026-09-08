@@ -1,0 +1,17 @@
+summary: "Create/List/Delete BYO oidc config in auto mode via rosacli"
+description: "[SDA-7683] Create/List/Delete BYO oidc config in auto mode via rosacli"
+id: OCP-57570
+tier: "0"
+manual: false
+tag: [automated, ecosystem-fr, classic, hcp]
+author: yuwan
+contact: [yuwan]
+link:
+  - documented-by: /tests/oidc-config/OCP-57570_create-list-delete-byo-oidc-config-in-auto-mode-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8610
+  - verifies: https://redhat.atlassian.net/browse/SDA-8836
+  - verifies: https://redhat.atlassian.net/browse/SDA-8163
+  - verifies: https://redhat.atlassian.net/browse/SDA-7683
+  - verifies: https://redhat.atlassian.net/browse/SDA-7756
+  - verifies: https://redhat.atlassian.net/browse/SDA-8006
+  - verifies: https://redhat.atlassian.net/browse/SDA-8059

@@ -1,0 +1,14 @@
+summary: "rosa describe cluster shows SDN to OVN migration status"
+description: "[OCM-11595] rosa describe cluster shows SDN to OVN migration status"
+id: OCP-79227
+tier: "1"
+manual: true
+test: manual.md
+tag: [notautomated, excludemanual, classic]
+author: jkeyne
+contact: [jkeyne]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-79227_rosa-describe-cluster-shows-sdn-to-ovn-migration-status/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-12065
+  - verifies: https://redhat.atlassian.net/browse/OCM-11595

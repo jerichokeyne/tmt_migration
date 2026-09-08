@@ -1,0 +1,16 @@
+summary: "List operator-roles"
+description: "[SDA-8753] List operator-roles"
+id: OCP-62573
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, moactl, aset0813, fr, excludemanual, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/operator-roles/OCP-62573_list-operator-roles/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8753
+  - verifies: https://redhat.atlassian.net/browse/OCM-2112
+  - verifies: https://redhat.atlassian.net/browse/OCM-2683
+  - verifies: https://redhat.atlassian.net/browse/OCM-7587

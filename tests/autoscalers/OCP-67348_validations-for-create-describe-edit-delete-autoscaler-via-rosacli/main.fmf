@@ -1,0 +1,13 @@
+summary: "Validations for create/describe/edit/delete autoscaler via rosacli"
+description: "[OCM-3313][day2]Validations for create/describe/edit/delete autoscaler via rosacli"
+id: OCP-67348
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: zhsun
+contact: [yingzhan]
+extra-runner: yingzhan
+link:
+  - documented-by: /tests/autoscalers/OCP-67348_validations-for-create-describe-edit-delete-autoscaler-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-3313
+  - verifies: https://redhat.atlassian.net/browse/OCM-10616

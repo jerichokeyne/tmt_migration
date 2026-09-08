@@ -1,0 +1,17 @@
+summary: "Validation will work when create clusters with invalid proxy via rosacli"
+description: "[SDA-4731]Validation will work when create clusters with invalid proxy via rosacli"
+id: OCP-45509
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [dawang]
+link:
+  - documented-by: /tests/clusters/OCP-45509_validation-will-work-when-create-clusters-with-invalid-proxy-via-rosacli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-44643
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-44644
+  - verifies: https://redhat.atlassian.net/browse/SDA-7135
+  - verifies: https://redhat.atlassian.net/browse/SDA-8221
+  - verifies: https://redhat.atlassian.net/browse/SDA-4731
+  - verifies: https://redhat.atlassian.net/browse/SDA-5612
+  - verifies: https://redhat.atlassian.net/browse/SDA-6102

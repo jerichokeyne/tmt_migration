@@ -1,0 +1,13 @@
+summary: "Delete classic cluster podPidLimit via rosacli will work well"
+description: "[OCM-3854] Delete classic cluster podPidLimit via rosacli will work well"
+id: OCP-68836
+tier: "0"
+manual: false
+tag: [automated, classic]
+author: xueli
+contact: [xueli]
+link:
+  - documented-by: /tests/kubeletconfigs/OCP-68836_delete-classic-cluster-podpidlimit-via-rosacli-will-work-well/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7266
+  - verifies: https://redhat.atlassian.net/browse/OCM-4376
+  - verifies: https://redhat.atlassian.net/browse/OCM-4438

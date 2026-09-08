@@ -1,0 +1,15 @@
+summary: "Create STS cluster with account roles/policies unified path via rosacli in the interactive mode and manual mode"
+description: "[SDA-6246]Create STS cluster with account roles/policies unified path via rosacli in the interactive mode and manual mode"
+id: OCP-53569
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, zset0813, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-53569_create-sts-cluster-with-account-roles-policies-unified-path-via-rosacli-in-the-i/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6866
+  - verifies: https://redhat.atlassian.net/browse/SDA-6246
+  - verifies: https://redhat.atlassian.net/browse/SDA-6436

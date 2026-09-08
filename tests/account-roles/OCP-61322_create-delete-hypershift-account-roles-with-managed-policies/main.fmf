@@ -1,0 +1,15 @@
+summary: "Create/Delete hypershift account roles with managed policies"
+description: "[SDA-8498] Create/Delete hypershift account roles with managed policies"
+id: OCP-61322
+tier: "0"
+manual: false
+tag: [automated, hcp]
+author: yuwan
+contact: [yingzhan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/account-roles/OCP-61322_create-delete-hypershift-account-roles-with-managed-policies/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8498
+  - verifies: https://redhat.atlassian.net/browse/SDA-8565
+  - verifies: https://redhat.atlassian.net/browse/SDA-8842
+  - verifies: https://redhat.atlassian.net/browse/OCM-960

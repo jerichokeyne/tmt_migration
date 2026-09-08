@@ -1,0 +1,19 @@
+summary: "Scaling up/down node pool on the hypershift rosa cluster"
+description: "[rosacli] Scaling up/down node pool on the hypershift rosa cluster"
+id: OCP-60278
+tier: "2"
+manual: false
+tag: [automated, nodepool, hcp]
+author: amalykhi
+contact: [dawang]
+extra-runner: yasun
+link:
+  - documented-by: /tests/machine-pools/OCP-60278_scaling-up-down-node-pool-on-the-hypershift-rosa-cluster/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-41210
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-44780
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-51589
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-54174
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-56109
+  - verifies: https://redhat.atlassian.net/browse/OCM-3397
+  - verifies: https://redhat.atlassian.net/browse/SDA-7521
+  - verifies: https://redhat.atlassian.net/browse/SDA-6999

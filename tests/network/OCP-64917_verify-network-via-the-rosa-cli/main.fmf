@@ -1,0 +1,18 @@
+summary: "Verify network via the rosa cli"
+description: "[OCM-152] Verify network via the rosa cli"
+id: OCP-64917
+tier: "1"
+manual: false
+tag: [automated, moactl, classic, hcp]
+author: yuwan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/network/OCP-64917_verify-network-via-the-rosa-cli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38848
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38851
+  - verifies: https://redhat.atlassian.net/browse/OCM-5310
+  - verifies: https://redhat.atlassian.net/browse/OCM-3221
+  - verifies: https://redhat.atlassian.net/browse/OCM-152
+  - verifies: https://redhat.atlassian.net/browse/OCM-4450
+  - verifies: https://redhat.atlassian.net/browse/OCM-4767

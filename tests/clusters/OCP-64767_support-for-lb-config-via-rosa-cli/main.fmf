@@ -1,0 +1,13 @@
+summary: "support for LB config via rosa cli"
+description: "[OCM-119][OCM-942][ROSA CLI] support for LB config via rosa cli"
+id: OCP-64767
+tier: "0"
+manual: false
+tag: [automated, classic]
+author: hongli
+contact: [xueli]
+extra-runner: xueli
+link:
+  - documented-by: /tests/clusters/OCP-64767_support-for-lb-config-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-942
+  - verifies: https://redhat.atlassian.net/browse/OCM-119

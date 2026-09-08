@@ -1,0 +1,23 @@
+summary: "Create cluster in a shared VPC in interactive mode"
+description: "[OCM-3267][ROSA] Create cluster in a shared VPC in interactive mode"
+id: OCP-67799
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, shared-vpc, classic]
+author: yunjiang
+contact: [zwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-67799_create-cluster-in-a-shared-vpc-in-interactive-mode/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-64780
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-66348
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-66350
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-66515
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-66741
+  - verifies: https://redhat.atlassian.net/browse/OCM-253
+  - verifies: https://redhat.atlassian.net/browse/OCM-3267
+  - verifies: https://redhat.atlassian.net/browse/OCM-3975
+  - verifies: https://redhat.atlassian.net/browse/OCM-3526
+  - verifies: https://redhat.atlassian.net/browse/OCM-3341
+  - verifies: https://redhat.atlassian.net/browse/OCM-4173

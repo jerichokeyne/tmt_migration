@@ -1,0 +1,16 @@
+summary: "BYO-VPC rosa cluster can edit proxy via the rosacli interactive mode"
+description: "[SDA-4733]BYO-VPC rosa cluster can edit proxy via the rosacli interactive mode"
+id: OCP-75618
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, fr, classic, hcp]
+author: dawang
+contact: [dawang]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-75618_byo-vpc-rosa-cluster-can-edit-proxy-via-the-rosacli-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-7772
+  - verifies: https://redhat.atlassian.net/browse/SDA-8221
+  - verifies: https://redhat.atlassian.net/browse/SDA-4733
+  - verifies: https://redhat.atlassian.net/browse/SDA-5612

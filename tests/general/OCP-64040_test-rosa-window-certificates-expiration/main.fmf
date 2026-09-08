@@ -1,0 +1,12 @@
+summary: "Test ROSA window certificates expiration"
+description: "[OCM-810]Test ROSA window certificates expiration"
+id: OCP-64040
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: yingzhan
+contact: [yuwan]
+link:
+  - documented-by: /tests/general/OCP-64040_test-rosa-window-certificates-expiration/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-810
+  - verifies: https://redhat.atlassian.net/browse/OCM-3548

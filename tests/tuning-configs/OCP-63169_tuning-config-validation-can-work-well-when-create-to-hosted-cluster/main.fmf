@@ -1,0 +1,13 @@
+summary: "Tuning config validation can work well when create to hosted cluster"
+description: "[SDA-8379]Tuning config validation can work well when create to hosted cluster"
+id: OCP-63169
+tier: "2"
+manual: false
+tag: [automated, hcp]
+author: amalykhi
+contact: [tradisso]
+link:
+  - documented-by: /tests/tuning-configs/OCP-63169_tuning-config-validation-can-work-well-when-create-to-hosted-cluster/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-62903
+  - verifies: https://redhat.atlassian.net/browse/SDA-8382
+  - verifies: https://redhat.atlassian.net/browse/OCM-10123

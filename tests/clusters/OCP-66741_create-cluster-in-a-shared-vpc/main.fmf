@@ -1,0 +1,20 @@
+summary: "Create cluster in a shared VPC"
+description: "[OCM-2865][ROSA] Create cluster in a shared VPC"
+id: OCP-66741
+tier: "1"
+manual: false
+tag: [automated, ocp-release, shared-vpc, classic]
+author: yunjiang
+contact: [zwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-66741_create-cluster-in-a-shared-vpc/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-64780
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-66348
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-66350
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-66515
+  - verifies: https://redhat.atlassian.net/browse/OCM-253
+  - verifies: https://redhat.atlassian.net/browse/OCM-2865
+  - verifies: https://redhat.atlassian.net/browse/OCM-2863
+  - verifies: https://redhat.atlassian.net/browse/OCM-3341
+  - verifies: https://redhat.atlassian.net/browse/OCM-3526

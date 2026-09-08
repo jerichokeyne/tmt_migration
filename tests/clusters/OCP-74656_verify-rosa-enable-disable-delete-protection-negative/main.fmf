@@ -1,0 +1,11 @@
+summary: "Verify ROSA enable/disable delete protection negative"
+description: "Verify ROSA enable/disable delete protection negative"
+id: OCP-74656
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/clusters/OCP-74656_verify-rosa-enable-disable-delete-protection-negative/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7358

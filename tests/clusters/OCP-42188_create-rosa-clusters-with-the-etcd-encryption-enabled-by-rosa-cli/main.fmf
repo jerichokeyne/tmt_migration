@@ -1,0 +1,16 @@
+summary: "Create ROSA clusters with the etcd-encryption enabled by rosa-cli"
+description: "[moactl] Create ROSA clusters with the etcd-encryption enabled by rosa-cli"
+id: OCP-42188
+tier: "1"
+manual: false
+tag: [automated, moactl, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: tzhou
+link:
+  - documented-by: /tests/clusters/OCP-42188_create-rosa-clusters-with-the-etcd-encryption-enabled-by-rosa-cli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38768
+  - verifies: https://redhat.atlassian.net/browse/SDA-4279
+  - verifies: https://redhat.atlassian.net/browse/SDA-4602
+  - verifies: https://redhat.atlassian.net/browse/SDA-4607

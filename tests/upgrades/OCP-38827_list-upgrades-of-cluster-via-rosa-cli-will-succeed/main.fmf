@@ -1,0 +1,10 @@
+summary: "List upgrades of cluster via ROSA cli will succeed"
+description: "[rosacli] List upgrades of cluster via ROSA cli will succeed"
+id: OCP-38827
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: xueli
+contact: [zwan]
+link:
+  - documented-by: /tests/upgrades/OCP-38827_list-upgrades-of-cluster-via-rosa-cli-will-succeed/manual.md

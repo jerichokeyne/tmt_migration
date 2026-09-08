@@ -1,0 +1,12 @@
+summary: "Create/Upgrade/descirbe additional nodepool with capacity reservation id by command"
+description: "[OCM-17631]Create/Upgrade/descirbe additional nodepool with capacity reservation id by command"
+id: OCP-84246
+tier: "0"
+manual: false
+tag: [automated, smoke, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/machine-pools/OCP-84246_create-upgrade-descirbe-additional-nodepool-with-capacity-reservation-id-by-comm/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-17631

@@ -1,0 +1,12 @@
+summary: "Create/describe machinepool with user tags for HCP"
+description: "[OCM-6729] Create/describe machinepool with user tags for HCP"
+id: OCP-73492
+tier: "1"
+manual: false
+tag: [automated, rosacli, hcp]
+author: aaraj
+contact: [aaraj]
+link:
+  - documented-by: /tests/machine-pools/OCP-73492_create-describe-machinepool-with-user-tags-for-hcp/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6729
+  - verifies: https://redhat.atlassian.net/browse/OCM-6723

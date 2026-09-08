@@ -1,0 +1,12 @@
+summary: "Create ROSA HCP cluster with external_auth_config config should work well via rosa client"
+description: "[OCM-4458]Create ROSA HCP cluster with external_auth_config config should work well via rosa client"
+id: OCP-71945
+tier: "0"
+manual: false
+tag: [automated, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/clusters/OCP-71945_create-rosa-hcp-cluster-with-external-auth-config-config-should-work-well-via-ro/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4458
+  - verifies: https://redhat.atlassian.net/browse/OCM-7792

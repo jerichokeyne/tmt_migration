@@ -1,0 +1,31 @@
+summary: "Create Hypershift cluster via rosacli in the interactive mode"
+description: "[SDA-6223] Create Hypershift cluster via rosacli in the interactive mode"
+id: OCP-54415
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, smoke, fr, hcp]
+author: yuwan
+contact: [yingzhan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-54415_create-hypershift-cluster-via-rosacli-in-the-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-5810
+  - verifies: https://redhat.atlassian.net/browse/OCM-5530
+  - verifies: https://redhat.atlassian.net/browse/OCM-744
+  - verifies: https://redhat.atlassian.net/browse/OCM-4675
+  - verifies: https://redhat.atlassian.net/browse/OCM-4801
+  - verifies: https://redhat.atlassian.net/browse/OCM-4687
+  - verifies: https://redhat.atlassian.net/browse/OCM-3351
+  - verifies: https://redhat.atlassian.net/browse/OCM-3663
+  - verifies: https://redhat.atlassian.net/browse/OCM-3104
+  - verifies: https://redhat.atlassian.net/browse/OCM-2107
+  - verifies: https://redhat.atlassian.net/browse/SDA-8245
+  - verifies: https://redhat.atlassian.net/browse/SDA-8623
+  - verifies: https://redhat.atlassian.net/browse/SDA-8573
+  - verifies: https://redhat.atlassian.net/browse/SDA-8184
+  - verifies: https://redhat.atlassian.net/browse/SDA-6223
+  - verifies: https://redhat.atlassian.net/browse/SDA-7021
+  - verifies: https://redhat.atlassian.net/browse/SDA-6899
+  - verifies: https://redhat.atlassian.net/browse/SDA-7377
+  - verifies: https://redhat.atlassian.net/browse/SDA-7521

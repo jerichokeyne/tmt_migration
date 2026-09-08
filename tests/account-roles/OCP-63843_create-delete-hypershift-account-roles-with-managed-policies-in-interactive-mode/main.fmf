@@ -1,0 +1,16 @@
+summary: "Create/Delete hypershift account roles with managed policies in interactive mode and manual mode"
+description: "[SDA-8498] Create/Delete hypershift account roles with managed policies in interactive mode and manual mode"
+id: OCP-63843
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, fr, hcp]
+author: yuwan
+contact: [yingzhan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/account-roles/OCP-63843_create-delete-hypershift-account-roles-with-managed-policies-in-interactive-mode/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-61322
+  - verifies: https://redhat.atlassian.net/browse/SDA-8498
+  - verifies: https://redhat.atlassian.net/browse/SDA-8565
+  - verifies: https://redhat.atlassian.net/browse/SDA-8842

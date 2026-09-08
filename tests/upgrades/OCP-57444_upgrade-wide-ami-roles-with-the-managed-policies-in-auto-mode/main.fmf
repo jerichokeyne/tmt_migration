@@ -1,0 +1,12 @@
+summary: "Upgrade wide AMI roles with the managed policies in auto mode"
+description: "[SDA-7712] Upgrade wide AMI roles with the managed policies in auto mode"
+id: OCP-57444
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [zwan]
+extra-runner: jfrazier
+link:
+  - documented-by: /tests/upgrades/OCP-57444_upgrade-wide-ami-roles-with-the-managed-policies-in-auto-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-7712

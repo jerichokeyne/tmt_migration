@@ -1,0 +1,12 @@
+summary: "Validate for duplicated IAM role ARNs during cluster creation"
+description: "[OCM-9166] Validate for duplicated IAM role ARNs during cluster creation"
+id: OCP-74620
+tier: "2"
+manual: false
+tag: [automated, aset0813, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: akanni
+link:
+  - documented-by: /tests/clusters/OCP-74620_validate-for-duplicated-iam-role-arns-during-cluster-creation/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-9166

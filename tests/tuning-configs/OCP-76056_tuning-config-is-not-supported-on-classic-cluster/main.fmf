@@ -1,0 +1,14 @@
+summary: "Tuning config is not supported on Classic cluster"
+description: "[SDA-8379]Tuning config is not supported on Classic cluster"
+id: OCP-76056
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: tradisso
+contact: [tradisso]
+link:
+  - documented-by: /tests/tuning-configs/OCP-76056_tuning-config-is-not-supported-on-classic-cluster/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-62903
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-63169
+  - verifies: https://redhat.atlassian.net/browse/SDA-8382
+  - verifies: https://redhat.atlassian.net/browse/OCM-10123

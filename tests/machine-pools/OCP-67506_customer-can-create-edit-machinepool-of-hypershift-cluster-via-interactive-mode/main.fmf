@@ -1,0 +1,14 @@
+summary: "Customer can create/edit machinepool of hypershift cluster via interactive mode"
+description: "[OCM-3397] Customer can create/edit machinepool of hypershift cluster via interactive mode"
+id: OCP-67506
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, nodepool, fr, hcp]
+author: xueli
+contact: [tradisso]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/machine-pools/OCP-67506_customer-can-create-edit-machinepool-of-hypershift-cluster-via-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-3397
+  - verifies: https://redhat.atlassian.net/browse/OCM-6106

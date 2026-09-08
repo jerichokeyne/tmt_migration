@@ -1,0 +1,20 @@
+summary: "Delete BYO oidc cluster via rosacli"
+description: "[SDA-7757] Delete BYO oidc cluster via rosacli"
+id: OCP-75210
+tier: "0"
+manual: false
+tag: [automated, smoke, 10set1, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-75210_delete-byo-oidc-cluster-via-rosacli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-59530
+  - verifies: https://redhat.atlassian.net/browse/SDA-9001
+  - verifies: https://redhat.atlassian.net/browse/SDA-9048
+  - verifies: https://redhat.atlassian.net/browse/SDA-8817
+  - verifies: https://redhat.atlassian.net/browse/SDA-8657
+  - verifies: https://redhat.atlassian.net/browse/SDA-7757
+  - verifies: https://redhat.atlassian.net/browse/SDA-8006
+  - verifies: https://redhat.atlassian.net/browse/SDA-8507
+  - verifies: https://redhat.atlassian.net/browse/SDA-8611

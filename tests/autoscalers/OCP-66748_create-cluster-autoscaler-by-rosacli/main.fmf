@@ -1,0 +1,12 @@
+summary: "Create cluster autoscaler by rosacli"
+description: "[OCM-210][day1]Create cluster autoscaler by rosacli"
+id: OCP-66748
+tier: "0"
+manual: false
+tag: [automated, classic]
+author: zhsun
+contact: [yingzhan]
+extra-runner: yingzhan
+link:
+  - documented-by: /tests/autoscalers/OCP-66748_create-cluster-autoscaler-by-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-210

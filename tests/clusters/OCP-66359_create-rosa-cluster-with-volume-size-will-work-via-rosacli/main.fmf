@@ -1,0 +1,13 @@
+summary: "Create rosa cluster with volume size will work via rosacli"
+description: "[OCM-2844] Create rosa cluster with volume size will work via rosacli"
+id: OCP-66359
+tier: "0"
+manual: false
+tag: [automated, disk-size, classic, hcp]
+author: xueli
+contact: [dawang]
+link:
+  - documented-by: /tests/clusters/OCP-66359_create-rosa-cluster-with-volume-size-will-work-via-rosacli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-66354
+  - verifies: https://redhat.atlassian.net/browse/OCM-2844
+  - verifies: https://redhat.atlassian.net/browse/OCM-9876

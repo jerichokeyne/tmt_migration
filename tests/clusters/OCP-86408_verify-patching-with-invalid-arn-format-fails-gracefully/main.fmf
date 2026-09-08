@@ -1,0 +1,12 @@
+summary: "Verify patching with invalid ARN format fails gracefully"
+description: "Verify patching with invalid ARN format fails gracefully"
+id: OCP-86408
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: gcalixto
+contact: [gcalixto]
+link:
+  - documented-by: /tests/clusters/OCP-86408_verify-patching-with-invalid-arn-format-fails-gracefully/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-74433
+  - verifies: https://redhat.atlassian.net/browse/OCM-8315

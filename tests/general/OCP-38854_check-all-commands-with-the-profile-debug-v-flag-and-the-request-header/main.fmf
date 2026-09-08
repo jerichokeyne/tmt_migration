@@ -1,0 +1,15 @@
+summary: "Check all commands with the --profile/--debug/-v flag and the request header"
+description: "[moactl] Check all commands with the --profile/--debug/-v flag and the request header"
+id: OCP-38854
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, moactl, jset0813, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/general/OCP-38854_check-all-commands-with-the-profile-debug-v-flag-and-the-request-header/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38852
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38853

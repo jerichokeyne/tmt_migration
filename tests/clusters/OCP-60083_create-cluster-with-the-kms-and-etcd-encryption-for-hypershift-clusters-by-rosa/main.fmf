@@ -1,0 +1,15 @@
+summary: "Create cluster with the KMS and etcd encryption for hypershift clusters by rosa-cli"
+description: "[SDA-8164] Create cluster with the KMS and etcd encryption for hypershift clusters by rosa-cli"
+id: OCP-60083
+tier: "1"
+manual: false
+tag: [automated, smoke, hcp]
+author: amalykhi
+contact: [dawang]
+extra-runner: jfrazier
+link:
+  - documented-by: /tests/clusters/OCP-60083_create-cluster-with-the-kms-and-etcd-encryption-for-hypershift-clusters-by-rosa/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43503
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-60082
+  - verifies: https://redhat.atlassian.net/browse/SDA-8164
+  - verifies: https://redhat.atlassian.net/browse/OCM-9804

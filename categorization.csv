@@ -1,0 +1,396 @@
+test_id,current_folder,suggested_folder,summary,test_dir_name
+OCP-43067,account-roles,account-roles,Validation will work when user create account-roles,OCP-43067_validation-will-work-when-user-create-account-roles
+OCP-43070,account-roles,account-roles,Create/List/Delete account-roles via rosacli,OCP-43070_create-list-delete-account-roles-via-rosacli
+OCP-43071,account-roles,account-roles,User can create account-roles via rosacli create account-roles in interactive mode,OCP-43071_user-can-create-account-roles-via-rosacli-create-account-roles-in-interactive-mo
+OCP-45342,account-roles,account-roles,User can delete account-roles via rosacli,OCP-45342_user-can-delete-account-roles-via-rosacli
+OCP-35878,admins,admins,Create/describe/delete admin user by the rosacli command,OCP-35878_create-describe-delete-admin-user-by-the-rosacli-command
+OCP-32987,clusters,clusters,Delete ROSA cluster will succeed via rosacli,OCP-32987_delete-rosa-cluster-will-succeed-via-rosacli
+OCP-34102,clusters,clusters,Check the basic cluster description by the rosa tool,OCP-34102_check-the-basic-cluster-description-by-the-rosa-tool
+OCP-35420,clusters,clusters,Create the MOA cluster with the version in some channel-group via the rosa tool,OCP-35420_create-the-moa-cluster-with-the-version-in-some-channel-group-via-the-rosa-tool
+OCP-35690,clusters,clusters,Create cluster with setting specific profiles options,OCP-35690_create-cluster-with-setting-specific-profiles-options
+OCP-35894,clusters,clusters,"Create MOA clusters with the \""--disable-scp-checks\"" flag",OCP-35894_create-moa-clusters-with-the-disable-scp-checks-flag
+OCP-37176,clusters,clusters,Create|scale|delete cluster into existing VPC with subnet set by ROSA tool,OCP-37176_create-scale-delete-cluster-into-existing-vpc-with-subnet-set-by-rosa-tool
+OCP-37177,clusters,clusters,Check the validations of the subnets when create ROSA clusters by the ROSA tool,OCP-37177_check-the-validations-of-the-subnets-when-create-rosa-clusters-by-the-rosa-tool
+OCP-38768,clusters,clusters,Create one basic/advanced ROSA clusters by rosa-cli,OCP-38768_create-one-basic-advanced-rosa-clusters-by-rosa-cli
+OCP-38770,clusters,clusters,Check the basic validation for the classic rosa cluster creation by the rosa cli,OCP-38770_check-the-basic-validation-for-the-classic-rosa-cluster-creation-by-the-rosa-cli
+OCP-38778,clusters,clusters,Validation for deletion ROSA cluster will work via rosacli,OCP-38778_validation-for-deletion-rosa-cluster-will-work-via-rosacli
+OCP-38780,clusters,ingresses,Validation for deletion ingress of ROSA cluster will work via rosacli,OCP-38780_validation-for-deletion-ingress-of-rosa-cluster-will-work-via-rosacli
+OCP-38857,clusters,clusters,The validations for networking when create cluster will work for ROSA cluster,OCP-38857_the-validations-for-networking-when-create-cluster-will-work-for-rosa-cluster
+OCP-41549,clusters,clusters,Create rosa cluster with private_link will work,OCP-41549_create-rosa-cluster-with-private-link-will-work
+OCP-41556,clusters,clusters,ROSACLI will validate the options when create private link cluster,OCP-41556_rosacli-will-validate-the-options-when-create-private-link-cluster
+OCP-41822,clusters,clusters,User can create sts cluster including the post_clean via rosa cli,OCP-41822_user-can-create-sts-cluster-including-the-post-clean-via-rosa-cli
+OCP-41823,clusters,clusters,User can create sts cluster via rosa cli in interactive mode,OCP-41823_user-can-create-sts-cluster-via-rosa-cli-in-interactive-mode
+OCP-42031,clusters,clusters,ROSACLI can init and create cluster with aws security token,OCP-42031_rosacli-can-init-and-create-cluster-with-aws-security-token
+OCP-42188,clusters,clusters,Create ROSA clusters with the etcd-encryption enabled by rosa-cli,OCP-42188_create-rosa-clusters-with-the-etcd-encryption-enabled-by-rosa-cli
+OCP-43504,clusters,clusters,Check the validation for creating aws-css/rosa cluster with the BYOK encryption by rosa-cli,OCP-43504_check-the-validation-for-creating-aws-css-rosa-cluster-with-the-byok-encryption
+OCP-45159,clusters,clusters,User can disable workload monitoring on/off via rosa-cli,OCP-45159_user-can-disable-workload-monitoring-on-off-via-rosa-cli
+OCP-45161,clusters,clusters,Allow sts cluster installation with compatible policies,OCP-45161_allow-sts-cluster-installation-with-compatible-policies
+OCP-45176,clusters,clusters,It should fail to create the sts cluster with the version not compatible with the role version,OCP-45176_it-should-fail-to-create-the-sts-cluster-with-the-version-not-compatible-with-th
+OCP-45502,clusters,clusters,Rosa cluster with proxy will be created succeed via rosacli,OCP-45502_rosa-cluster-with-proxy-will-be-created-succeed-via-rosacli
+OCP-86415,clusters,clusters,Create hosted-cp cluster with log forwarding via rosacli by command,OCP-86415_create-hosted-cp-cluster-with-log-forwarding-via-rosacli-by-command
+OCP-88311,clusters,clusters,Create/Edit/Describe clusters with channel flag by command,OCP-88311_create-edit-describe-clusters-with-channel-flag-by-command
+OCP-38850,general,general,"Restrict master API endpoint to direct, private connectivity or not",OCP-38850_restrict-master-api-endpoint-to-direct-private-connectivity-or-not
+OCP-38851,general,general,Verify permissions/quota/oc and version via the rosa cli,OCP-38851_verify-permissions-quota-oc-and-version-via-the-rosa-cli
+OCP-38854,general,general,Check all commands with the --profile/--debug/-v flag and the request header,OCP-38854_check-all-commands-with-the-profile-debug-v-flag-and-the-request-header
+OCP-38858,general,general,"check the preparation steps incuding'rosa init','rosa download','rosa whoami','rosa login/logout'",OCP-38858_check-the-preparation-steps-incuding-rosa-init-rosa-download-rosa-whoami-rosa-lo
+OCP-42832,hibernation,hibernation,Hibernate/resume cluster by rosa-cli,OCP-42832_hibernate-resume-cluster-by-rosa-cli
+OCP-35896,idps,idps,Create/List/Delete IDPs for MOA clusters by the rosa tool,OCP-35896_create-list-delete-idps-for-moa-clusters-by-the-rosa-tool
+OCP-38781,idps,idps,Create the IDPs in the interactive mode by the rosa cli,OCP-38781_create-the-idps-in-the-interactive-mode-by-the-rosa-cli
+OCP-38786,idps,idps,Create the IDPs by the rosa cli command,OCP-38786_create-the-idps-by-the-rosa-cli-command
+OCP-38788,idps,idps,Check the help message and the validation for the IDP creation commands by the rosa cli,OCP-38788_check-the-help-message-and-the-validation-for-the-idp-creation-commands-by-the-r
+OCP-38835,ingresses,ingresses,List/Edit the default ingress on ROSA cluster via rosa-cli will succeed,OCP-38835_list-edit-the-default-ingress-on-rosa-cluster-via-rosa-cli-will-succeed
+OCP-38837,ingresses,ingresses,Edit an additional ingress to a ROSA cluster via rosa-cli validate correctly,OCP-38837_edit-an-additional-ingress-to-a-rosa-cluster-via-rosa-cli-validate-correctly
+OCP-37626,init,init,Check some failure during 'rosa init',OCP-37626_check-some-failure-during-rosa-init
+OCP-42053,instance-types,instance-types,Instance types can be listed by ROSA cli,OCP-42053_instance-types-can-be-listed-by-rosa-cli
+OCP-86416,log-forwarders,log-forwarders,Create log forwarding as day-1 and day-2 on hosted cluster via rosacli in the interactive mode,OCP-86416_create-log-forwarding-as-day-1-and-day-2-on-hosted-cluster-via-rosacli-in-the-in
+OCP-86448,log-forwarders,log-forwarders,Create/Edit/List/Describe/Delete log forwarders on hosted-cp cluster by command,OCP-86448_create-edit-list-describe-delete-log-forwarders-on-hosted-cp-cluster-by-command
+OCP-36293,machine-pools,machine-pools,Create/List/Delete machine pool to the rosa cluster will succeed,OCP-36293_create-list-delete-machine-pool-to-the-rosa-cluster-will-succeed
+OCP-38195,machine-pools,machine-pools,Create the new machinepool with the autoscaling via the rosa cli in the interactive mode,OCP-38195_create-the-new-machinepool-with-the-autoscaling-via-the-rosa-cli-in-the-interact
+OCP-38774,machine-pools,machine-pools,Create machine pool to the ROSA cluster via rosacli interactive mode will succeed,OCP-38774_create-machine-pool-to-the-rosa-cluster-via-rosacli-interactive-mode-will-succee
+OCP-38775,machine-pools,machine-pools,Validations will work for machine pool creation via rosa cli,OCP-38775_validations-will-work-for-machine-pool-creation-via-rosa-cli
+OCP-38783,machine-pools,machine-pools,Validation for deletion machinepool of ROSA cluster will work via rosacli,OCP-38783_validation-for-deletion-machinepool-of-rosa-cluster-will-work-via-rosacli
+OCP-38838,machine-pools,machine-pools,Edit machine pool to the rosa cluster will succeed,OCP-38838_edit-machine-pool-to-the-rosa-cluster-will-succeed
+OCP-38839,machine-pools,machine-pools,Edit machine pool to the ROSA cluster via rosacli interactive mode will succeed,OCP-38839_edit-machine-pool-to-the-rosa-cluster-via-rosacli-interactive-mode-will-succeed
+OCP-38840,machine-pools,machine-pools,Validations for the single-az rosa cluster will work for machine pool edit via rosa cli,OCP-38840_validations-for-the-single-az-rosa-cluster-will-work-for-machine-pool-edit-via-r
+OCP-43251,machine-pools,machine-pools,User can create spot machine pool via rosacli,OCP-43251_user-can-create-spot-machine-pool-via-rosacli
+OCP-43252,machine-pools,machine-pools,Validation will work well when user create spot machine pool via rosacli,OCP-43252_validation-will-work-well-when-user-create-spot-machine-pool-via-rosacli
+OCP-43253,machine-pools,machine-pools,User can create spot machine pool via rosacli interactive mode,OCP-43253_user-can-create-spot-machine-pool-via-rosacli-interactive-mode
+OCP-44776,machine-pools,machine-pools,Validations for the multi-az rosa cluster will work for machine pool edit via rosa cli,OCP-44776_validations-for-the-multi-az-rosa-cluster-will-work-for-machine-pool-edit-via-ro
+OCP-38194,moacli,machine-pools,Enable/disable/update the worker pool autoscaling via the rosa cli,OCP-38194_enable-disable-update-the-worker-pool-autoscaling-via-the-rosa-cli
+OCP-41824,moacli,operator-roles,Validations should work for the Role Arn and Operator IAM roles,OCP-41824_validations-should-work-for-the-role-arn-and-operator-iam-roles
+OCP-45509,moacli,clusters,Validation will work when create clusters with invalid proxy via rosacli,OCP-45509_validation-will-work-when-create-clusters-with-invalid-proxy-via-rosacli
+OCP-45742,moacli,clusters,ROSA cli will check the pre-existing roles when create sts cluster,OCP-45742_rosa-cli-will-check-the-pre-existing-roles-when-create-sts-cluster
+OCP-45744,moacli,upgrades,Upgrade the sts clusters with checking if the current policies are compatible,OCP-45744_upgrade-the-sts-clusters-with-checking-if-the-current-policies-are-compatible
+OCP-45745,moacli,upgrades,Upgrade account roles and operator roles then upgrade the cluster via rosalci in auto mode,OCP-45745_upgrade-account-roles-and-operator-roles-then-upgrade-the-cluster-via-rosalci-in
+OCP-46111,moacli,idps,Check the help message and the validation for the IDP creation by the rosa cli in the interactive mode,OCP-46111_check-the-help-message-and-the-validation-for-the-idp-creation-by-the-rosa-cli-i
+OCP-46187,moacli,ocm-roles,User can create/delete/unlink/link ocm-roles in auto mode via rosacli by command,OCP-46187_user-can-create-delete-unlink-link-ocm-roles-in-auto-mode-via-rosacli-by-command
+OCP-46188,moacli,ocm-roles,User can create ocm-roles via rosacli in the interactive mode,OCP-46188_user-can-create-ocm-roles-via-rosacli-in-the-interactive-mode
+OCP-46281,moacli,ocm-roles,Create/Linked/Delete user-role/ocm-role across the account/org,OCP-46281_create-linked-delete-user-role-ocm-role-across-the-account-org
+OCP-46282,moacli,user-roles,User can create user-role via rosacli in the interactive mode,OCP-46282_user-can-create-user-role-via-rosacli-in-the-interactive-mode
+OCP-46308,moacli,clusters,BYO-VPC rosa cluster can edit proxy via rosacli,OCP-46308_byo-vpc-rosa-cluster-can-edit-proxy-via-rosacli
+OCP-46310,moacli,clusters,Validation will work when edit clusters with proxy via rosacli,OCP-46310_validation-will-work-when-edit-clusters-with-proxy-via-rosacli
+OCP-46312,moacli,clusters,Rosa cluster with fips enabled can be created successfully via rosacli,OCP-46312_rosa-cluster-with-fips-enabled-can-be-created-successfully-via-rosacli
+OCP-48119,moacli,upgrades,Upgrade cluster to version which has version gate in interactive mode,OCP-48119_upgrade-cluster-to-version-which-has-version-gate-in-interactive-mode
+OCP-48958,moacli,general,Regression testing on the cluster created by previous version rosacli,OCP-48958_regression-testing-on-the-cluster-created-by-previous-version-rosacli
+OCP-49136,moacli,idps,Create/Delete the HTPasswd IDPs in the interactive mode by the rosacli,OCP-49136_create-delete-the-htpasswd-idps-in-the-interactive-mode-by-the-rosacli
+OCP-49137,moacli,idps,Create/Delete the HTPasswd IDPs by the rosacli command,OCP-49137_create-delete-the-htpasswd-idps-by-the-rosacli-command
+OCP-51431,moacli,general,Interoperability testing on the cluster created by OCM UI,OCP-51431_interoperability-testing-on-the-cluster-created-by-ocm-ui
+OCP-52106,moacli,ocm-roles,Check non-enforcing the user-role/ocm-role via rosacli,OCP-52106_check-non-enforcing-the-user-role-ocm-role-via-rosacli
+OCP-52352,moacli,clusters,SingleAZ machinepool can be created to MZ cluster via rosacli,OCP-52352_singleaz-machinepool-can-be-created-to-mz-cluster-via-rosacli
+OCP-52419,moacli,user-roles,User can create/link/unlink/delete user-role in auto mode via rosacli by command,OCP-52419_user-can-create-link-unlink-delete-user-role-in-auto-mode-via-rosacli-by-command
+OCP-52580,moacli,user-roles,Validations for create/link/unlink user-role by the rosacli command,OCP-52580_validations-for-create-link-unlink-user-role-by-the-rosacli-command
+OCP-52690,moacli,general,Common usability testing for rosacli,OCP-52690_common-usability-testing-for-rosacli
+OCP-52691,moacli,clusters,User can set availability zones to create rosa cluster,OCP-52691_user-can-set-availability-zones-to-create-rosa-cluster
+OCP-52692,moacli,clusters,Validation should work when user set availability zones to create rosa cluster,OCP-52692_validation-should-work-when-user-set-availability-zones-to-create-rosa-cluster
+OCP-52693,moacli,user-roles,User can create/delete user-roles with manual mode via rosacli by command,OCP-52693_user-can-create-delete-user-roles-with-manual-mode-via-rosacli-by-command
+OCP-52695,moacli,clusters,Availabilty zone and subnets cannot be selected at the same time when create cluster in interactive mode,OCP-52695_availabilty-zone-and-subnets-cannot-be-selected-at-the-same-time-when-create-clu
+OCP-52763,moacli,machine-pools,User can create machinepool with the single subnet specified on BYOVPC cluster via rosacli in the interactive mode,OCP-52763_user-can-create-machinepool-with-the-single-subnet-specified-on-byovpc-cluster-v
+OCP-52764,moacli,machine-pools,User can create machinepool with the single subnet specified on multi-az BYOVPC cluster via the rosacli command,OCP-52764_user-can-create-machinepool-with-the-single-subnet-specified-on-multi-az-byovpc
+OCP-53031,moacli,idps,Validation for Create/Delete the HTPasswd IDPs by the rosacli command,OCP-53031_validation-for-create-delete-the-htpasswd-idps-by-the-rosacli-command
+OCP-53569,moacli,clusters,Create STS cluster with account roles/policies unified path via rosacli in the interactive mode and manual mode,OCP-53569_create-sts-cluster-with-account-roles-policies-unified-path-via-rosacli-in-the-i
+OCP-53570,moacli,clusters,Create STS cluster with account roles/policies unified path by the rosacli commands in auto mode,OCP-53570_create-sts-cluster-with-account-roles-policies-unified-path-by-the-rosacli-comma
+OCP-53574,moacli,upgrades,Upgrade STS cluster which account roles have the unified path set via rosacli in the interactive mode and manual mode,OCP-53574_upgrade-sts-cluster-which-account-roles-have-the-unified-path-set-via-rosacli-in
+OCP-53735,moacli,ocm-roles,Create/delete/unlink/link ocm-roles with setting path in manual mode via rosacli (including interative mode),OCP-53735_create-delete-unlink-link-ocm-roles-with-setting-path-in-manual-mode-via-rosacli
+OCP-53953,moacli,addons,Addon lifecycle can work well via rosacli,OCP-53953_addon-lifecycle-can-work-well-via-rosacli
+OCP-54276,moacli,clusters,Check the region constrains during rosa cluster creation via rosacli,OCP-54276_check-the-region-constrains-during-rosa-cluster-creation-via-rosacli
+OCP-54413,moacli,clusters,Create/Delete basic single AZ hosted cluster,OCP-54413_create-delete-basic-single-az-hosted-cluster
+OCP-54414,moacli,clusters,Check the validation for creating ROSA HCP clusters by rosacli command,OCP-54414_check-the-validation-for-creating-rosa-hcp-clusters-by-rosacli-command
+OCP-54415,moacli,clusters,Create Hypershift cluster via rosacli in the interactive mode,OCP-54415_create-hypershift-cluster-via-rosacli-in-the-interactive-mode
+OCP-54469,moacli,account-roles,Create/Upgrade account-roles by setting version and channel-group via rosacli,OCP-54469_create-upgrade-account-roles-by-setting-version-and-channel-group-via-rosacli
+OCP-54864,moacli,clusters,Create hypershift cluster in version lower than the minimal version via rosacli will fail,OCP-54864_create-hypershift-cluster-in-version-lower-than-the-minimal-version-via-rosacli
+OCP-54869,moacli,clusters,rosacli can show the details of hypershift cluster well when describe,OCP-54869_rosacli-can-show-the-details-of-hypershift-cluster-well-when-describe
+OCP-55613,moacli,version,`rosa version` should output the current version of the client and the latest available version along with a link to download it,OCP-55613_rosa-version-should-output-the-current-version-of-the-client-and-the-latest-avai
+OCP-55701,moacli,clusters,rosacli makes STS cluster by default,OCP-55701_rosacli-makes-sts-cluster-by-default
+OCP-55729,moacli,regions,List regions via rosacli command,OCP-55729_list-regions-via-rosacli-command
+OCP-55883,moacli,upgrades,Users can upgrade STS rosa cluster across Y stream via ROSA cli in auto mode,OCP-55883_users-can-upgrade-sts-rosa-cluster-across-y-stream-via-rosa-cli-in-auto-mode
+OCP-55884,moacli,upgrades,Users can upgrade STS rosa cluster across Y stream via ROSA cli in interactive manual mode,OCP-55884_users-can-upgrade-sts-rosa-cluster-across-y-stream-via-rosa-cli-in-interactive-m
+OCP-55979,moacli,machine-pools,SingleAZ machinepool on local zone can be created on BYOVPC rosa clusters via rosacli,OCP-55979_singleaz-machinepool-on-local-zone-can-be-created-on-byovpc-rosa-clusters-via-ro
+OCP-55980,moacli,machine-pools,Check the validations for the SingleAZ machinepool creation on local zone on BYOVPC rosa clusters via rosacli,OCP-55980_check-the-validations-for-the-singleaz-machinepool-creation-on-local-zone-on-byo
+OCP-55995,moacli,general,Common usability testing for managed service on rosa client,OCP-55995_common-usability-testing-for-managed-service-on-rosa-client
+OCP-56052,moacli,clusters,`rosa describe cluster` reports Limited Support status,OCP-56052_rosa-describe-cluster-reports-limited-support-status
+OCP-56119,moacli,upgrades,Users can upgrade STS rosa cluster with not-standard suffix acc roles OR more than one policies attached via ROSA cli after upgrade wide AMI roles by `rosa upgrade roles`,OCP-56119_users-can-upgrade-sts-rosa-cluster-with-not-standard-suffix-acc-roles-or-more-th
+OCP-56224,moacli,clusters,User can set availability zones to create rosa multi-az STS cluster,OCP-56224_user-can-set-availability-zones-to-create-rosa-multi-az-sts-cluster
+OCP-56241,moacli,upgrades,Users can upgrade NON-STS rosa cluster via ROSA cli in the interactive mode,OCP-56241_users-can-upgrade-non-sts-rosa-cluster-via-rosa-cli-in-the-interactive-mode
+OCP-56255,moacli,upgrades,Upgrade account roles and operator roles then upgrade cluster via rosacli in interactive and manual mode,OCP-56255_upgrade-account-roles-and-operator-roles-then-upgrade-cluster-via-rosacli-in-int
+OCP-56440,moacli,clusters,Validations for the '--tags' flag during creating cluster via rosacli,OCP-56440_validations-for-the-tags-flag-during-creating-cluster-via-rosacli
+OCP-56749,moacli,machine-pools,Create machine pool to the ROSA Hypershift cluster via rosacli in interactive mode,OCP-56749_create-machine-pool-to-the-rosa-hypershift-cluster-via-rosacli-in-interactive-mo
+OCP-56776,moacli,machine-pools,Edit machine pool to the ROSA Hypershift cluster via rosacli interactive mode will succeed,OCP-56776_edit-machine-pool-to-the-rosa-hypershift-cluster-via-rosacli-interactive-mode-wi
+OCP-56778,moacli,machine-pools,Edit machine pool to the ROSA Hypershift cluster will succeed,OCP-56778_edit-machine-pool-to-the-rosa-hypershift-cluster-will-succeed
+OCP-56782,moacli,machine-pools,Create/Edit/List/Delete machine pool to the ROSA Hypershift cluster will succeed,OCP-56782_create-edit-list-delete-machine-pool-to-the-rosa-hypershift-cluster-will-succeed
+OCP-56783,moacli,machine-pools,Validation for deletion machinepool of ROSA Hypershift cluster will work via rosacli,OCP-56783_validation-for-deletion-machinepool-of-rosa-hypershift-cluster-will-work-via-ros
+OCP-56786,moacli,machine-pools,Validations will work for machine pool creation for ROSA Hypershift cluster via rosa cli,OCP-56786_validations-will-work-for-machine-pool-creation-for-rosa-hypershift-cluster-via
+OCP-57056,moacli,clusters,Create ROSA cluster with default-mp-labels option will succeed,OCP-57056_create-rosa-cluster-with-default-mp-labels-option-will-succeed
+OCP-57091,moacli,clusters,Validate default-mp-labels option for ROSA cluster creation in interactive mode,OCP-57091_validate-default-mp-labels-option-for-rosa-cluster-creation-in-interactive-mode
+OCP-57092,moacli,clusters,Create ROSA cluster with default-mp-labels option will succeed in interactive mode,OCP-57092_create-rosa-cluster-with-default-mp-labels-option-will-succeed-in-interactive-mo
+OCP-57094,moacli,upgrades,Describe/List rosa upgrade via rosacli,OCP-57094_describe-list-rosa-upgrade-via-rosacli
+OCP-57102,moacli,machine-pools,Edit the Default machine pool labels with rosacli will succeed,OCP-57102_edit-the-default-machine-pool-labels-with-rosacli-will-succeed
+OCP-57103,moacli,machine-pools,Edit the Default machine pool labels with rosacli in interactive mode will succeed,OCP-57103_edit-the-default-machine-pool-labels-with-rosacli-in-interactive-mode-will-succe
+OCP-57104,moacli,machine-pools,Validate Default machine pool labels with rosacli in interactive mode,OCP-57104_validate-default-machine-pool-labels-with-rosacli-in-interactive-mode
+OCP-57105,moacli,machine-pools,Validate Default machine pool labels/taits with rosacli,OCP-57105_validate-default-machine-pool-labels-taits-with-rosacli
+OCP-57408,moacli,account-roles,Create/Delete/List account-roles with managed account-roles policies,OCP-57408_create-delete-list-account-roles-with-managed-account-roles-policies
+OCP-57410,moacli,operator-roles,Create/Delete clusters/operator roles with managed operator roles policies,OCP-57410_create-delete-clusters-operator-roles-with-managed-operator-roles-policies
+OCP-57441,moacli,upgrades,Upgrade account-roles with the managed policies should be forbidden,OCP-57441_upgrade-account-roles-with-the-managed-policies-should-be-forbidden
+OCP-57442,moacli,upgrades,Upgrade operator-roles with the managed policies,OCP-57442_upgrade-operator-roles-with-the-managed-policies
+OCP-57444,moacli,upgrades,Upgrade wide AMI roles with the managed policies in auto mode,OCP-57444_upgrade-wide-ami-roles-with-the-managed-policies-in-auto-mode
+OCP-57570,moacli,oidc-config,Create/List/Delete BYO oidc config in auto mode via rosacli,OCP-57570_create-list-delete-byo-oidc-config-in-auto-mode-via-rosacli
+OCP-59430,moacli,autoscalers,Enable/disable/update the autoscaling for Hypershift cluster via the rosa cli,OCP-59430_enable-disable-update-the-autoscaling-for-hypershift-cluster-via-the-rosa-cli
+OCP-59530,moacli,clusters,Creat BYO oidc cluster via rosacli,OCP-59530_creat-byo-oidc-cluster-via-rosacli
+OCP-59547,moacli,account-roles,Validation for the managed policy attached on the managed account-roles,OCP-59547_validation-for-the-managed-policy-attached-on-the-managed-account-roles
+OCP-59551,moacli,account-roles,Force to create operator roles and account-roles to ensure the policies action updated,OCP-59551_force-to-create-operator-roles-and-account-roles-to-ensure-the-policies-action-u
+OCP-60082,moacli,clusters,Create cluster with the BYOK encryption by rosa-cli,OCP-60082_create-cluster-with-the-byok-encryption-by-rosa-cli
+OCP-60083,moacli,clusters,Create cluster with the KMS and etcd encryption for hypershift clusters by rosa-cli,OCP-60083_create-cluster-with-the-kms-and-etcd-encryption-for-hypershift-clusters-by-rosa
+OCP-60084,moacli,clusters,Check the validation for creating ROSA Hypershift cluster with the KMS and etcd encryption by rosa-cli,OCP-60084_check-the-validation-for-creating-rosa-hypershift-cluster-with-the-kms-and-etcd
+OCP-60202,moacli,machine-pools,Create machine pool to the ROSA Hypershift cluster with subnets via rosacli is succeed,OCP-60202_create-machine-pool-to-the-rosa-hypershift-cluster-with-subnets-via-rosacli-is-s
+OCP-60275,moacli,clusters,User can edit cluster via rosa-cli,OCP-60275_user-can-edit-cluster-via-rosa-cli
+OCP-60278,moacli,machine-pools,Scaling up/down node pool on the hypershift rosa cluster,OCP-60278_scaling-up-down-node-pool-on-the-hypershift-rosa-cluster
+OCP-60688,moacli,clusters,Reuse the operator-roles to creat BYO oidc cluster via rosacli,OCP-60688_reuse-the-operator-roles-to-creat-byo-oidc-cluster-via-rosacli
+OCP-60956,moacli,operator-roles,Delete BYO operator-roles/oidc via rosacli by command,OCP-60956_delete-byo-operator-roles-oidc-via-rosacli-by-command
+OCP-60971,moacli,operator-roles,Create operator-roles prior to cluster creation,OCP-60971_create-operator-roles-prior-to-cluster-creation
+OCP-61138,moacli,machine-pools,"Support \""version\"" parameter on nodepools in hosted clusters",OCP-61138_support-version-parameter-on-nodepools-in-hosted-clusters
+OCP-61139,moacli,machine-pools,Validation of Version parameter should work well for nodepool creation/editing,OCP-61139_validation-of-version-parameter-should-work-well-for-nodepool-creation-editing
+OCP-61322,moacli,account-roles,Create/Delete hypershift account roles with managed policies,OCP-61322_create-delete-hypershift-account-roles-with-managed-policies
+OCP-61551,moacli,clusters,Create hypershift cluster with the hypershift account roles,OCP-61551_create-hypershift-cluster-with-the-hypershift-account-roles
+OCP-62010,moacli,operator-roles,Create/register/List/Delete BYO oidc config/oidc-provder and create/delete BYO operator-roles via rosacli in manual/interative mode,OCP-62010_create-register-list-delete-byo-oidc-config-oidc-provder-and-create-delete-byo-o
+OCP-62083,moacli,account-roles,Delete account-roles with --hosted-cp and --classic,OCP-62083_delete-account-roles-with-hosted-cp-and-classic
+OCP-62088,moacli,ocp-versions,List versions can work correctly for hosted-cp cluster via ROSA cli,OCP-62088_list-versions-can-work-correctly-for-hosted-cp-cluster-via-rosa-cli
+OCP-62161,moacli,upgrades,Check the validation for the attached managed policies missing on the hypershift AMI roles during upgrade,OCP-62161_check-the-validation-for-the-attached-managed-policies-missing-on-the-hypershift
+OCP-62573,moacli,operator-roles,List operator-roles,OCP-62573_list-operator-roles
+OCP-62929,moacli,upgrades,Manual upgrade policies creation/describe/delete can be work well for hypershift clusters via rosacli,OCP-62929_manual-upgrade-policies-creation-describe-delete-can-be-work-well-for-hypershift
+OCP-63164,moacli,tuning-configs,Tuning config can be created/updated/deleted to hosted cluster,OCP-63164_tuning-config-can-be-created-updated-deleted-to-hosted-cluster
+OCP-63169,moacli,tuning-configs,Tuning config validation can work well when create to hosted cluster,OCP-63169_tuning-config-validation-can-work-well-when-create-to-hosted-cluster
+OCP-63174,moacli,tuning-configs,Tuning config can validate well when update to hosted cluster,OCP-63174_tuning-config-can-validate-well-when-update-to-hosted-cluster
+OCP-63175,moacli,tuning-configs,Tuning config can be created/updated to hosted cluster in interactive mode,OCP-63175_tuning-config-can-be-created-updated-to-hosted-cluster-in-interactive-mode
+OCP-63178,moacli,machine-pools,Create Nodepool with tuning config,OCP-63178_create-nodepool-with-tuning-config
+OCP-63179,moacli,machine-pools,Create Nodepool with tuning config will validate well,OCP-63179_create-nodepool-with-tuning-config-will-validate-well
+OCP-63181,moacli,machine-pools,Create Nodepool with tuning config in interactive mode,OCP-63181_create-nodepool-with-tuning-config-in-interactive-mode
+OCP-63323,moacli,ingresses,Edit the default ingress on Hypershift cluster via rosa-cli,OCP-63323_edit-the-default-ingress-on-hypershift-cluster-via-rosa-cli
+OCP-63471,moacli,clusters,Create a classic cluster with imdsv2 via Rosa cli,OCP-63471_create-a-classic-cluster-with-imdsv2-via-rosa-cli
+OCP-63826,moacli,operator-roles,Create/List operator-roles prior to cluster creation in the interactive mode and manual mode,OCP-63826_create-list-operator-roles-prior-to-cluster-creation-in-the-interactive-mode-and
+OCP-63828,moacli,clusters,User can edit cluster via rosa-cli in interactive mode,OCP-63828_user-can-edit-cluster-via-rosa-cli-in-interactive-mode
+OCP-63843,moacli,account-roles,Create/Delete hypershift account roles with managed policies in interactive mode and manual mode,OCP-63843_create-delete-hypershift-account-roles-with-managed-policies-in-interactive-mode
+OCP-64040,moacli,general,Test ROSA window certificates expiration,OCP-64040_test-rosa-window-certificates-expiration
+OCP-64078,moacli,clusters,Validations for the '--ec2-metadata-http-tokens' flag during creating cluster via rosacli,OCP-64078_validations-for-the-ec2-metadata-http-tokens-flag-during-creating-cluster-via-ro
+OCP-64187,moacli,upgrades,Automatic upgrade can be scheduled and described on hosted-cp cluster via rosacli,OCP-64187_automatic-upgrade-can-be-scheduled-and-described-on-hosted-cp-cluster-via-rosacl
+OCP-64188,moacli,upgrades,Automatic/Manual upgrade on hosted-cp cluster via rosacli in the interactive mode,OCP-64188_automatic-manual-upgrade-on-hosted-cp-cluster-via-rosacli-in-the-interactive-mod
+OCP-64491,moacli,clusters,Create and edit hosted-cp cluster with AuditLog Forwarding enabled/disabled via rosacli,OCP-64491_create-and-edit-hosted-cp-cluster-with-auditlog-forwarding-enabled-disabled-via
+OCP-64494,moacli,clusters,Create and edit hosted-cp cluster with AuditLog Forwarding enabled/disabled via rosacli in the interactive mode,OCP-64494_create-and-edit-hosted-cp-cluster-with-auditlog-forwarding-enabled-disabled-via
+OCP-64620,moacli,oidc-config,Register unmanaged BYO oidc config via rosacli command,OCP-64620_register-unmanaged-byo-oidc-config-via-rosacli-command
+OCP-64767,moacli,clusters,support for LB config via rosa cli,OCP-64767_support-for-lb-config-via-rosa-cli
+OCP-64855,moacli,clusters,Create cluster when admin username and password specified on command line.,OCP-64855_create-cluster-when-admin-username-and-password-specified-on-command-line
+OCP-64917,moacli,network,Verify network via the rosa cli,OCP-64917_verify-network-via-the-rosa-cli
+OCP-65160,moacli,idps,Create multiple HTPasswd IDPs including creating admin flow by the rosacli command,OCP-65160_create-multiple-htpasswd-idps-including-creating-admin-flow-by-the-rosacli-comma
+OCP-65793,moacli,dns-domain,Create/List/Delete a new domain via ROSA cli,OCP-65793_create-list-delete-a-new-domain-via-rosa-cli
+OCP-65798,moacli,ingresses,enabling the ingress controller via ROSA CLI,OCP-65798_enabling-the-ingress-controller-via-rosa-cli
+OCP-65799,moacli,ingresses,update the ingress controller attributes via ROSA CLI,OCP-65799_update-the-ingress-controller-attributes-via-rosa-cli
+OCP-65900,moacli,clusters,Create classic non-sts cluster with using use-local-credentials flag,OCP-65900_create-classic-non-sts-cluster-with-using-use-local-credentials-flag
+OCP-66359,moacli,clusters,Create rosa cluster with volume size will work via rosacli,OCP-66359_create-rosa-cluster-with-volume-size-will-work-via-rosacli
+OCP-66362,moacli,clusters,Negative validation for creating ROSA cluster with admin username/password specified on command line,OCP-66362_negative-validation-for-creating-rosa-cluster-with-admin-username-password-speci
+OCP-66372,moacli,clusters,Create rosa cluster with volume size will validate well via rosacli,OCP-66372_create-rosa-cluster-with-volume-size-will-validate-well-via-rosacli
+OCP-66679,moacli,clusters,Negative validation for creating ROSA cluster with admin username/password specified at creation time (interactive),OCP-66679_negative-validation-for-creating-rosa-cluster-with-admin-username-password-speci
+OCP-66741,moacli,clusters,Create cluster in a shared VPC,OCP-66741_create-cluster-in-a-shared-vpc
+OCP-66748,moacli,autoscalers,Create cluster autoscaler by rosacli,OCP-66748_create-cluster-autoscaler-by-rosacli
+OCP-66750,moacli,machine-pools,Default worker pool can be listed/edit/deleted via rosacli,OCP-66750_default-worker-pool-can-be-listed-edit-deleted-via-rosacli
+OCP-66761,moacli,clusters,Validations for autoscaler flags during creating cluster via rosacli,OCP-66761_validations-for-autoscaler-flags-during-creating-cluster-via-rosacli
+OCP-66872,moacli,machine-pools,Customer can create machinepool with volume size set via rosacli,OCP-66872_customer-can-create-machinepool-with-volume-size-set-via-rosacli
+OCP-66874,moacli,machine-pools,Create machinepool with root volume will validate well via rosacli,OCP-66874_create-machinepool-with-root-volume-will-validate-well-via-rosacli
+OCP-66910,moacli,clusters,User can edit cluster via rosa-cli in the interactive mode,OCP-66910_user-can-edit-cluster-via-rosa-cli-in-the-interactive-mode
+OCP-67057,moacli,machine-pools,Validation for Create/List/Delete machine pool to the rosa cluster,OCP-67057_validation-for-create-list-delete-machine-pool-to-the-rosa-cluster
+OCP-67094,moacli,machine-pools,CIS disabled version won't affect the nodepool creation/upgrade,OCP-67094_cis-disabled-version-won-t-affect-the-nodepool-creation-upgrade
+OCP-67168,moacli,upgrades,Upgrade a shared VPC cluster,OCP-67168_upgrade-a-shared-vpc-cluster
+OCP-67275,moacli,autoscalers,Create/describe/edit/delete cluster autoscaler by rosacli,OCP-67275_create-describe-edit-delete-cluster-autoscaler-by-rosacli
+OCP-67348,moacli,autoscalers,Validations for create/describe/edit/delete autoscaler via rosacli,OCP-67348_validations-for-create-describe-edit-delete-autoscaler-via-rosacli
+OCP-67354,moacli,general,Check all `rosa list` commands support the -o flag and some specific flags,OCP-67354_check-all-rosa-list-commands-support-the-o-flag-and-some-specific-flags
+OCP-67412,moacli,upgrades,Customer can upgrade machine pool of hosted cluster via ROSA CLI,OCP-67412_customer-can-upgrade-machine-pool-of-hosted-cluster-via-rosa-cli
+OCP-67413,moacli,upgrades,Upgrade machinepool of hosted cluster via ROSA CLI in the interactive mode,OCP-67413_upgrade-machinepool-of-hosted-cluster-via-rosa-cli-in-the-interactive-mode
+OCP-67414,moacli,upgrades,List/Describe/Delete machine pool upgrade policies for hypershift clusters via rosacli,OCP-67414_list-describe-delete-machine-pool-upgrade-policies-for-hypershift-clusters-via-r
+OCP-67419,moacli,machine-pools,Validation will work well when customer upgrade/list/describe/delete machine pool of hosted cluster via ROSA cli,OCP-67419_validation-will-work-well-when-customer-upgrade-list-describe-delete-machine-poo
+OCP-67506,moacli,machine-pools,Customer can create/edit machinepool of hypershift cluster via interactive mode,OCP-67506_customer-can-create-edit-machinepool-of-hypershift-cluster-via-interactive-mode
+OCP-67762,moacli,clusters,redhat-managed vpc or subnets won't be listed for cluster/machinepool creation,OCP-67762_redhat-managed-vpc-or-subnets-won-t-be-listed-for-cluster-machinepool-creation
+OCP-67799,moacli,clusters,Create cluster in a shared VPC in interactive mode,OCP-67799_create-cluster-in-a-shared-vpc-in-interactive-mode
+OCP-68172,moacli,clusters,Create rosa cluster with additional security groups will work well via rosacli,OCP-68172_create-rosa-cluster-with-additional-security-groups-will-work-well-via-rosacli
+OCP-68173,moacli,machine-pools,Create machinepool to rosa cluster with additional security groups will work well via rosacli,OCP-68173_create-machinepool-to-rosa-cluster-with-additional-security-groups-will-work-wel
+OCP-68176,moacli,clusters,Additional security group can work well via interactive mode of rosacli day1/day2,OCP-68176_additional-security-group-can-work-well-via-interactive-mode-of-rosacli-day1-day
+OCP-68219,moacli,machine-pools,Validation will work well when create machinepool with additional security group,OCP-68219_validation-will-work-well-when-create-machinepool-with-additional-security-group
+OCP-68253,moacli,oidc-config,Create/Delete BYO oidc config in manual mode and with --raw-files flag via rosacli,OCP-68253_create-delete-byo-oidc-config-in-manual-mode-and-with-raw-files-flag-via-rosacli
+OCP-68751,moacli,network,The network verifier validation should work well,OCP-68751_the-network-verifier-validation-should-work-well
+OCP-68828,moacli,kubeleteconfig,Create podPidLimit to classic via rosacli will work well,OCP-68828_create-podpidlimit-to-classic-via-rosacli-will-work-well
+OCP-68835,moacli,kubeleteconfig,Update classic cluster podPidLimit via rosacli will work well,OCP-68835_update-classic-cluster-podpidlimit-via-rosacli-will-work-well
+OCP-68836,moacli,kubeleteconfig,Delete classic cluster podPidLimit via rosacli will work well,OCP-68836_delete-classic-cluster-podpidlimit-via-rosacli-will-work-well
+OCP-68837,moacli,kubeleteconfig,podPidLimit fullcycle via rosacli will work well in interactive mode,OCP-68837_podpidlimit-fullcycle-via-rosacli-will-work-well-in-interactive-mode
+OCP-68971,moacli,clusters,Create rosa cluster with additional security groups will validate well via rosacli,OCP-68971_create-rosa-cluster-with-additional-security-groups-will-validate-well-via-rosac
+OCP-70370,moacli,network,Verify network will be failed if it can't reach to cluster subnet via the rosa cli,OCP-70370_verify-network-will-be-failed-if-it-can-t-reach-to-cluster-subnet-via-the-rosa-c
+OCP-70650,moacli,login,Rosa FedRAMP prod should use keycloak endpoints,OCP-70650_rosa-fedramp-prod-should-use-keycloak-endpoints
+OCP-70651,moacli,login,Rosa CLI allows for non-aliased endpoints,OCP-70651_rosa-cli-allows-for-non-aliased-endpoints
+OCP-70652,moacli,login,Rosa FedRAMP --admin flag uses cognito endpoints,OCP-70652_rosa-fedramp-admin-flag-uses-cognito-endpoints
+OCP-70859,moacli,operator-roles,Validation for operator roles and oidc provider will work well,OCP-70859_validation-for-operator-roles-and-oidc-provider-will-work-well
+OCP-70970,moacli,clusters,rosa-cli should fail if machine CIDR block is not in existing subnet block,OCP-70970_rosa-cli-should-fail-if-machine-cidr-block-is-not-in-existing-subnet-block
+OCP-71050,moacli,clusters,Create HCP cluster with network type can work well via rosa cli,OCP-71050_create-hcp-cluster-with-network-type-can-work-well-via-rosa-cli
+OCP-71174,moacli,ingresses,Unsupported ingress attribute message for HCP,OCP-71174_unsupported-ingress-attribute-message-for-hcp
+OCP-71319,moacli,machine-pools,Node pool cannot be created into a local zone,OCP-71319_node-pool-cannot-be-created-into-a-local-zone
+OCP-71329,moacli,clusters,Validate --worker-mp-labels option for ROSA cluster creation,OCP-71329_validate-worker-mp-labels-option-for-rosa-cluster-creation
+OCP-71552,moacli,clusters,Unsupported aws machine types are removed from FedRAMP,OCP-71552_unsupported-aws-machine-types-are-removed-from-fedramp
+OCP-71912,moacli,general,Test support for '--debug' flag for commands 'rosa version' and 'rosa verify rosa-client',OCP-71912_test-support-for-debug-flag-for-commands-rosa-version-and-rosa-verify-rosa-clien
+OCP-71945,moacli,clusters,Create ROSA HCP cluster with external_auth_config config should work well via rosa client,OCP-71945_create-rosa-hcp-cluster-with-external-auth-config-config-should-work-well-via-ro
+OCP-71946,moacli,idps,Validation should work when create/list/delete idp and user/admin to external_auth_config cluster via ROSA client,OCP-71946_validation-should-work-when-create-list-delete-idp-and-user-admin-to-external-au
+OCP-72162,moacli,token,Generate token via `rosa token` command and check all flags of it,OCP-72162_generate-token-via-rosa-token-command-and-check-all-flags-of-it
+OCP-72166,moacli,config,Check and manage config via `rosa config` command,OCP-72166_check-and-manage-config-via-rosa-config-command
+OCP-72174,moacli,instance-types,"As a user of ROSA CLI, I want to be able to use `rosa list instance-types` to fi...",OCP-72174_as-a-user-of-rosa-cli-i-want-to-be-able-to-use-rosa-list-instance-types-to-fi
+OCP-72195,moacli,machine-pools,Create machinepool to hosted cluster with additional security group IDs will work,OCP-72195_create-machinepool-to-hosted-cluster-with-additional-security-group-ids-will-wor
+OCP-72294,moacli,clusters,Test rosa-cli cluster creation command to allow name <= 54 chars and domain_prefix to be <= 15,OCP-72294_test-rosa-cli-cluster-creation-command-to-allow-name-54-chars-and-domain-prefix
+OCP-72536,moacli,external-auth-provider,Create/List/Describe/Delete external_auth for a HCP cluster can work well via rosa client,OCP-72536_create-list-describe-delete-external-auth-for-a-hcp-cluster-can-work-well-via-ro
+OCP-72538,moacli,clusters,HCP cluster creation subnets validation,OCP-72538_hcp-cluster-creation-subnets-validation
+OCP-72539,moacli,login,Disable oauth login flags for govcloud in ROSA CLI,OCP-72539_disable-oauth-login-flags-for-govcloud-in-rosa-cli
+OCP-72601,moacli,external-auth-provider,Create/Delete external_auth for a HCP cluster can work well via interactive mode,OCP-72601_create-delete-external-auth-for-a-hcp-cluster-can-work-well-via-interactive-mode
+OCP-72602,moacli,external-auth-provider,Create/List/Describe external_auth for a HCP cluster validation can work well via rosa client,OCP-72602_create-list-describe-external-auth-for-a-hcp-cluster-validation-can-work-well-vi
+OCP-72657,moacli,clusters,ROSA CLI should return exception if the subnet doesnt exist,OCP-72657_rosa-cli-should-return-exception-if-the-subnet-doesnt-exist
+OCP-72715,moacli,machine-pools,Create/Edit node pool with node_drain_grace_period to HCP cluster via ROSA cli can work well,OCP-72715_create-edit-node-pool-with-node-drain-grace-period-to-hcp-cluster-via-rosa-cli-c
+OCP-72868,moacli,ingresses,Separate the component route options when updating ingress,OCP-72868_separate-the-component-route-options-when-updating-ingress
+OCP-72899,moacli,break-glass-credentials,Create/List/Describe/Delete HCP cluster with break_glass_credentials via ROSA client can work well,OCP-72899_create-list-describe-delete-hcp-cluster-with-break-glass-credentials-via-rosa-cl
+OCP-73018,moacli,break-glass-credentials,Validation for HCP cluster break_glass_credentials create/list/describe/delete can work well via ROSA client,OCP-73018_validation-for-hcp-cluster-break-glass-credentials-create-list-describe-delete-c
+OCP-73041,moacli,break-glass-credentials,Create/List/Describe/Delete HCP cluster with break_glass_credentials via interactive mode can work well,OCP-73041_create-list-describe-delete-hcp-cluster-with-break-glass-credentials-via-interac
+OCP-73128,moacli,general,Update best effort osl message to point to docs once they are available,OCP-73128_update-best-effort-osl-message-to-point-to-docs-once-they-are-available
+OCP-73133,moacli,login,rosacli can use OS keyring to store the tokens,OCP-73133_rosacli-can-use-os-keyring-to-store-the-tokens
+OCP-73141,moacli,clusters,set billing account for the classic rosa cluster,OCP-73141_set-billing-account-for-the-classic-rosa-cluster
+OCP-73161,moacli,clusters,Verify ROSA enable/disable delete protection,OCP-73161_verify-rosa-enable-disable-delete-protection
+OCP-73308,moacli,clusters,OCM-5583 Test new instace types for cluster provision,OCP-73308_ocm-5583-test-new-instace-types-for-cluster-provision
+OCP-73391,moacli,machine-pools,Validations will work for editing machine pool via rosa cli,OCP-73391_validations-will-work-for-editing-machine-pool-via-rosa-cli
+OCP-73449,moacli,policy,Attach/Detach policy on existing roles via rosacli in auto mode and decribe cluster with '--get-role-policy-bindings' to check them,OCP-73449_attach-detach-policy-on-existing-roles-via-rosacli-in-auto-mode-and-decribe-clus
+OCP-73469,moacli,machine-pools,Create machinepool with tags for classic cluster will work well,OCP-73469_create-machinepool-with-tags-for-classic-cluster-will-work-well
+OCP-73492,moacli,machine-pools,Create/describe machinepool with user tags for HCP,OCP-73492_create-describe-machinepool-with-user-tags-for-hcp
+OCP-73538,moacli,ingresses,ROSA CLI describe ingress,OCP-73538_rosa-cli-describe-ingress
+OCP-73638,moacli,machine-pools,Create machinepool AWS preflight tag validation,OCP-73638_create-machinepool-aws-preflight-tag-validation
+OCP-73662,moacli,machine-pools,Create/describe nodepools with tags in HCP cluster with interactive mode,OCP-73662_create-describe-nodepools-with-tags-in-hcp-cluster-with-interactive-mode
+OCP-73672,moacli,clusters,Validation for create hosted-cp cluster with AuditLog Forwarding enabled/disabled via rosacli,OCP-73672_validation-for-create-hosted-cp-cluster-with-auditlog-forwarding-enabled-disable
+OCP-73725,moacli,clusters,Create HCP cluster with network type validation can work well via rosa cli,OCP-73725_create-hcp-cluster-with-network-type-validation-can-work-well-via-rosa-cli
+OCP-73731,moacli,upgrades,Upgrading roles and operator-roles and cluster with attaching arbitrary policies works well via rosacli in auto mode,OCP-73731_upgrading-roles-and-operator-roles-and-cluster-with-attaching-arbitrary-policies
+OCP-73743,moacli,version,Can get the CLI version while logged out,OCP-73743_can-get-the-cli-version-while-logged-out
+OCP-73753,moacli,kubeleteconfig,Create/edit/delete kubeletconfig to HCP cluster will work via rosacli,OCP-73753_create-edit-delete-kubeletconfig-to-hcp-cluster-will-work-via-rosacli
+OCP-73754,moacli,kubeleteconfig,Creat/edit/delete kubeletconfig to HCP cluster will validate well via rosacli,OCP-73754_creat-edit-delete-kubeletconfig-to-hcp-cluster-will-validate-well-via-rosacli
+OCP-73755,moacli,clusters,Validation should work when create cluster with external_auth_config via ROSA client,OCP-73755_validation-should-work-when-create-cluster-with-external-auth-config-via-rosa-cl
+OCP-73765,moacli,machine-pools,Customer can set kubeletconfig for nodepool via rosacli,OCP-73765_customer-can-set-kubeletconfig-for-nodepool-via-rosacli
+OCP-73766,moacli,machine-pools,Validation should work when customer set kubeletconfig for nodepool via rosacli,OCP-73766_validation-should-work-when-customer-set-kubeletconfig-for-nodepool-via-rosacli
+OCP-73773,moacli,machine-pools,Create machinepool with kubeleteconfigs full cycle work well via rosacli,OCP-73773_create-machinepool-with-kubeleteconfigs-full-cycle-work-well-via-rosacli
+OCP-73814,moacli,upgrades,Validation for create/delete upgrade policies for hypershift clusters via rosacli should work well,OCP-73814_validation-for-create-delete-upgrade-policies-for-hypershift-clusters-via-rosacl
+OCP-74224,moacli,policy,Attach/Detach policy on existing roles via rosacli in manual mode and in the interactive mode,OCP-74224_attach-detach-policy-on-existing-roles-via-rosacli-in-manual-mode-and-in-the-int
+OCP-74225,moacli,policy,Check validaion for attaching/detaching policy on existing roles via rosacli,OCP-74225_check-validaion-for-attaching-detaching-policy-on-existing-roles-via-rosacli
+OCP-74228,moacli,upgrades,Upgrading/Deleting account-roles/operator-roles/roles with attaching arbitrary policies works well via rosacli in manual mode,OCP-74228_upgrading-deleting-account-roles-operator-roles-roles-with-attaching-arbitrary-p
+OCP-74296,moacli,upgrades,"Upgrade roles/cluster in the condition that CS returns \""STS arbitrary policies feature is currently not available..\"" error when query",OCP-74296_upgrade-roles-cluster-in-the-condition-that-cs-returns-sts-arbitrary-policies-fe
+OCP-74387,moacli,machine-pools,Create/Edit/Describe MaxUnavailable/MaxSurge for HCP NodePools,OCP-74387_create-edit-describe-maxunavailable-maxsurge-for-hcp-nodepools
+OCP-74399,moacli,clusters,Create cluster with version not in the channel-group,OCP-74399_create-cluster-with-version-not-in-the-channel-group
+OCP-74402,moacli,upgrades,Upgrade and delete account-roles with attaching arbitrary policies works well via rosacli in auto mode,OCP-74402_upgrade-and-delete-account-roles-with-attaching-arbitrary-policies-works-well-vi
+OCP-74403,moacli,operator-roles,Delete operator-roles with attaching arbitrary policies works well via rosacli in auto mode,OCP-74403_delete-operator-roles-with-attaching-arbitrary-policies-works-well-via-rosacli-i
+OCP-74404,moacli,machine-pools,Create/Edit/Describe MaxUnavailable/MaxSurge for HCP Nodepools work well in interactive mode,OCP-74404_create-edit-describe-maxunavailable-maxsurge-for-hcp-nodepools-work-well-in-inte
+OCP-74408,moacli,clusters,Expose additional allowed principals for HCP,OCP-74408_expose-additional-allowed-principals-for-hcp
+OCP-74430,moacli,machine-pools,Validation for create/edit nodepool with max-surge and max-unavailable for HCP cluster,OCP-74430_validation-for-create-edit-nodepool-with-max-surge-and-max-unavailable-for-hcp-c
+OCP-74432,moacli,machine-pools,Validation for create/edit nodepool with max-surge and max-unavailable for HCP cluster in interactive mode,OCP-74432_validation-for-create-edit-nodepool-with-max-surge-and-max-unavailable-for-hcp-c
+OCP-74433,moacli,clusters,Expose additional allowed principals for HCP negative,OCP-74433_expose-additional-allowed-principals-for-hcp-negative
+OCP-74436,moacli,clusters,Create rosa cluster with 'fips' flag enabled but '--etcd-encryption=false',OCP-74436_create-rosa-cluster-with-fips-flag-enabled-but-etcd-encryption-false
+OCP-74467,moacli,autoscalers,Validations for create/describe/edit/delete autoscaler via rosacli in interactive mode,OCP-74467_validations-for-create-describe-edit-delete-autoscaler-via-rosacli-in-interactiv
+OCP-74468,moacli,autoscalers,Validations for create/describe/edit/delete autoscaler via rosacli,OCP-74468_validations-for-create-describe-edit-delete-autoscaler-via-rosacli
+OCP-74550,moacli,machine-pools,Create and update of MaxUnavailable/MaxSurge for HCP NodePools e2e,OCP-74550_create-and-update-of-maxunavailable-maxsurge-for-hcp-nodepools-e2e
+OCP-74556,moacli,clusters,Edit hcp cluster with additional allowed principals should succeed,OCP-74556_edit-hcp-cluster-with-additional-allowed-principals-should-succeed
+OCP-74620,moacli,clusters,Validate for duplicated IAM role ARNs during cluster creation,OCP-74620_validate-for-duplicated-iam-role-arns-during-cluster-creation
+OCP-74656,moacli,clusters,Verify ROSA enable/disable delete protection negative,OCP-74656_verify-rosa-enable-disable-delete-protection-negative
+OCP-74661,moacli,operator-roles,Force to create operator roles which were created with cluster to ensure the policies action updated,OCP-74661_force-to-create-operator-roles-which-were-created-with-cluster-to-ensure-the-pol
+OCP-74761,moacli,operator-roles,Delete in-used BYO operator-roles/oidc via rosacli by command,OCP-74761_delete-in-used-byo-operator-roles-oidc-via-rosacli-by-command
+OCP-75052,moacli,ingresses,ROSA CLI describe ingress negative,OCP-75052_rosa-cli-describe-ingress-negative
+OCP-75108,moacli,clusters,Create/Delete HCP cluster with ARM machines,OCP-75108_create-delete-hcp-cluster-with-arm-machines
+OCP-75114,moacli,clusters,Rosa hcp cluster creation support IMDSv2,OCP-75114_rosa-hcp-cluster-creation-support-imdsv2
+OCP-75150,moacli,clusters,Create HCP cluster with compute machine type,OCP-75150_create-hcp-cluster-with-compute-machine-type
+OCP-75209,moacli,clusters,Rosa hcp cluster creation support IMDSv2 in interactive mode,OCP-75209_rosa-hcp-cluster-creation-support-imdsv2-in-interactive-mode
+OCP-75210,moacli,clusters,Delete BYO oidc cluster via rosacli,OCP-75210_delete-byo-oidc-cluster-via-rosacli
+OCP-75211,moacli,machine-pools,Create/describe rosa hcp machinepool support IMDSv2 in interactive mode,OCP-75211_create-describe-rosa-hcp-machinepool-support-imdsv2-in-interactive-mode
+OCP-75227,moacli,machine-pools,Create/describe rosa hcp machinepool support IMDSv2,OCP-75227_create-describe-rosa-hcp-machinepool-support-imdsv2
+OCP-75244,moacli,clusters,User can create/edit cluster via rosa-cli interactive mode,OCP-75244_user-can-create-edit-cluster-via-rosa-cli-interactive-mode
+OCP-75246,moacli,account-roles,Create account-roles with invalid version/channel group,OCP-75246_create-account-roles-with-invalid-version-channel-group
+OCP-75256,moacli,clusters,User can delete sts cluster via rosa cli,OCP-75256_user-can-delete-sts-cluster-via-rosa-cli
+OCP-75445,moacli,upgrades,Upgrade wide AMI roles with the managed policies in manual mode,OCP-75445_upgrade-wide-ami-roles-with-the-managed-policies-in-manual-mode
+OCP-75504,moacli,operator-roles,Create/Delete clusters/operator roles with managed operator roles policies in manual mode,OCP-75504_create-delete-clusters-operator-roles-with-managed-operator-roles-policies-in-ma
+OCP-75525,moacli,clusters,Create/Delete hosted cluster with path policy,OCP-75525_create-delete-hosted-cluster-with-path-policy
+OCP-75526,moacli,clusters,Create/Delete private hosted cluster,OCP-75526_create-delete-private-hosted-cluster
+OCP-75527,moacli,clusters,Create/Delete autoscaling hosted cluster,OCP-75527_create-delete-autoscaling-hosted-cluster
+OCP-75533,moacli,clusters,Create/Delete hosted cluster with billing account,OCP-75533_create-delete-hosted-cluster-with-billing-account
+OCP-75534,moacli,logs,ROSA CLI cluster creation should show install/uninstall logs,OCP-75534_rosa-cli-cluster-creation-should-show-install-uninstall-logs
+OCP-75535,moacli,clusters,Create/Delete basic multi AZ hosted cluster,OCP-75535_create-delete-basic-multi-az-hosted-cluster
+OCP-75536,moacli,clusters,Create/Delete hosted cluster in manual mode,OCP-75536_create-delete-hosted-cluster-in-manual-mode
+OCP-75603,moacli,clusters,Creating cluster with sts external id should succeed,OCP-75603_creating-cluster-with-sts-external-id-should-succeed
+OCP-75616,moacli,clusters,Rosa cluster with proxy will succeed via the rosacli interactive mode,OCP-75616_rosa-cluster-with-proxy-will-succeed-via-the-rosacli-interactive-mode
+OCP-75618,moacli,clusters,BYO-VPC rosa cluster can edit proxy via the rosacli interactive mode,OCP-75618_byo-vpc-rosa-cluster-can-edit-proxy-via-the-rosacli-interactive-mode
+OCP-75904,moacli,clusters,Check the message of the trust policy attaching to roles in the rosacli command,OCP-75904_check-the-message-of-the-trust-policy-attaching-to-roles-in-the-rosacli-command
+OCP-75916,moacli,clusters,ROSA CLI should return exception if subnet doesnt exist - HCP,OCP-75916_rosa-cli-should-return-exception-if-subnet-doesnt-exist-hcp
+OCP-75921,moacli,clusters,Changing billing account for rosa hcp cluster in rosa cli,OCP-75921_changing-billing-account-for-rosa-hcp-cluster-in-rosa-cli
+OCP-75922,moacli,clusters,Changing invalid billing account for rosa hcp cluster in rosa cli,OCP-75922_changing-invalid-billing-account-for-rosa-hcp-cluster-in-rosa-cli
+OCP-75925,moacli,clusters,Check the output of the STS cluster creation with new oidc flow,OCP-75925_check-the-output-of-the-sts-cluster-creation-with-new-oidc-flow
+OCP-75927,moacli,clusters,Check the output of the STS cluster creation with classic oidc flow,OCP-75927_check-the-output-of-the-sts-cluster-creation-with-classic-oidc-flow
+OCP-76056,moacli,tuning-configs,Tuning config is not supported on Classic cluster,OCP-76056_tuning-config-is-not-supported-on-classic-cluster
+OCP-76093,moacli,clusters,Create STS cluster with oidc config id but no oidc provider via rosacli in auto mode,OCP-76093_create-sts-cluster-with-oidc-config-id-but-no-oidc-provider-via-rosacli-in-auto
+OCP-76200,moacli,machine-pools,Validation will work well when customer upgrade/list/describe/delete machine pool of classic cluster via ROSA cli,OCP-76200_validation-will-work-well-when-customer-upgrade-list-describe-delete-machine-poo
+OCP-76394,moacli,clusters,Create hcp with registry config will work well via rosacli,OCP-76394_create-hcp-with-registry-config-will-work-well-via-rosacli
+OCP-76395,moacli,clusters,Patch hcp with registry config will work well via rosacli,OCP-76395_patch-hcp-with-registry-config-will-work-well-via-rosacli
+OCP-76396,moacli,clusters,Create hcp with registry config will validate well via rosacli,OCP-76396_create-hcp-with-registry-config-will-validate-well-via-rosacli
+OCP-76397,moacli,clusters,Create/edit HCP with registry should work well via rosacli interactive mode,OCP-76397_create-edit-hcp-with-registry-should-work-well-via-rosacli-interactive-mode
+OCP-76481,moacli,clusters,"Validate that sts clusters can't be installed with the \""--use-local-credentials\"" flag",OCP-76481_validate-that-sts-clusters-can-t-be-installed-with-the-use-local-credentials-fla
+OCP-76543,moacli,clusters,Zero-egress cluster,OCP-76543_zero-egress-cluster
+OCP-76558,moacli,clusters,Zero-egress cluster negative,OCP-76558_zero-egress-cluster-negative
+OCP-76570,moacli,access-requests,Can approve and deny access requests from the CLI,OCP-76570_can-approve-and-deny-access-requests-from-the-cli
+OCP-76599,moacli,clusters,Zero-egress cluster e2e,OCP-76599_zero-egress-cluster-e2e
+OCP-76773,moacli,access-requests,Can describe access requests from the CLI,OCP-76773_can-describe-access-requests-from-the-cli
+OCP-77016,moacli,access-requests,Can list access requests from the CLI,OCP-77016_can-list-access-requests-from-the-cli
+OCP-77095,moacli,upgrades,List upgrades of cluster created by OCM UI via ROSA cli will succeed,OCP-77095_list-upgrades-of-cluster-created-by-ocm-ui-via-rosa-cli-will-succeed
+OCP-77140,moacli,network,Create network resources with local template should be successful via rosa cli,OCP-77140_create-network-resources-with-local-template-should-be-successful-via-rosa-cli
+OCP-77149,moacli,clusters,Patch hcp with registry config will validate well via rosacli,OCP-77149_patch-hcp-with-registry-config-will-validate-well-via-rosacli
+OCP-77159,moacli,network,Create network resources through rosa cli should validate successfuly,OCP-77159_create-network-resources-through-rosa-cli-should-validate-successfuly
+OCP-77829,moacli,account-roles,Create/Delete account roles for hosted-cp shared vpc cluster in auto mode,OCP-77829_create-delete-account-roles-for-hosted-cp-shared-vpc-cluster-in-auto-mode
+OCP-77866,moacli,operator-roles,Create/Delete operator roles for hosted-cp shared vpc cluster in auto mode,OCP-77866_create-delete-operator-roles-for-hosted-cp-shared-vpc-cluster-in-auto-mode
+OCP-77910,moacli,operator-roles,Create/Delete operator roles for hosted-cp shared vpc cluster in manual mode,OCP-77910_create-delete-operator-roles-for-hosted-cp-shared-vpc-cluster-in-manual-mode
+OCP-77961,moacli,account-roles,Create/Delete account-roles roles for hosted-cp shared vpc cluster in the interactive mode,OCP-77961_create-delete-account-roles-roles-for-hosted-cp-shared-vpc-cluster-in-the-intera
+OCP-77962,moacli,account-roles,Create/Delete account roles for hosted-cp shared vpc cluster in manual mode,OCP-77962_create-delete-account-roles-for-hosted-cp-shared-vpc-cluster-in-manual-mode
+OCP-77976,moacli,operator-roles,Create/Delete operator roles for hosted-cp shared vpc cluster in the interactive mode,OCP-77976_create-delete-operator-roles-for-hosted-cp-shared-vpc-cluster-in-the-interactive
+OCP-78240,moacli,clusters,Create/Describe/Edit/Delete hosted-cp shared vpc cluster by command,OCP-78240_create-describe-edit-delete-hosted-cp-shared-vpc-cluster-by-command
+OCP-78241,moacli,clusters,Create hosted-cp shared vpc cluster in the interactive mode via rosacli,OCP-78241_create-hosted-cp-shared-vpc-cluster-in-the-interactive-mode-via-rosacli
+OCP-78260,moacli,operator-roles,Delete account/operator roles with --delete-hcp-shared-vpc-policies option,OCP-78260_delete-account-operator-roles-with-delete-hcp-shared-vpc-policies-option
+OCP-78263,moacli,shared-vpc,Create hosted-cp shared vpc cluster in the cluster key flow,OCP-78263_create-hosted-cp-shared-vpc-cluster-in-the-cluster-key-flow
+OCP-78277,moacli,clusters,Check that maximum number of nodes is calculated in non-interactive mode,OCP-78277_check-that-maximum-number-of-nodes-is-calculated-in-non-interactive-mode
+OCP-79088,moacli,clusters,Check that maximum number of nodes is calculated in interactive mode,OCP-79088_check-that-maximum-number-of-nodes-is-calculated-in-interactive-mode
+OCP-79226,moacli,clusters,ROSACLI trigger SDN to OVN migration,OCP-79226_rosacli-trigger-sdn-to-ovn-migration
+OCP-79227,moacli,clusters,rosa describe cluster shows SDN to OVN migration status,OCP-79227_rosa-describe-cluster-shows-sdn-to-ovn-migration-status
+OCP-79846,moacli,autoscalers,Edit/describe hosted-cp cluster autoscaler by rosacli command and validations for autoscaler operations,OCP-79846_edit-describe-hosted-cp-cluster-autoscaler-by-rosacli-command-and-validations-fo
+OCP-79848,moacli,machine-pools,Info message and validation error about the MaxNodeLimit and MaxNodeLimitation when create/edit nodepool on hosted-cp cluster,OCP-79848_info-message-and-validation-error-about-the-maxnodelimit-and-maxnodelimitation-w
+OCP-81295,moacli,network,Create network resources with default template should be successful via rosa cli,OCP-81295_create-network-resources-with-default-template-should-be-successful-via-rosa-cli
+OCP-81399,moacli,clusters,Edit cluster with channel-group via rosacli,OCP-81399_edit-cluster-with-channel-group-via-rosacli
+OCP-83154,moacli,clusters,Create API private and ingress private hosted-cp cluster in the interactive mode,OCP-83154_create-api-private-and-ingress-private-hosted-cp-cluster-in-the-interactive-mode
+OCP-83155,moacli,clusters,Create API private and ingress private hosted-cp cluster by rosacli command,OCP-83155_create-api-private-and-ingress-private-hosted-cp-cluster-by-rosacli-command
+OCP-84245,moacli,machine-pools,Create additional nodepool with capacity reservation id in the interactive mode,OCP-84245_create-additional-nodepool-with-capacity-reservation-id-in-the-interactive-mode
+OCP-84246,moacli,machine-pools,Create/Upgrade/descirbe additional nodepool with capacity reservation id by command,OCP-84246_create-upgrade-descirbe-additional-nodepool-with-capacity-reservation-id-by-comm
+OCP-84391,moacli,iam-service-accounts,Create/Delete/List/Decribe iamserviceaccount via rosacli by command in auto mode,OCP-84391_create-delete-list-decribe-iamserviceaccount-via-rosacli-by-command-in-auto-mode
+OCP-84392,moacli,iam-service-accounts,Delete iamserviceaccount via rosacli in the interactive mode,OCP-84392_delete-iamserviceaccount-via-rosacli-in-the-interactive-mode
+OCP-84626,moacli,iam-service-accounts,Create/Delete iamserviceaccount via rosacli by command in manual mode,OCP-84626_create-delete-iamserviceaccount-via-rosacli-by-command-in-manual-mode
+OCP-84741,moacli,clusters,Zero-egress cluster without worker policy,OCP-84741_zero-egress-cluster-without-worker-policy
+OCP-84761,moacli,image-mirrors,Create/List/Delete image-mirror via rosacli by command,OCP-84761_create-list-delete-image-mirror-via-rosacli-by-command
+OCP-84804,moacli,machine-pools,Create machinepools in all subnets under an HCP Multi-AZ cluster,OCP-84804_create-machinepools-in-all-subnets-under-an-hcp-multi-az-cluster
+OCP-84981,moacli,clusters,CLI can edit/describe autonode configuration,OCP-84981_cli-can-edit-describe-autonode-configuration
+OCP-84982,moacli,clusters,edit/describe autonode configuration in interactive mode,OCP-84982_edit-describe-autonode-configuration-in-interactive-mode
+OCP-85689,moacli,clusters,Create HCP cluster and validate property 'skip_inflight_tests':'true',OCP-85689_create-hcp-cluster-and-validate-property-skip-inflight-tests-true
+OCP-86047,moacli,machine-pools,ROSACLI can create/list/describe/delete machine pools with Win-LI enabled,OCP-86047_rosacli-can-create-list-describe-delete-machine-pools-with-win-li-enabled
+OCP-86048,moacli,machine-pools,ROSACLI can create/list/describe/delete machine pools with Win-LI enabled in interactive mode,OCP-86048_rosacli-can-create-list-describe-delete-machine-pools-with-win-li-enabled-in-int
+OCP-86049,moacli,machine-pools,Validate ROSACLI can create/list/describe/delete machine pools with Win-LI enabled,OCP-86049_validate-rosacli-can-create-list-describe-delete-machine-pools-with-win-li-enabl
+OCP-86104,moacli,machine-pools,Create additional nodepool with capacity reservation preference in the interactive mode,OCP-86104_create-additional-nodepool-with-capacity-reservation-preference-in-the-interacti
+OCP-86105,moacli,machine-pools,Create/describe additional nodepool with capacity reservation preference by command,OCP-86105_create-describe-additional-nodepool-with-capacity-reservation-preference-by-comm
+OCP-86109,moacli,machine-pools,ROSACLI can filter instance types that support Win-LI,OCP-86109_rosacli-can-filter-instance-types-that-support-win-li
+OCP-86119,moacli,clusters,Create hosted-cp cluster with user workload monitoring setting should fail,OCP-86119_create-hosted-cp-cluster-with-user-workload-monitoring-setting-should-fail
+OCP-86375,moacli,clusters,Verify cannot duplicate default root principal from additional allowed principals,OCP-86375_verify-cannot-duplicate-default-root-principal-from-additional-allowed-principal
+OCP-86408,moacli,clusters,Verify patching with invalid ARN format fails gracefully,OCP-86408_verify-patching-with-invalid-arn-format-fails-gracefully
+OCP-89325,ocm-role,ocm-roles,ROSA CLI can create and list OCM role with no console permissions,OCP-89325_rosa-cli-can-create-and-list-ocm-role-with-no-console-permissions
+OCP-38810,ocp-versions,ocp-versions,List versions can work correctly via ROSA cli,OCP-38810_list-versions-can-work-correctly-via-rosa-cli
+OCP-43046,oidc-providers,oidc-providers,Validation will work when user create oidc-provider to cluster,OCP-43046_validation-will-work-when-user-create-oidc-provider-to-cluster
+OCP-43051,operator-roles,operator-roles,Validation will work when user create operator-roles to cluster,OCP-43051_validation-will-work-when-user-create-operator-roles-to-cluster
+OCP-43053,operator-roles,operator-roles,User can create/delete operator-roles and oidc-provider to cluster via rosacli by commands in the manual mode,OCP-43053_user-can-create-delete-operator-roles-and-oidc-provider-to-cluster-via-rosacli-b
+OCP-45160,operator-roles,operator-roles,Create operator-roles and oidc-provider in manual mode will not be blocked with the account without enough permission via rosacli,OCP-45160_create-operator-roles-and-oidc-provider-in-manual-mode-will-not-be-blocked-with
+OCP-34950,regions,regions,Available regions can be listed by ROSA cli,OCP-34950_available-regions-can-be-listed-by-rosa-cli
+OCP-37499,upgrades,upgrades,Users can upgrade NON-STS rosa cluster across Y stream via ROSA cli,OCP-37499_users-can-upgrade-non-sts-rosa-cluster-across-y-stream-via-rosa-cli
+OCP-38785,upgrades,upgrades,Cancel upgrade from ROSA cluster will succeed via rosacli,OCP-38785_cancel-upgrade-from-rosa-cluster-will-succeed-via-rosacli
+OCP-38787,upgrades,upgrades,Validation for deletion upgrade policy of ROSA cluster will work via rosacli,OCP-38787_validation-for-deletion-upgrade-policy-of-rosa-cluster-will-work-via-rosacli
+OCP-38827,upgrades,upgrades,List upgrades of cluster via ROSA cli will succeed,OCP-38827_list-upgrades-of-cluster-via-rosa-cli-will-succeed
+OCP-38828,upgrades,upgrades,User can create upgrade policy via ROSA cli with interactive mode,OCP-38828_user-can-create-upgrade-policy-via-rosa-cli-with-interactive-mode
+OCP-38829,upgrades,upgrades,Validation for creating upgrade policy via ROSA cli will work,OCP-38829_validation-for-creating-upgrade-policy-via-rosa-cli-will-work
+OCP-36128,users,users,Grant/List/Revoke users by the rosa tool,OCP-36128_grant-list-revoke-users-by-the-rosa-tool

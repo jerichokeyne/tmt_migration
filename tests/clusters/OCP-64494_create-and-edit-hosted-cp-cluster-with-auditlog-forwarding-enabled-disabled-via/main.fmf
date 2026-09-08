@@ -1,0 +1,14 @@
+summary: "Create and edit hosted-cp cluster with AuditLog Forwarding enabled/disabled via rosacli in the interactive mode"
+description: "[OCM-1640] Create and edit hosted-cp cluster with AuditLog Forwarding enabled/disabled via rosacli in the interactive mode"
+id: OCP-64494
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, smoke, hcp]
+author: yuwan
+contact: [yingzhan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-64494_create-and-edit-hosted-cp-cluster-with-auditlog-forwarding-enabled-disabled-via/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-64491
+  - verifies: https://redhat.atlassian.net/browse/OCM-1640

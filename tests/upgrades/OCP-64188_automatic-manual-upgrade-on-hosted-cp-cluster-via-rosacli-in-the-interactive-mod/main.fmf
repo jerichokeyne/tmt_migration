@@ -1,0 +1,15 @@
+summary: "Automatic/Manual upgrade on hosted-cp cluster via rosacli in the interactive mode"
+description: "[OCM-953]Automatic/Manual upgrade on hosted-cp cluster via rosacli in the interactive mode"
+id: OCP-64188
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, fr, hcp]
+author: yuwan
+contact: [yingzhan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/upgrades/OCP-64188_automatic-manual-upgrade-on-hosted-cp-cluster-via-rosacli-in-the-interactive-mod/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-64187
+  - verifies: https://redhat.atlassian.net/browse/OCM-953
+  - verifies: https://redhat.atlassian.net/browse/OCM-3478

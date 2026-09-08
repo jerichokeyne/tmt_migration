@@ -1,0 +1,13 @@
+summary: "Create/Describe/Edit/Delete hosted-cp shared vpc cluster by command"
+description: "[OCM-12364]Create/Describe/Edit/Delete hosted-cp shared vpc cluster by command"
+id: OCP-78240
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-78240_create-describe-edit-delete-hosted-cp-shared-vpc-cluster-by-command/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-12364
+  - verifies: https://redhat.atlassian.net/browse/OCM-13019

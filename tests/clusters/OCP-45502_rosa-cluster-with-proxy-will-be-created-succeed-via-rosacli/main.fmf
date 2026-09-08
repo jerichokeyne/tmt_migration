@@ -1,0 +1,16 @@
+summary: "Rosa cluster with proxy will be created succeed via rosacli"
+description: "[SDA-4731]Rosa cluster with proxy will be created succeed via rosacli"
+id: OCP-45502
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [dawang]
+extra-runner: aaraj
+link:
+  - documented-by: /tests/clusters/OCP-45502_rosa-cluster-with-proxy-will-be-created-succeed-via-rosacli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-44643
+  - verifies: https://redhat.atlassian.net/browse/SDA-7135
+  - verifies: https://redhat.atlassian.net/browse/SDA-8221
+  - verifies: https://redhat.atlassian.net/browse/SDA-4731
+  - verifies: https://redhat.atlassian.net/browse/SDA-5612

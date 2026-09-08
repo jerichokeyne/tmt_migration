@@ -1,0 +1,12 @@
+summary: "Check the validations of the subnets when create ROSA clusters by the ROSA tool"
+description: "[SDA-3271] Check the validations of the subnets when create ROSA clusters by the ROSA tool"
+id: OCP-37177
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [xueli]
+link:
+  - documented-by: /tests/clusters/OCP-37177_check-the-validations-of-the-subnets-when-create-rosa-clusters-by-the-rosa-tool/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - verifies: https://redhat.atlassian.net/browse/SDA-3271

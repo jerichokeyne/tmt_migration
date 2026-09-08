@@ -1,0 +1,15 @@
+summary: "Create STS cluster with account roles/policies unified path by the rosacli commands in auto mode"
+description: "[SDA-6246]Create STS cluster with account roles/policies unified path by the rosacli commands in auto mode"
+id: OCP-53570
+tier: "0"
+manual: false
+tag: [automated, 10set2, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: akanni
+link:
+  - documented-by: /tests/clusters/OCP-53570_create-sts-cluster-with-account-roles-policies-unified-path-by-the-rosacli-comma/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6246
+  - verifies: https://redhat.atlassian.net/browse/SDA-6436
+  - verifies: https://redhat.atlassian.net/browse/SDA-6866
+  - verifies: https://redhat.atlassian.net/browse/SDA-6939

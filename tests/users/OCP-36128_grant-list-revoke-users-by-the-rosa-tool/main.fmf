@@ -1,0 +1,14 @@
+summary: "Grant/List/Revoke users by the rosa tool"
+description: "[SDA-3043][moactl]Grant/List/Revoke users by the rosa tool"
+id: OCP-36128
+tier: "0"
+manual: false
+tag: [automated, smoke, fr, classic, hcp]
+author: yuwan
+contact: [akanni]
+extra-runner: oaharoni
+link:
+  - documented-by: /tests/users/OCP-36128_grant-list-revoke-users-by-the-rosa-tool/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - verifies: https://redhat.atlassian.net/browse/SDA-3043
+  - verifies: https://redhat.atlassian.net/browse/OCM-4806

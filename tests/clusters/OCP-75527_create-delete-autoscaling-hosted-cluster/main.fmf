@@ -1,0 +1,12 @@
+summary: "Create/Delete autoscaling hosted cluster"
+description: "Create/Delete autoscaling hosted cluster"
+id: OCP-75527
+tier: "1"
+manual: false
+tag: [automated, smoke, hcp]
+author: tradisso
+contact: [tradisso]
+extra-runner: yasun
+link:
+  - documented-by: /tests/clusters/OCP-75527_create-delete-autoscaling-hosted-cluster/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-54413

@@ -1,0 +1,16 @@
+summary: "Edit machine pool to the ROSA cluster via rosacli interactive mode will succeed"
+description: "[SDA-3007][rosacli] Edit machine pool to the ROSA cluster via rosacli interactive mode will succeed"
+id: OCP-38839
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, moactl, classic]
+author: xueli
+contact: [oaharoni]
+link:
+  - documented-by: /tests/machine-pools/OCP-38839_edit-machine-pool-to-the-rosa-cluster-via-rosacli-interactive-mode-will-succeed/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38774
+  - verifies: https://redhat.atlassian.net/browse/SDA-3007
+  - verifies: https://redhat.atlassian.net/browse/SDA-7166
+  - verifies: https://redhat.atlassian.net/browse/SDA-7375

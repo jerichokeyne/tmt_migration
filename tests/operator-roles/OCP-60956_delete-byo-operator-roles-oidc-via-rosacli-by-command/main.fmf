@@ -1,0 +1,13 @@
+summary: "Delete BYO operator-roles/oidc via rosacli by command"
+description: "[SDA-7992] Delete BYO operator-roles/oidc via rosacli by command"
+id: OCP-60956
+tier: "0"
+manual: false
+tag: [automated, 10set1, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/operator-roles/OCP-60956_delete-byo-operator-roles-oidc-via-rosacli-by-command/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-7992
+  - verifies: https://redhat.atlassian.net/browse/SDA-8387

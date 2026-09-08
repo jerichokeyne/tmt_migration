@@ -1,0 +1,13 @@
+summary: "Validations for create/describe/edit/delete autoscaler via rosacli in interactive mode"
+description: "[OCM-3313][day2]Validations for create/describe/edit/delete autoscaler via rosacli in interactive mode"
+id: OCP-74467
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, classic]
+author: aaraj
+contact: [aaraj]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/autoscalers/OCP-74467_validations-for-create-describe-edit-delete-autoscaler-via-rosacli-in-interactiv/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-3313

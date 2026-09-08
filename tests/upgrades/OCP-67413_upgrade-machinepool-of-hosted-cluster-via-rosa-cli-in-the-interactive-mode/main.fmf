@@ -1,0 +1,14 @@
+summary: "Upgrade machinepool of hosted cluster via ROSA CLI in the interactive mode"
+description: "[OCM-954]Upgrade machinepool of hosted cluster via ROSA CLI in the interactive mode"
+id: OCP-67413
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, moactl, fr, hcp]
+author: yingzhan
+contact: [tradisso]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/upgrades/OCP-67413_upgrade-machinepool-of-hosted-cluster-via-rosa-cli-in-the-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-954
+  - verifies: https://redhat.atlassian.net/browse/OCM-2447

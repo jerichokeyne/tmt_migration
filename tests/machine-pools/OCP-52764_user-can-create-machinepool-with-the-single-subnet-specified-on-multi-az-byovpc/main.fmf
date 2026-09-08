@@ -1,0 +1,15 @@
+summary: "User can create machinepool with the single subnet specified on multi-az BYOVPC cluster via the rosacli command"
+description: "[SDA-6289] User can create machinepool with the single subnet specified on multi-az BYOVPC cluster via the rosacli command"
+id: OCP-52764
+tier: "0"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [oaharoni]
+extra-runner: vshapova
+link:
+  - documented-by: /tests/machine-pools/OCP-52764_user-can-create-machinepool-with-the-single-subnet-specified-on-multi-az-byovpc/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-52623
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-52762
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-52763
+  - verifies: https://redhat.atlassian.net/browse/SDA-6289

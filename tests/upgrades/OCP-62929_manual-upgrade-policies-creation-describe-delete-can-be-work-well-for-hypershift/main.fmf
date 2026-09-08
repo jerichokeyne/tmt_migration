@@ -1,0 +1,13 @@
+summary: "Manual upgrade policies creation/describe/delete can be work well for hypershift clusters via rosacli"
+description: "[SDA-8472] Manual upgrade policies creation/describe/delete can be work well for hypershift clusters via rosacli"
+id: OCP-62929
+tier: "0"
+manual: false
+tag: [automated, moactl, smoke, hcp]
+author: yuwan
+contact: [yingzhan]
+extra-runner: yingzhan
+link:
+  - documented-by: /tests/upgrades/OCP-62929_manual-upgrade-policies-creation-describe-delete-can-be-work-well-for-hypershift/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8472
+  - verifies: https://redhat.atlassian.net/browse/SDA-8905

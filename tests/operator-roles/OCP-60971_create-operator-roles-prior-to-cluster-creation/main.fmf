@@ -1,0 +1,14 @@
+summary: "Create operator-roles prior to cluster creation"
+description: "[SDA-8354] Create operator-roles prior to cluster creation"
+id: OCP-60971
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/operator-roles/OCP-60971_create-operator-roles-prior-to-cluster-creation/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8354
+  - verifies: https://redhat.atlassian.net/browse/SDA-8507
+  - verifies: https://redhat.atlassian.net/browse/SDA-8636

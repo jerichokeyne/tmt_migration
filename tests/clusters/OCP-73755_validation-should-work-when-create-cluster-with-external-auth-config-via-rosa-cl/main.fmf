@@ -1,0 +1,11 @@
+summary: "Validation should work when create cluster with external_auth_config via ROSA client"
+description: "[OCM-4458]Validation should work when create cluster with external_auth_config via ROSA client"
+id: OCP-73755
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: aaraj
+contact: [aaraj]
+link:
+  - documented-by: /tests/clusters/OCP-73755_validation-should-work-when-create-cluster-with-external-auth-config-via-rosa-cl/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4458

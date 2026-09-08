@@ -1,0 +1,11 @@
+summary: "Patch hcp with registry config will validate well via rosacli"
+description: "[OCM-7315]Patch hcp with registry config will validate well via rosacli"
+id: OCP-77149
+tier: "2"
+manual: false
+tag: [automated, registry-config, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/clusters/OCP-77149_patch-hcp-with-registry-config-will-validate-well-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7315

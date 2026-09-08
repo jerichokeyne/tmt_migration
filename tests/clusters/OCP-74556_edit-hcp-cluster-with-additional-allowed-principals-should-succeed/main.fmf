@@ -1,0 +1,11 @@
+summary: "Edit hcp cluster with additional allowed principals should succeed"
+description: "[OCM-8315] Edit hcp cluster with additional allowed principals should succeed"
+id: OCP-74556
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: aaraj
+contact: [aaraj]
+link:
+  - documented-by: /tests/clusters/OCP-74556_edit-hcp-cluster-with-additional-allowed-principals-should-succeed/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-8315

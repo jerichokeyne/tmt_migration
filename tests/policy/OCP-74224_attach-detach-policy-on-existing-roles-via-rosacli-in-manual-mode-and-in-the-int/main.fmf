@@ -1,0 +1,15 @@
+summary: "Attach/Detach policy on existing roles via rosacli in manual mode and in the interactive mode"
+description: "[OCM-6542] Attach/Detach policy on existing roles via rosacli in manual mode and in the interactive mode"
+id: OCP-74224
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, aset0813, excludemanual, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/policy/OCP-74224_attach-detach-policy-on-existing-roles-via-rosacli-in-manual-mode-and-in-the-int/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-73449
+  - verifies: https://redhat.atlassian.net/browse/OCM-6542
+  - verifies: https://redhat.atlassian.net/browse/OCM-6543

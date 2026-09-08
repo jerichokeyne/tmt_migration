@@ -1,0 +1,6 @@
+summary: OCM role manual tests
+discover:
+    how: fmf-manual
+    filter: "tag:ocm-role & manual: true"
+execute:
+    how: tmt

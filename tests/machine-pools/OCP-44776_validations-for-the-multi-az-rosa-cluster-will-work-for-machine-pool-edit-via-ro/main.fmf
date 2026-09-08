@@ -1,0 +1,14 @@
+summary: "Validations for the multi-az rosa cluster will work for machine pool edit via rosa cli"
+description: "[SDA-3007][rosacli] Validations for the multi-az rosa cluster will work for machine pool edit via rosa cli"
+id: OCP-44776
+tier: "2"
+manual: false
+tag: [automated, moactl, classic]
+author: yuwan
+contact: [oaharoni]
+link:
+  - documented-by: /tests/machine-pools/OCP-44776_validations-for-the-multi-az-rosa-cluster-will-work-for-machine-pool-edit-via-ro/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38840
+  - verifies: https://redhat.atlassian.net/browse/SDA-3007
+  - verifies: https://redhat.atlassian.net/browse/OCM-4597

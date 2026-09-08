@@ -1,0 +1,11 @@
+summary: "Validation for create/edit nodepool with max-surge and max-unavailable for HCP cluster"
+description: "[OCM-7289] Validation for create/edit nodepool with max-surge and max-unavailable for HCP cluster"
+id: OCP-74430
+tier: "2"
+manual: false
+tag: [automated, hcp]
+author: aaraj
+contact: [aaraj]
+link:
+  - documented-by: /tests/machine-pools/OCP-74430_validation-for-create-edit-nodepool-with-max-surge-and-max-unavailable-for-hcp-c/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7289

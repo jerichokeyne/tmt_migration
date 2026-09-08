@@ -1,0 +1,28 @@
+summary: "Check the validation for creating ROSA HCP clusters by rosacli command"
+description: "[SDA-6223] Check the validation for creating ROSA HCP clusters by rosacli command"
+id: OCP-54414
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, hcp]
+author: yuwan
+contact: [yingzhan]
+extra-runner: yingzhan
+link:
+  - documented-by: /tests/clusters/OCP-54414_check-the-validation-for-creating-rosa-hcp-clusters-by-rosacli-command/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-5427
+  - verifies: https://redhat.atlassian.net/browse/OCM-3556
+  - verifies: https://redhat.atlassian.net/browse/OCM-5029
+  - verifies: https://redhat.atlassian.net/browse/OCM-4109
+  - verifies: https://redhat.atlassian.net/browse/OCM-4796
+  - verifies: https://redhat.atlassian.net/browse/OCM-4801
+  - verifies: https://redhat.atlassian.net/browse/OCM-4690
+  - verifies: https://redhat.atlassian.net/browse/OCM-4762
+  - verifies: https://redhat.atlassian.net/browse/OCM-4687
+  - verifies: https://redhat.atlassian.net/browse/OCM-4461
+  - verifies: https://redhat.atlassian.net/browse/OCM-3367
+  - verifies: https://redhat.atlassian.net/browse/OCM-3351
+  - verifies: https://redhat.atlassian.net/browse/OCM-3663
+  - verifies: https://redhat.atlassian.net/browse/SDA-8245
+  - verifies: https://redhat.atlassian.net/browse/SDA-6223
+  - verifies: https://redhat.atlassian.net/browse/SDA-8184

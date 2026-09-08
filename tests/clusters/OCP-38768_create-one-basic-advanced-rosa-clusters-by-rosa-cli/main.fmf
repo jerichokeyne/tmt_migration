@@ -1,0 +1,40 @@
+summary: "Create one basic/advanced ROSA clusters by rosa-cli"
+description: "[roascli] Create one basic/advanced ROSA clusters by rosa-cli"
+id: OCP-38768
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, smoke, aset0813, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-38768_create-one-basic-advanced-rosa-clusters-by-rosa-cli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - verifies: https://redhat.atlassian.net/browse/OCM-22351
+  - verifies: https://redhat.atlassian.net/browse/OCM-17719
+  - verifies: https://redhat.atlassian.net/browse/OCM-5448
+  - verifies: https://redhat.atlassian.net/browse/OCM-3377
+  - verifies: https://redhat.atlassian.net/browse/OCM-2118
+  - verifies: https://redhat.atlassian.net/browse/OCM-3104
+  - verifies: https://redhat.atlassian.net/browse/OCM-2107
+  - verifies: https://redhat.atlassian.net/browse/OCM-2701
+  - verifies: https://redhat.atlassian.net/browse/SDA-7521
+  - verifies: https://redhat.atlassian.net/browse/SDA-6687
+  - verifies: https://redhat.atlassian.net/browse/SDA-6166
+  - verifies: https://redhat.atlassian.net/browse/SDA-5340
+  - verifies: https://redhat.atlassian.net/browse/SDA-3608
+  - verifies: https://redhat.atlassian.net/browse/SDA-4050
+  - verifies: https://redhat.atlassian.net/browse/SDA-4167
+  - verifies: https://redhat.atlassian.net/browse/SDA-2750
+  - verifies: https://redhat.atlassian.net/browse/SDA-2956
+  - verifies: https://redhat.atlassian.net/browse/SDA-3613
+  - verifies: https://redhat.atlassian.net/browse/SDA-3612
+  - verifies: https://redhat.atlassian.net/browse/SDA-2870
+  - verifies: https://redhat.atlassian.net/browse/SDA-2881
+  - verifies: https://redhat.atlassian.net/browse/SDA-2898
+  - verifies: https://redhat.atlassian.net/browse/SDA-2586
+  - verifies: https://redhat.atlassian.net/browse/SDA-2673
+  - verifies: https://redhat.atlassian.net/browse/SDA-2599
+  - verifies: https://redhat.atlassian.net/browse/SDA-2594
+  - verifies: https://redhat.atlassian.net/browse/SDA-2600

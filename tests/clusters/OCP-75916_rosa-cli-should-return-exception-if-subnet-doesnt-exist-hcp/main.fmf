@@ -1,0 +1,11 @@
+summary: "ROSA CLI should return exception if subnet doesnt exist - HCP"
+description: "ROSA CLI should return exception if subnet doesnt exist - HCP"
+id: OCP-75916
+tier: "3"
+manual: false
+tag: [automated, hcp]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/clusters/OCP-75916_rosa-cli-should-return-exception-if-subnet-doesnt-exist-hcp/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6513

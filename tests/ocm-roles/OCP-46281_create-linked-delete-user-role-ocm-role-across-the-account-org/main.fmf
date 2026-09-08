@@ -1,0 +1,14 @@
+summary: "Create/Linked/Delete user-role/ocm-role across the account/org"
+description: "[SDA] Create/Linked/Delete user-role/ocm-role across the account/org"
+id: OCP-46281
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, jset0813, fr, excludemanual, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/ocm-roles/OCP-46281_create-linked-delete-user-role-ocm-role-across-the-account-org/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43070
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-46187

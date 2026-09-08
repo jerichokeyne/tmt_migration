@@ -1,0 +1,13 @@
+summary: "Create/Edit/Describe MaxUnavailable/MaxSurge for HCP Nodepools work well in interactive mode"
+description: "[OCM-7289] Create/Edit/Describe MaxUnavailable/MaxSurge for HCP Nodepools work well in interactive mode"
+id: OCP-74404
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, fr, hcp]
+author: aaraj
+contact: [aaraj]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/machine-pools/OCP-74404_create-edit-describe-maxunavailable-maxsurge-for-hcp-nodepools-work-well-in-inte/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7289

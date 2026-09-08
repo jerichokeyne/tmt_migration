@@ -1,0 +1,15 @@
+summary: "Validation will work when user create account-roles"
+description: "[SDA-4329] Validation will work when user create account-roles"
+id: OCP-43067
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: xueli
+contact: [yuwan]
+link:
+  - documented-by: /tests/account-roles/OCP-43067_validation-will-work-when-user-create-account-roles/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-7784
+  - verifies: https://redhat.atlassian.net/browse/SDA-4774
+  - verifies: https://redhat.atlassian.net/browse/SDA-4613
+  - verifies: https://redhat.atlassian.net/browse/SDA-4329
+  - verifies: https://redhat.atlassian.net/browse/SDA-4328

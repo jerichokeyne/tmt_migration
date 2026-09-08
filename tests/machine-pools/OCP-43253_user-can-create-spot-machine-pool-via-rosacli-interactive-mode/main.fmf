@@ -1,0 +1,12 @@
+summary: "User can create spot machine pool via rosacli interactive mode"
+description: "[SDA-4459] User can create spot machine pool via rosacli interactive mode"
+id: OCP-43253
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, classic]
+author: xueli
+contact: [oaharoni]
+link:
+  - documented-by: /tests/machine-pools/OCP-43253_user-can-create-spot-machine-pool-via-rosacli-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-4459

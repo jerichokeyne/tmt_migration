@@ -1,0 +1,10 @@
+summary: "The validations for networking when create cluster will work for ROSA cluster"
+description: "[rosacli] The validations for networking when create cluster will work for ROSA cluster"
+id: OCP-38857
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: xueli
+contact: [xueli]
+link:
+  - documented-by: /tests/clusters/OCP-38857_the-validations-for-networking-when-create-cluster-will-work-for-rosa-cluster/manual.md

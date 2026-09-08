@@ -1,0 +1,12 @@
+summary: "Creating cluster with sts external id should succeed"
+description: "[OCM-3303][rosacli] Creating cluster with sts external id should succeed"
+id: OCP-75603
+tier: "2"
+manual: false
+tag: [automated, moactl, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-75603_creating-cluster-with-sts-external-id-should-succeed/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-3303

@@ -1,0 +1,11 @@
+summary: "List/Edit the default ingress on ROSA cluster via rosa-cli will succeed"
+description: "[rosa] List/Edit the default ingress on ROSA cluster via rosa-cli will succeed"
+id: OCP-38835
+tier: "1"
+manual: false
+tag: [automated, smoke, classic]
+author: xueli
+contact: [xueli]
+extra-runner: xueli
+link:
+  - documented-by: /tests/ingresses/OCP-38835_list-edit-the-default-ingress-on-rosa-cluster-via-rosa-cli-will-succeed/manual.md

@@ -1,0 +1,12 @@
+summary: "Reuse the operator-roles to creat BYO oidc cluster via rosacli"
+description: "[SDA-7716] Reuse the operator-roles to creat BYO oidc cluster via rosacli"
+id: OCP-60688
+tier: "0"
+manual: false
+tag: [automated, 10set1, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-60688_reuse-the-operator-roles-to-creat-byo-oidc-cluster-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-7716

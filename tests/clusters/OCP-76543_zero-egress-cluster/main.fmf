@@ -1,0 +1,12 @@
+summary: "Zero-egress cluster"
+description: "[OCM-7068] Zero-egress cluster"
+id: OCP-76543
+tier: "1"
+manual: false
+tag: [automated, zero-egress, hcp]
+author: jfrazier
+contact: [jfrazier]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-76543_zero-egress-cluster/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7068

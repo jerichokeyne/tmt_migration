@@ -1,0 +1,13 @@
+summary: "rosacli can use OS keyring to store the tokens"
+description: "[OCM-4966] rosacli can use OS keyring to store the tokens"
+id: OCP-73133
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, jset0813, classic]
+author: yuwan
+contact: [yuwan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/login/OCP-73133_rosacli-can-use-os-keyring-to-store-the-tokens/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4966

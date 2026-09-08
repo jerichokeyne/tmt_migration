@@ -1,0 +1,12 @@
+summary: "Create|scale|delete cluster into existing VPC with subnet set by ROSA tool"
+description: "[SDA-3271] Create|scale|delete cluster into existing VPC with subnet set by ROSA tool"
+id: OCP-37176
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [xueli]
+link:
+  - documented-by: /tests/clusters/OCP-37176_create-scale-delete-cluster-into-existing-vpc-with-subnet-set-by-rosa-tool/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - verifies: https://redhat.atlassian.net/browse/SDA-3271

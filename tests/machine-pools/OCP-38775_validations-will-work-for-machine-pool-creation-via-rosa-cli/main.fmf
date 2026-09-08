@@ -1,0 +1,16 @@
+summary: "Validations will work for machine pool creation via rosa cli"
+description: "[SDA-3007][rosacli] Validations will work for machine pool creation via rosa cli"
+id: OCP-38775
+tier: "2"
+manual: false
+tag: [automated, moactl, classic]
+author: xueli
+contact: [oaharoni]
+link:
+  - documented-by: /tests/machine-pools/OCP-38775_validations-will-work-for-machine-pool-creation-via-rosa-cli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-35715
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-36293
+  - verifies: https://redhat.atlassian.net/browse/SDA-6155
+  - verifies: https://redhat.atlassian.net/browse/SDA-3007
+  - verifies: https://redhat.atlassian.net/browse/SDA-7166

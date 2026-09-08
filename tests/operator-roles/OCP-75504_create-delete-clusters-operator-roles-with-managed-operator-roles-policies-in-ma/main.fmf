@@ -1,0 +1,17 @@
+summary: "Create/Delete clusters/operator roles with managed operator roles policies in manual mode"
+description: "[SDA-7660] Create/Delete clusters/operator roles with managed operator roles policies in manual mode"
+id: OCP-75504
+tier: "0"
+manual: false
+tag: [automated, 5set1, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: zhewan
+link:
+  - documented-by: /tests/operator-roles/OCP-75504_create-delete-clusters-operator-roles-with-managed-operator-roles-policies-in-ma/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-57410
+  - verifies: https://redhat.atlassian.net/browse/SDA-7660
+  - verifies: https://redhat.atlassian.net/browse/SDA-7728
+  - verifies: https://redhat.atlassian.net/browse/SDA-8320
+  - verifies: https://redhat.atlassian.net/browse/SDA-8328
+  - verifies: https://redhat.atlassian.net/browse/SDA-8507

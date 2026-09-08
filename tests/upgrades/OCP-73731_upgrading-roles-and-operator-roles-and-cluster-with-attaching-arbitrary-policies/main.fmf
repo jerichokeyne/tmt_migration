@@ -1,0 +1,14 @@
+summary: "Upgrading roles and operator-roles and cluster with attaching arbitrary policies works well via rosacli in auto mode"
+description: "[OCM-1752] Upgrading roles and operator-roles and cluster with attaching arbitrary policies works well via rosacli in auto mode"
+id: OCP-73731
+tier: "1"
+manual: false
+tag: [automated, 10set2, classic]
+author: yuwan
+contact: [yuwan]
+extra-runner: akanni
+link:
+  - documented-by: /tests/upgrades/OCP-73731_upgrading-roles-and-operator-roles-and-cluster-with-attaching-arbitrary-policies/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-1752
+  - verifies: https://redhat.atlassian.net/browse/OCM-7415
+  - verifies: https://redhat.atlassian.net/browse/OCM-7860

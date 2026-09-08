@@ -1,0 +1,11 @@
+summary: "Create machinepool to rosa cluster with additional security groups will work well via rosacli"
+description: "[OCM-3695] Create machinepool to rosa cluster with additional security groups will work well via rosacli"
+id: OCP-68173
+tier: "0"
+manual: false
+tag: [automated, classic]
+author: xueli
+contact: [xueli]
+link:
+  - documented-by: /tests/machine-pools/OCP-68173_create-machinepool-to-rosa-cluster-with-additional-security-groups-will-work-wel/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-3837

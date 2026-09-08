@@ -1,0 +1,13 @@
+summary: "Negative validation for creating ROSA cluster with admin username/password specified at creation time (interactive)"
+description: "[OCM-208] Negative validation for creating ROSA cluster with admin username/password specified at creation time (interactive)"
+id: OCP-66679
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, excludemanual, classic, hcp]
+author: mgahagan
+contact: [akanni]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-66679_negative-validation-for-creating-rosa-cluster-with-admin-username-password-speci/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-208

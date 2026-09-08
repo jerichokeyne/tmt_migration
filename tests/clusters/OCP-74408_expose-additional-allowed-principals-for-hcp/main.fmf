@@ -1,0 +1,11 @@
+summary: "Expose additional allowed principals for HCP"
+description: "Expose additional allowed principals for HCP"
+id: OCP-74408
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/clusters/OCP-74408_expose-additional-allowed-principals-for-hcp/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-8315

@@ -1,0 +1,18 @@
+summary: "Create/Delete hosted cluster with billing account"
+description: "Create/Delete hosted cluster with billing account"
+id: OCP-75533
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, smoke, hcp]
+author: tradisso
+contact: [dawang]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-75533_create-delete-hosted-cluster-with-billing-account/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-54413
+  - verifies: https://redhat.atlassian.net/browse/OCM-17611
+  - verifies: https://redhat.atlassian.net/browse/OCM-4801
+  - verifies: https://redhat.atlassian.net/browse/OCM-3663
+  - verifies: https://redhat.atlassian.net/browse/SDA-8245
+  - verifies: https://redhat.atlassian.net/browse/SDA-8184

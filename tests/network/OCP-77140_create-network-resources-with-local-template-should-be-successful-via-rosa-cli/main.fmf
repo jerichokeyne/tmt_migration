@@ -1,0 +1,14 @@
+summary: "Create network resources with local template should be successful via rosa cli"
+description: "[OCM-11538] Create network resources with local template should be successful via rosa cli"
+id: OCP-77140
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: aaraj
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/network/OCP-77140_create-network-resources-with-local-template-should-be-successful-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-11538
+  - verifies: https://redhat.atlassian.net/browse/OCM-14846
+  - verifies: https://redhat.atlassian.net/browse/OCM-14892

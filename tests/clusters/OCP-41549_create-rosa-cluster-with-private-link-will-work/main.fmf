@@ -1,0 +1,12 @@
+summary: "Create rosa cluster with private_link will work"
+description: "[SDA-3631] Create rosa cluster with private_link will work"
+id: OCP-41549
+tier: "1"
+manual: false
+tag: [automated, smoke, fr, classic]
+author: xueli
+contact: [xueli]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-41549_create-rosa-cluster-with-private-link-will-work/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-3631

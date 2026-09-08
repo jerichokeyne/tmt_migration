@@ -1,0 +1,15 @@
+summary: "Validations for create/link/unlink user-role by the rosacli command"
+description: "[SDA-4989] Validations for create/link/unlink user-role by the rosacli command"
+id: OCP-52580
+tier: "1"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+link:
+  - documented-by: /tests/user-roles/OCP-52580_validations-for-create-link-unlink-user-role-by-the-rosacli-command/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43070
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-46187
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-46281
+  - verifies: https://redhat.atlassian.net/browse/SDA-5596
+  - verifies: https://redhat.atlassian.net/browse/SDA-4989

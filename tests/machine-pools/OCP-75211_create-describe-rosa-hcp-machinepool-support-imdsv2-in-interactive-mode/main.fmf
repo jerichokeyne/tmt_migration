@@ -1,0 +1,14 @@
+summary: "Create/describe rosa hcp machinepool support IMDSv2 in interactive mode"
+description: "[OCM-9176] [day2] Create/describe rosa hcp machinepool support IMDSv2 in interactive mode"
+id: OCP-75211
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, imdsv2, fr, hcp]
+author: aaraj
+contact: [aaraj]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/machine-pools/OCP-75211_create-describe-rosa-hcp-machinepool-support-imdsv2-in-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-9176
+  - verifies: https://redhat.atlassian.net/browse/OCM-9160

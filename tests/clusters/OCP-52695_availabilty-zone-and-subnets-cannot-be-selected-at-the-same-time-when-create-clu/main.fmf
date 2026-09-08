@@ -1,0 +1,12 @@
+summary: "Availabilty zone and subnets cannot be selected at the same time when create cluster in interactive mode"
+description: "[SDA-6222]Availabilty zone and subnets cannot be selected at the same time when create cluster in interactive mode"
+id: OCP-52695
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, classic]
+author: xueli
+contact: [zwan]
+link:
+  - documented-by: /tests/clusters/OCP-52695_availabilty-zone-and-subnets-cannot-be-selected-at-the-same-time-when-create-clu/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6222

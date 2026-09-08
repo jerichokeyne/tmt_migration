@@ -1,0 +1,29 @@
+summary: "check the preparation steps incuding'rosa init','rosa download','rosa whoami','rosa login/logout'"
+description: "[SDA-3280][moactl] check the preparation steps incuding'rosa init','rosa download','rosa whoami','rosa login/logout'"
+id: OCP-38858
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, moactl, classic]
+author: yuwan
+contact: [jkeyne]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/general/OCP-38858_check-the-preparation-steps-incuding-rosa-init-rosa-download-rosa-whoami-rosa-lo/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-37626
+  - verifies: https://redhat.atlassian.net/browse/OCM-5736
+  - verifies: https://redhat.atlassian.net/browse/OCM-5815
+  - verifies: https://redhat.atlassian.net/browse/OCM-4963
+  - verifies: https://redhat.atlassian.net/browse/SDa-4734
+  - verifies: https://redhat.atlassian.net/browse/SDA-2750
+  - verifies: https://redhat.atlassian.net/browse/SDA-2956
+  - verifies: https://redhat.atlassian.net/browse/SDA-2749
+  - verifies: https://redhat.atlassian.net/browse/SDA-4340
+  - verifies: https://redhat.atlassian.net/browse/SDA-3085
+  - verifies: https://redhat.atlassian.net/browse/SDA-2671
+  - verifies: https://redhat.atlassian.net/browse/SDA-4225
+  - verifies: https://redhat.atlassian.net/browse/SDA-3280
+  - verifies: https://redhat.atlassian.net/browse/SDA-3279
+  - verifies: https://redhat.atlassian.net/browse/SDA-2919
+  - verifies: https://redhat.atlassian.net/browse/SDA-3621

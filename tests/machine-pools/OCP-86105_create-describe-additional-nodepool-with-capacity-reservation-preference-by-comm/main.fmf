@@ -1,0 +1,14 @@
+summary: "Create/describe additional nodepool with capacity reservation preference by command"
+description: "[OCM-20730]Create/describe additional nodepool with capacity reservation preference by command"
+id: OCP-86105
+tier: "0"
+manual: true
+test: manual.md
+tag: [notautomated, smoke, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/machine-pools/OCP-86105_create-describe-additional-nodepool-with-capacity-reservation-preference-by-comm/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-20730
+  - verifies: https://redhat.atlassian.net/browse/OCM-20977

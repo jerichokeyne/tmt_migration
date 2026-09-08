@@ -1,0 +1,14 @@
+summary: "Validations should work for the Role Arn and Operator IAM roles"
+description: "[SDA-4101] Validations should work for the Role Arn and Operator IAM roles"
+id: OCP-41824
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: xueli
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/operator-roles/OCP-41824_validations-should-work-for-the-role-arn-and-operator-iam-roles/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-4329
+  - verifies: https://redhat.atlassian.net/browse/SDA-4101
+  - verifies: https://redhat.atlassian.net/browse/SDA-4146

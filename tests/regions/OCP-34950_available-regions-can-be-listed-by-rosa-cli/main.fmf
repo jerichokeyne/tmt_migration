@@ -1,0 +1,14 @@
+summary: "Available regions can be listed by ROSA cli"
+description: "[SDA-2790] Available regions can be listed by ROSA cli"
+id: OCP-34950
+tier: "2"
+manual: false
+tag: [automated, moactl, classic]
+author: yuwan
+contact: [jkeyne]
+link:
+  - documented-by: /tests/regions/OCP-34950_available-regions-can-be-listed-by-rosa-cli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - verifies: https://redhat.atlassian.net/browse/SDA-2790
+  - verifies: https://redhat.atlassian.net/browse/SDA-2945
+  - verifies: https://redhat.atlassian.net/browse/SDA-9126

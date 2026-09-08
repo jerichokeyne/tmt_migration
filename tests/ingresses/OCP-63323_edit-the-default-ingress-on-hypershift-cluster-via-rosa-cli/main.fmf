@@ -1,0 +1,12 @@
+summary: "Edit the default ingress on Hypershift cluster via rosa-cli"
+description: "[ROSACLI] Edit the default ingress on Hypershift cluster via rosa-cli"
+id: OCP-63323
+tier: "0"
+manual: false
+tag: [automated, smoke, hcp]
+author: yuwan
+contact: [yingzhan]
+extra-runner: xueli
+link:
+  - documented-by: /tests/ingresses/OCP-63323_edit-the-default-ingress-on-hypershift-cluster-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8109

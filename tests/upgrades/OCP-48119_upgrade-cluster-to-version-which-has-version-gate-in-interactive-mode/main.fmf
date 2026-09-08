@@ -1,0 +1,17 @@
+summary: "Upgrade cluster to version which has version gate in interactive mode"
+description: "[SDA-5205][rosacli] Upgrade cluster to version which has version gate in interactive mode"
+id: OCP-48119
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, ocp-release, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/upgrades/OCP-48119_upgrade-cluster-to-version-which-has-version-gate-in-interactive-mode/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-37499
+  - verifies: https://redhat.atlassian.net/browse/OCM-16535
+  - verifies: https://redhat.atlassian.net/browse/SDA-5205
+  - verifies: https://redhat.atlassian.net/browse/SDA-5547

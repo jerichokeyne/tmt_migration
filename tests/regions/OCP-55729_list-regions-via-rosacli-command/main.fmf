@@ -1,0 +1,13 @@
+summary: "List regions via rosacli command"
+description: "[SDA-6899] List regions via rosacli command"
+id: OCP-55729
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [jfrazier]
+extra-runner: tradisso
+enabled: false # Duplicate of OCP-34950
+link:
+  - documented-by: /tests/regions/OCP-55729_list-regions-via-rosacli-command/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6899

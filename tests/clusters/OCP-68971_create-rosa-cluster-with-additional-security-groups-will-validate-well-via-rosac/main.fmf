@@ -1,0 +1,13 @@
+summary: "Create rosa cluster with additional security groups will validate well via rosacli"
+description: "[OCM-3695] Create rosa cluster with additional security groups will validate well via rosacli"
+id: OCP-68971
+tier: "2"
+manual: false
+tag: [automated, security-group, classic, hcp]
+author: xueli
+contact: [xueli]
+link:
+  - documented-by: /tests/clusters/OCP-68971_create-rosa-cluster-with-additional-security-groups-will-validate-well-via-rosac/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6053
+  - verifies: https://redhat.atlassian.net/browse/OCM-4602
+  - verifies: https://redhat.atlassian.net/browse/OCM-3695

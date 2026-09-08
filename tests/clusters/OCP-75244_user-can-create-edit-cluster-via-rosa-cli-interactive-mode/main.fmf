@@ -1,0 +1,13 @@
+summary: "User can create/edit cluster via rosa-cli interactive mode"
+description: "[rosacli]User can create/edit cluster via rosa-cli interactive mode"
+id: OCP-75244
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, smoke, classic, hcp]
+author: zwan
+contact: [zwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-75244_user-can-create-edit-cluster-via-rosa-cli-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-17719

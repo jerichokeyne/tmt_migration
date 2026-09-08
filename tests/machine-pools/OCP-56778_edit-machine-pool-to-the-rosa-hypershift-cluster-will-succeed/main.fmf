@@ -1,0 +1,18 @@
+summary: "Edit machine pool to the ROSA Hypershift cluster will succeed"
+description: "[SDA-7166][rosacli] Edit machine pool to the ROSA Hypershift cluster will succeed"
+id: OCP-56778
+tier: "1"
+manual: false
+tag: [automated, moactl, smoke, hcp]
+author: amalykhi
+contact: [tradisso]
+link:
+  - documented-by: /tests/machine-pools/OCP-56778_edit-machine-pool-to-the-rosa-hypershift-cluster-will-succeed/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38838
+  - verifies: https://redhat.atlassian.net/browse/SDA-8220
+  - verifies: https://redhat.atlassian.net/browse/SDA-8573
+  - verifies: https://redhat.atlassian.net/browse/SDA-7166
+  - verifies: https://redhat.atlassian.net/browse/SDA-7767
+  - verifies: https://redhat.atlassian.net/browse/SDA-8219
+  - verifies: https://redhat.atlassian.net/browse/OCM-5186

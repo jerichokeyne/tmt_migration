@@ -1,0 +1,13 @@
+summary: "Validation will work well when create machinepool with additional security group"
+description: "[OCM-3695] Validation will work well when create machinepool with additional security group"
+id: OCP-68219
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: xueli
+contact: [xueli]
+link:
+  - documented-by: /tests/machine-pools/OCP-68219_validation-will-work-well-when-create-machinepool-with-additional-security-group/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-68176
+  - verifies: https://redhat.atlassian.net/browse/OCM-3695
+  - verifies: https://redhat.atlassian.net/browse/OCM-3837

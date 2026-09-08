@@ -1,0 +1,19 @@
+summary: "Create/Delete BYO oidc config in manual mode and with --raw-files flag via rosacli"
+description: "[SDA-7683] Create/Delete BYO oidc config in manual mode and with --raw-files flag via rosacli"
+id: OCP-68253
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, ecosystem-fr, jset0813, fr, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/oidc-config/OCP-68253_create-delete-byo-oidc-config-in-manual-mode-and-with-raw-files-flag-via-rosacli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-57570
+  - verifies: https://redhat.atlassian.net/browse/SDA-8836
+  - verifies: https://redhat.atlassian.net/browse/SDA-8163
+  - verifies: https://redhat.atlassian.net/browse/SDA-7683
+  - verifies: https://redhat.atlassian.net/browse/SDA-7756
+  - verifies: https://redhat.atlassian.net/browse/SDA-8006
+  - verifies: https://redhat.atlassian.net/browse/SDA-8059

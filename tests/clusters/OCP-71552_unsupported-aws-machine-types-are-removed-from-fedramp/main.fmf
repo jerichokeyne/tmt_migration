@@ -1,0 +1,11 @@
+summary: "Unsupported aws machine types are removed from FedRAMP"
+description: "[OCM-3627][FR Only] Unsupported aws machine types are removed from FedRAMP"
+id: OCP-71552
+tier: "1"
+manual: false
+tag: [automated, fr-only, classic]
+author: ccrum
+contact: [oaharoni]
+link:
+  - documented-by: /tests/clusters/OCP-71552_unsupported-aws-machine-types-are-removed-from-fedramp/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-3627

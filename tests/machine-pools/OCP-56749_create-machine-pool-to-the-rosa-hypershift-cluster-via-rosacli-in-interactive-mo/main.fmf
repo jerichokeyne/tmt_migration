@@ -1,0 +1,17 @@
+summary: "Create machine pool to the ROSA Hypershift cluster via rosacli in interactive mode"
+description: "[SDA-7166][rosacli] Create machine pool to the ROSA Hypershift cluster via rosacli in interactive mode"
+id: OCP-56749
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, hcp]
+author: amalykhi
+contact: [tradisso]
+link:
+  - documented-by: /tests/machine-pools/OCP-56749_create-machine-pool-to-the-rosa-hypershift-cluster-via-rosacli-in-interactive-mo/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-56748
+  - verifies: https://redhat.atlassian.net/browse/SDA-7957
+  - verifies: https://redhat.atlassian.net/browse/SDA-7166
+  - verifies: https://redhat.atlassian.net/browse/SDA-7521
+  - verifies: https://redhat.atlassian.net/browse/SDA-7767
+  - verifies: https://redhat.atlassian.net/browse/SDA-8219

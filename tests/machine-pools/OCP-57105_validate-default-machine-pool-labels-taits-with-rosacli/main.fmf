@@ -1,0 +1,15 @@
+summary: "Validate Default machine pool labels/taits with rosacli"
+description: "[SDA-7375] Validate Default machine pool labels/taits with rosacli"
+id: OCP-57105
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: amalykhi
+contact: [oaharoni]
+link:
+  - documented-by: /tests/machine-pools/OCP-57105_validate-default-machine-pool-labels-taits-with-rosacli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-57090
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-57091
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-57104
+  - verifies: https://redhat.atlassian.net/browse/SDA-7375
+  - verifies: https://redhat.atlassian.net/browse/SDA-8219

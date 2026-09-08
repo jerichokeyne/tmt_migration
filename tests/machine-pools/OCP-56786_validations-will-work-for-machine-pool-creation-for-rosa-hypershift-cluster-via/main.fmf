@@ -1,0 +1,21 @@
+summary: "Validations will work for machine pool creation for ROSA Hypershift cluster via rosa cli"
+description: "[SDA-7166][rosacli] Validations will work for machine pool creation for ROSA Hypershift cluster via rosa cli"
+id: OCP-56786
+tier: "2"
+manual: false
+tag: [automated, moactl, hcp]
+author: amalykhi
+contact: [tradisso]
+link:
+  - documented-by: /tests/machine-pools/OCP-56786_validations-will-work-for-machine-pool-creation-for-rosa-hypershift-cluster-via/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-35715
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-36293
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38775
+  - verifies: https://redhat.atlassian.net/browse/OCM-2572
+  - verifies: https://redhat.atlassian.net/browse/SDA-8220
+  - verifies: https://redhat.atlassian.net/browse/SDA-8573
+  - verifies: https://redhat.atlassian.net/browse/SDA-7166
+  - verifies: https://redhat.atlassian.net/browse/SDA-7521
+  - verifies: https://redhat.atlassian.net/browse/SDA-7767
+  - verifies: https://redhat.atlassian.net/browse/SDA-8090

@@ -1,0 +1,13 @@
+summary: "Register unmanaged BYO oidc config via rosacli command"
+description: "[OCM-955] Register unmanaged BYO oidc config via rosacli command"
+id: OCP-64620
+tier: "0"
+manual: false
+tag: [automated, ecosystem-fr, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/oidc-config/OCP-64620_register-unmanaged-byo-oidc-config-via-rosacli-command/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-62009
+  - verifies: https://redhat.atlassian.net/browse/OCM-955

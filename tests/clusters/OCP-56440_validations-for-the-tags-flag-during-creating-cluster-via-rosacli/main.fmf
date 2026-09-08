@@ -1,0 +1,11 @@
+summary: "Validations for the '--tags' flag during creating cluster via rosacli"
+description: "[SDA-6687] Validations for the '--tags' flag during creating cluster via rosacli"
+id: OCP-56440
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [zwan]
+link:
+  - documented-by: /tests/clusters/OCP-56440_validations-for-the-tags-flag-during-creating-cluster-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6687

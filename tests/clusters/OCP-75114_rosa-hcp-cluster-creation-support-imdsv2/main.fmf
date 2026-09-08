@@ -1,0 +1,12 @@
+summary: "Rosa hcp cluster creation support IMDSv2"
+description: "[OCM-9159] [day1] Rosa hcp cluster creation support IMDSv2"
+id: OCP-75114
+tier: "0"
+manual: false
+tag: [automated, imdsv2, hcp]
+author: aaraj
+contact: [aaraj]
+link:
+  - documented-by: /tests/clusters/OCP-75114_rosa-hcp-cluster-creation-support-imdsv2/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-9159
+  - verifies: https://redhat.atlassian.net/browse/OCM-9160

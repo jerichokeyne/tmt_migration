@@ -1,0 +1,11 @@
+summary: "Can get the CLI version while logged out"
+description: "[rosacli] Can get the CLI version while logged out"
+id: OCP-73743
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: jkeyne
+contact: [jkeyne]
+link:
+  - documented-by: /tests/version/OCP-73743_can-get-the-cli-version-while-logged-out/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7488

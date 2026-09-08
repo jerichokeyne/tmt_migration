@@ -1,0 +1,12 @@
+summary: "Check the validation for the attached managed policies missing on the hypershift AMI roles during upgrade"
+description: "[SDA-8552] Check the validation for the attached managed policies missing on the hypershift AMI roles during upgrade"
+id: OCP-62161
+tier: "2"
+manual: false
+tag: [automated, hcp]
+author: yuwan
+contact: [yingzhan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/upgrades/OCP-62161_check-the-validation-for-the-attached-managed-policies-missing-on-the-hypershift/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8552

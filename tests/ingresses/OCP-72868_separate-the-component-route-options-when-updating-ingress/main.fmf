@@ -1,0 +1,12 @@
+summary: "Separate the component route options when updating ingress"
+description: "[ROSA CLI] Separate the component route options when updating ingress"
+id: OCP-72868
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, classic]
+author: vshapova
+contact: [jkeyne]
+link:
+  - documented-by: /tests/ingresses/OCP-72868_separate-the-component-route-options-when-updating-ingress/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6029

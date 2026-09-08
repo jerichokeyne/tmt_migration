@@ -1,0 +1,15 @@
+summary: "Create/Delete hosted cluster in manual mode"
+description: "Create/Delete hosted cluster in manual mode"
+id: OCP-75536
+tier: "1"
+manual: false
+tag: [automated, smoke, hcp]
+author: tradisso
+contact: [tradisso]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-75536_create-delete-hosted-cluster-in-manual-mode/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-54413
+  - verifies: https://redhat.atlassian.net/browse/SDA-6223
+  - verifies: https://redhat.atlassian.net/browse/SDA-8184
+  - verifies: https://redhat.atlassian.net/browse/SDA-9046

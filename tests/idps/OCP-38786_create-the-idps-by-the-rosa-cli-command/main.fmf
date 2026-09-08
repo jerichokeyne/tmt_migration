@@ -1,0 +1,16 @@
+summary: "Create the IDPs by the rosa cli command"
+description: "[moactl] Create the IDPs by the rosa cli command"
+id: OCP-38786
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, moactl, classic, hcp]
+author: yuwan
+contact: [akanni]
+link:
+  - documented-by: /tests/idps/OCP-38786_create-the-idps-by-the-rosa-cli-command/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33330
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38781
+  - verifies: https://redhat.atlassian.net/browse/SDA-6056
+  - verifies: https://redhat.atlassian.net/browse/SDA-2986

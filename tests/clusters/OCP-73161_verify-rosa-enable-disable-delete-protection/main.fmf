@@ -1,0 +1,11 @@
+summary: "Verify ROSA enable/disable delete protection"
+description: "Verify ROSA enable/disable delete protection"
+id: OCP-73161
+tier: "1"
+manual: false
+tag: [automated, classic, hcp]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/clusters/OCP-73161_verify-rosa-enable-disable-delete-protection/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7358

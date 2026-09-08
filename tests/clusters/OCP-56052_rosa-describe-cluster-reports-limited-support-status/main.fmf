@@ -1,0 +1,12 @@
+summary: "`rosa describe cluster` reports Limited Support status"
+description: "[SDA-6564] `rosa describe cluster` reports Limited Support status"
+id: OCP-56052
+tier: "3"
+manual: true
+test: manual.md
+tag: [notautomated, classic]
+author: amalykhi
+contact: [jkeyne]
+link:
+  - documented-by: /tests/clusters/OCP-56052_rosa-describe-cluster-reports-limited-support-status/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6564

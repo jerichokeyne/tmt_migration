@@ -1,0 +1,19 @@
+summary: "User can create sts cluster including the post_clean via rosa cli"
+description: "[SDA-4101] User can create sts cluster including the post_clean via rosa cli"
+id: OCP-41822
+tier: "0"
+manual: false
+tag: [automated, smoke, fr, 10set1, classic, hcp]
+author: xueli
+contact: [yuwan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-41822_user-can-create-sts-cluster-including-the-post-clean-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-4693
+  - verifies: https://redhat.atlassian.net/browse/SDA-4646
+  - verifies: https://redhat.atlassian.net/browse/SDA-4645
+  - verifies: https://redhat.atlassian.net/browse/SDA-4664
+  - verifies: https://redhat.atlassian.net/browse/SDA-4329
+  - verifies: https://redhat.atlassian.net/browse/SDA-4101
+  - verifies: https://redhat.atlassian.net/browse/SDA-4217
+  - verifies: https://redhat.atlassian.net/browse/SDA-4274

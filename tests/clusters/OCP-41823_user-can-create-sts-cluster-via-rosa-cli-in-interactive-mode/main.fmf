@@ -1,0 +1,25 @@
+summary: "User can create sts cluster via rosa cli in interactive mode"
+description: "[SDA-4101] User can create sts cluster via rosa cli in interactive mode"
+id: OCP-41823
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, aset0813, fr, classic, hcp]
+author: xueli
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-41823_user-can-create-sts-cluster-via-rosa-cli-in-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-5404
+  - verifies: https://redhat.atlassian.net/browse/SDA-6166
+  - verifies: https://redhat.atlassian.net/browse/SDA-5776
+  - verifies: https://redhat.atlassian.net/browse/SDA-5327
+  - verifies: https://redhat.atlassian.net/browse/SDA-4994
+  - verifies: https://redhat.atlassian.net/browse/SDA-4831
+  - verifies: https://redhat.atlassian.net/browse/SDA-4744
+  - verifies: https://redhat.atlassian.net/browse/SDA-4664
+  - verifies: https://redhat.atlassian.net/browse/SDA-4329
+  - verifies: https://redhat.atlassian.net/browse/SDA-4101
+  - verifies: https://redhat.atlassian.net/browse/SDA-4217
+  - verifies: https://redhat.atlassian.net/browse/SDA-4278
+  - verifies: https://redhat.atlassian.net/browse/SDA-7377

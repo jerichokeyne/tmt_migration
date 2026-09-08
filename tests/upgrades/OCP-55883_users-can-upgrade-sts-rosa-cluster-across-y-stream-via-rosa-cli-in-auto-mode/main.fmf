@@ -1,0 +1,14 @@
+summary: "Users can upgrade STS rosa cluster across Y stream via ROSA cli in auto mode"
+description: "[rosacli] Users can upgrade STS rosa cluster across Y stream via ROSA cli in auto mode"
+id: OCP-55883
+tier: "0"
+manual: false
+tag: [automated, smoke, fr, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/upgrades/OCP-55883_users-can-upgrade-sts-rosa-cluster-across-y-stream-via-rosa-cli-in-auto-mode/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-55881
+  - verifies: https://redhat.atlassian.net/browse/OCM-16535
+  - verifies: https://redhat.atlassian.net/browse/SDA-6346

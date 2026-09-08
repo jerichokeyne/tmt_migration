@@ -1,0 +1,12 @@
+summary: "Validation will work when user create operator-roles to cluster"
+description: "[SDA-4329] Validation will work when user create operator-roles to cluster"
+id: OCP-43051
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: xueli
+contact: [yuwan]
+link:
+  - documented-by: /tests/operator-roles/OCP-43051_validation-will-work-when-user-create-operator-roles-to-cluster/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-4613
+  - verifies: https://redhat.atlassian.net/browse/SDA-4329

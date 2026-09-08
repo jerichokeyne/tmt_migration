@@ -1,0 +1,13 @@
+summary: "Rosa FedRAMP --admin flag uses cognito endpoints"
+description: "[OSD-16451][FR Only] Rosa FedRAMP --admin flag uses cognito endpoints"
+id: OCP-70652
+tier: "0"
+manual: true
+test: manual.md
+tag: [notautomated, fr-only, classic]
+author: ccrum
+contact: [oaharoni]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/login/OCP-70652_rosa-fedramp-admin-flag-uses-cognito-endpoints/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OSD-16451

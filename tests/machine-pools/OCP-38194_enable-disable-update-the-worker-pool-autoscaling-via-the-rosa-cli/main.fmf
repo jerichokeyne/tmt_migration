@@ -1,0 +1,13 @@
+summary: "Enable/disable/update the worker pool autoscaling via the rosa cli"
+description: "[SDA-3365][moactl] Enable/disable/update the worker pool autoscaling via the rosa cli"
+id: OCP-38194
+tier: "0"
+manual: false
+tag: [automated, moactl, classic]
+author: yuwan
+contact: [oaharoni]
+extra-runner: tzhou
+link:
+  - documented-by: /tests/machine-pools/OCP-38194_enable-disable-update-the-worker-pool-autoscaling-via-the-rosa-cli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-37430
+  - verifies: https://redhat.atlassian.net/browse/SDA-3365

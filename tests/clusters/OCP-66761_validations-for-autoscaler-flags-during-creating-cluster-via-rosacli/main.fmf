@@ -1,0 +1,12 @@
+summary: "Validations for autoscaler flags during creating cluster via rosacli"
+description: "[OCM-210][day1]Validations for autoscaler flags during creating cluster via rosacli"
+id: OCP-66761
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: zhsun
+contact: [yingzhan]
+extra-runner: yingzhan
+link:
+  - documented-by: /tests/clusters/OCP-66761_validations-for-autoscaler-flags-during-creating-cluster-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-210

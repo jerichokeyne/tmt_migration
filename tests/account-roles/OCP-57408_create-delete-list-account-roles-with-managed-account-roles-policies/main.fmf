@@ -1,0 +1,17 @@
+summary: "Create/Delete/List account-roles with managed account-roles policies"
+description: "[SDA-7656] Create/Delete/List account-roles with managed account-roles policies"
+id: OCP-57408
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/account-roles/OCP-57408_create-delete-list-account-roles-with-managed-account-roles-policies/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-53570
+  - verifies: https://redhat.atlassian.net/browse/OCM-75
+  - verifies: https://redhat.atlassian.net/browse/SDA-7656
+  - verifies: https://redhat.atlassian.net/browse/SDA-7728
+  - verifies: https://redhat.atlassian.net/browse/SDA-7941
+  - verifies: https://redhat.atlassian.net/browse/SDA-7969

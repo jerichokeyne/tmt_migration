@@ -1,0 +1,16 @@
+summary: "Validation for deletion machinepool of ROSA Hypershift cluster will work via rosacli"
+description: "[SDA-7166][rosacli]Validation for deletion machinepool of ROSA Hypershift cluster will work via rosacli"
+id: OCP-56783
+tier: "2"
+manual: false
+tag: [automated, moactl, hcp]
+author: amalykhi
+contact: [tradisso]
+link:
+  - documented-by: /tests/machine-pools/OCP-56783_validation-for-deletion-machinepool-of-rosa-hypershift-cluster-will-work-via-ros/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38783
+  - verifies: https://redhat.atlassian.net/browse/SDA-8573
+  - verifies: https://redhat.atlassian.net/browse/SDA-7166
+  - verifies: https://redhat.atlassian.net/browse/SDA-7521
+  - verifies: https://redhat.atlassian.net/browse/SDA-7767

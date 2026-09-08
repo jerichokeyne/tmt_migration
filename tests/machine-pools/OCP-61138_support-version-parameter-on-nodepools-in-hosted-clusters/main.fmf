@@ -1,0 +1,15 @@
+summary: "Support \"version\" parameter on nodepools in hosted clusters"
+description: "[ROSACLI] [SDA-8218] Support \"version\" parameter on nodepools in hosted clusters"
+id: OCP-61138
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: amalykhi
+contact: [tradisso]
+extra-runner: jfrazier
+link:
+  - documented-by: /tests/machine-pools/OCP-61138_support-version-parameter-on-nodepools-in-hosted-clusters/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8218
+  - verifies: https://redhat.atlassian.net/browse/OCM-4336
+  - verifies: https://redhat.atlassian.net/browse/OCM-3367
+  - verifies: https://redhat.atlassian.net/browse/OCM-3701

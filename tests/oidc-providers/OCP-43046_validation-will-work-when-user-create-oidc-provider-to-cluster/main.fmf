@@ -1,0 +1,12 @@
+summary: "Validation will work when user create oidc-provider to cluster"
+description: "[SDA-4329] Validation will work when user create oidc-provider to cluster"
+id: OCP-43046
+tier: "1"
+manual: false
+tag: [automated, classic, hcp]
+author: xueli
+contact: [yuwan]
+link:
+  - documented-by: /tests/oidc-providers/OCP-43046_validation-will-work-when-user-create-oidc-provider-to-cluster/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-4329
+  - verifies: https://redhat.atlassian.net/browse/OCM-6119

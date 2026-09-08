@@ -1,0 +1,14 @@
+summary: "Describe/List rosa upgrade via rosacli"
+description: "[SDA-3653] Describe/List rosa upgrade via rosacli"
+id: OCP-57094
+tier: "1"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [zwan]
+extra-runner: jfrazier
+link:
+  - documented-by: /tests/upgrades/OCP-57094_describe-list-rosa-upgrade-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8623
+  - verifies: https://redhat.atlassian.net/browse/SDA-3653
+  - verifies: https://redhat.atlassian.net/browse/OCM-3911

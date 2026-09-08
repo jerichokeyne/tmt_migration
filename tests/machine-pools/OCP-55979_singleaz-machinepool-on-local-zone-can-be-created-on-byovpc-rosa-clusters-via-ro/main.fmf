@@ -1,0 +1,15 @@
+summary: "SingleAZ machinepool on local zone can be created on BYOVPC rosa clusters via rosacli"
+description: "[SDA-7160] SingleAZ machinepool on local zone can be created on BYOVPC rosa clusters via rosacli"
+id: OCP-55979
+tier: "0"
+manual: false
+tag: [automated, sts, non-sts, classic]
+author: yuwan
+contact: [oaharoni]
+extra-runner: vshapova
+link:
+  - documented-by: /tests/machine-pools/OCP-55979_singleaz-machinepool-on-local-zone-can-be-created-on-byovpc-rosa-clusters-via-ro/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-52352
+  - verifies: https://redhat.atlassian.net/browse/SDA-7160
+  - verifies: https://redhat.atlassian.net/browse/SDA-7180
+  - verifies: https://redhat.atlassian.net/browse/OCM-1599

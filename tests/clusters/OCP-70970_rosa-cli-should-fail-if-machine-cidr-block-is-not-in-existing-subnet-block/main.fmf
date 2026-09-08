@@ -1,0 +1,11 @@
+summary: "rosa-cli should fail if machine CIDR block is not in existing subnet block"
+description: "[OCM-5088] rosa-cli should fail if machine CIDR block is not in existing subnet block"
+id: OCP-70970
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: tradisso
+contact: [jfrazier]
+extra-runner: aaraj
+link:
+  - documented-by: /tests/clusters/OCP-70970_rosa-cli-should-fail-if-machine-cidr-block-is-not-in-existing-subnet-block/manual.md

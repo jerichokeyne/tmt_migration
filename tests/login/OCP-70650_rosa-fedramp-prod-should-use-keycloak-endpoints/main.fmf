@@ -1,0 +1,13 @@
+summary: "Rosa FedRAMP prod should use keycloak endpoints"
+description: "[OCM-3570][FR Only] Rosa FedRAMP prod should use keycloak endpoints"
+id: OCP-70650
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, fr-only, classic]
+author: ccrum
+contact: [oaharoni]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/login/OCP-70650_rosa-fedramp-prod-should-use-keycloak-endpoints/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-3570

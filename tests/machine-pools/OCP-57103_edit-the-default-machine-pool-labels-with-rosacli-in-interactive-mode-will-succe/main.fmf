@@ -1,0 +1,15 @@
+summary: "Edit the Default machine pool labels with rosacli in interactive mode will succeed"
+description: "[SDA-7375] Edit the Default machine pool labels with rosacli in interactive mode will succeed"
+id: OCP-57103
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, classic]
+author: amalykhi
+contact: [oaharoni]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/machine-pools/OCP-57103_edit-the-default-machine-pool-labels-with-rosacli-in-interactive-mode-will-succe/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-57102
+  - verifies: https://redhat.atlassian.net/browse/SDA-7375
+  - verifies: https://redhat.atlassian.net/browse/SDA-8219

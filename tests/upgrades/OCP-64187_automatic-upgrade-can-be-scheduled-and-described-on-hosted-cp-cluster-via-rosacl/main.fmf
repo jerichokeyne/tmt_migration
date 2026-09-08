@@ -1,0 +1,14 @@
+summary: "Automatic upgrade can be scheduled and described on hosted-cp cluster via rosacli"
+description: "[OCM-953]Automatic upgrade can be scheduled and described on hosted-cp cluster via rosacli"
+id: OCP-64187
+tier: "0"
+manual: false
+tag: [automated, hcp]
+author: yuwan
+contact: [yingzhan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/upgrades/OCP-64187_automatic-upgrade-can-be-scheduled-and-described-on-hosted-cp-cluster-via-rosacl/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-953
+  - verifies: https://redhat.atlassian.net/browse/OCM-2278
+  - verifies: https://redhat.atlassian.net/browse/OCM-3478

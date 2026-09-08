@@ -1,0 +1,12 @@
+summary: "User can create/delete user-roles with manual mode via rosacli by command"
+description: "[SDA] User can create/delete user-roles with manual mode via rosacli by command"
+id: OCP-52693
+tier: "2"
+manual: false
+tag: [automated, jset0813, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/user-roles/OCP-52693_user-can-create-delete-user-roles-with-manual-mode-via-rosacli-by-command/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43070

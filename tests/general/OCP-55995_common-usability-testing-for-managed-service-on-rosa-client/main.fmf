@@ -1,0 +1,11 @@
+summary: "Common usability testing for managed service on rosa client"
+description: "[ROSA CLI]Common usability testing for managed service on rosa client"
+id: OCP-55995
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, ux, classic]
+author: yingzhan
+contact: [zwan]
+link:
+  - documented-by: /tests/general/OCP-55995_common-usability-testing-for-managed-service-on-rosa-client/manual.md

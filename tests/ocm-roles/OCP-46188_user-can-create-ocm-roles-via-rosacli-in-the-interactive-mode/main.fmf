@@ -1,0 +1,17 @@
+summary: "User can create ocm-roles via rosacli in the interactive mode"
+description: "[SDA-4988] User can create ocm-roles via rosacli in the interactive mode"
+id: OCP-46188
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, jset0813, fr, excludemanual, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/ocm-roles/OCP-46188_user-can-create-ocm-roles-via-rosacli-in-the-interactive-mode/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43070
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-46187
+  - verifies: https://redhat.atlassian.net/browse/SDA-4988
+  - verifies: https://redhat.atlassian.net/browse/SDA-4992
+  - verifies: https://redhat.atlassian.net/browse/SDA-6001

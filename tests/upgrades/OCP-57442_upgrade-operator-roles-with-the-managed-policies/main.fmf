@@ -1,0 +1,12 @@
+summary: "Upgrade operator-roles with the managed policies"
+description: "[SDA-7679] Upgrade operator-roles with the managed policies"
+id: OCP-57442
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [zwan]
+extra-runner: jfrazier
+link:
+  - documented-by: /tests/upgrades/OCP-57442_upgrade-operator-roles-with-the-managed-policies/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-7679

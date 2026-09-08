@@ -1,0 +1,16 @@
+summary: "Edit machine pool to the rosa cluster will succeed"
+description: "[SDA-3007][rosacli] Edit machine pool to the rosa cluster will succeed"
+id: OCP-38838
+tier: "1"
+manual: false
+tag: [automated, smoke, fr, classic]
+author: xueli
+contact: [oaharoni]
+extra-runner: yingzhan
+link:
+  - documented-by: /tests/machine-pools/OCP-38838_edit-machine-pool-to-the-rosa-cluster-will-succeed/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - verifies: https://redhat.atlassian.net/browse/SDA-3007
+  - verifies: https://redhat.atlassian.net/browse/SDA-7375
+  - verifies: https://redhat.atlassian.net/browse/SDA-7905
+  - verifies: https://redhat.atlassian.net/browse/SDA-8272

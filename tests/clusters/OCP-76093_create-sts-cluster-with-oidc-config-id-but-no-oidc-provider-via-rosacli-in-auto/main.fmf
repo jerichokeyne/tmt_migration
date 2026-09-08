@@ -1,0 +1,11 @@
+summary: "Create STS cluster with oidc config id but no oidc provider via rosacli in auto mode"
+description: "[OCM-11019] Create STS cluster with oidc config id but no oidc provider via rosacli in auto mode"
+id: OCP-76093
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+link:
+  - documented-by: /tests/clusters/OCP-76093_create-sts-cluster-with-oidc-config-id-but-no-oidc-provider-via-rosacli-in-auto/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-11019

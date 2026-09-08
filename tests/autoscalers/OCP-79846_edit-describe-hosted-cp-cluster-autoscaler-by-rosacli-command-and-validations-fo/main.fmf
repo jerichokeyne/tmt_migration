@@ -1,0 +1,14 @@
+summary: "Edit/describe hosted-cp cluster autoscaler by rosacli command and validations for autoscaler operations"
+description: "[OCM-13947][day2]Edit/describe hosted-cp cluster autoscaler by rosacli command and validations for autoscaler operations"
+id: OCP-79846
+tier: "0"
+manual: false
+tag: [automated, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/autoscalers/OCP-79846_edit-describe-hosted-cp-cluster-autoscaler-by-rosacli-command-and-validations-fo/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-13947
+  - verifies: https://redhat.atlassian.net/browse/OCM-13946
+  - verifies: https://redhat.atlassian.net/browse/OCM-14135

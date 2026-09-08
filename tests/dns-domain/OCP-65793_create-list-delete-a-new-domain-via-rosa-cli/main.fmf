@@ -1,0 +1,14 @@
+summary: "Create/List/Delete a new domain via ROSA cli"
+description: "[OCM-2544]Create/List/Delete a new domain via ROSA cli"
+id: OCP-65793
+tier: "1"
+manual: false
+tag: [automated, fr, classic, hcp]
+author: yunjiang
+contact: [zwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/dns-domain/OCP-65793_create-list-delete-a-new-domain-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-253
+  - verifies: https://redhat.atlassian.net/browse/OCM-2544
+  - verifies: https://redhat.atlassian.net/browse/OCM-12302

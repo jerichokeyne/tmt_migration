@@ -1,0 +1,13 @@
+summary: "Create/edit/delete kubeletconfig to HCP cluster will work via rosacli"
+description: "[OCM-7264]Create/edit/delete kubeletconfig to HCP cluster will work via rosacli"
+id: OCP-73753
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: xueli
+contact: [xueli]
+link:
+  - documented-by: /tests/kubeletconfigs/OCP-73753_create-edit-delete-kubeletconfig-to-hcp-cluster-will-work-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7266
+  - verifies: https://redhat.atlassian.net/browse/OCM-7264
+  - verifies: https://redhat.atlassian.net/browse/OCM-7265

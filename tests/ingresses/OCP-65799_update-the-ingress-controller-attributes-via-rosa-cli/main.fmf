@@ -1,0 +1,13 @@
+summary: "update the ingress controller attributes via ROSA CLI"
+description: "[OCM-118][OCM-853][Day2] update the ingress controller attributes via ROSA CLI"
+id: OCP-65799
+tier: "0"
+manual: false
+tag: [automated, classic]
+author: hongli
+contact: [xueli]
+extra-runner: xueli
+link:
+  - documented-by: /tests/ingresses/OCP-65799_update-the-ingress-controller-attributes-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-853
+  - verifies: https://redhat.atlassian.net/browse/OCM-118

@@ -1,0 +1,12 @@
+summary: "Create a classic cluster with imdsv2 via Rosa cli"
+description: "[OCM-140] Create a classic cluster with imdsv2 via Rosa cli"
+id: OCP-63471
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: zhsun
+contact: [xueli]
+extra-runner: xueli
+link:
+  - documented-by: /tests/clusters/OCP-63471_create-a-classic-cluster-with-imdsv2-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-140

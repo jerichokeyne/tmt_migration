@@ -1,0 +1,14 @@
+summary: "Create/Delete account roles for hosted-cp shared vpc cluster in manual mode"
+description: "[OCM-12543]Create/Delete account roles for hosted-cp shared vpc cluster in manual mode"
+id: OCP-77962
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/account-roles/OCP-77962_create-delete-account-roles-for-hosted-cp-shared-vpc-cluster-in-manual-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-12543
+  - verifies: https://redhat.atlassian.net/browse/OCM-12872
+  - verifies: https://redhat.atlassian.net/browse/OCM-12964

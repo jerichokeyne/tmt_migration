@@ -1,0 +1,14 @@
+summary: "Hibernate/resume cluster by rosa-cli"
+description: "[SDA-4283]Hibernate/resume cluster by rosa-cli"
+id: OCP-42832
+tier: "1"
+manual: false
+tag: [automated, 10set1, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/hibernation/OCP-42832_hibernate-resume-cluster-by-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-4283
+  - verifies: https://redhat.atlassian.net/browse/OCM-2134
+  - verifies: https://redhat.atlassian.net/browse/OCM-3604

@@ -1,0 +1,15 @@
+summary: "Upgrade roles/cluster in the condition that CS returns \"STS arbitrary policies feature is currently not available..\" error when query"
+description: "[OCM-8648][Regression]Upgrade roles/cluster in the condition that CS returns \"STS arbitrary policies feature is currently not available..\" error when query"
+id: OCP-74296
+tier: "3"
+manual: true
+test: manual.md
+tag: [manualonly, regression, zset0813, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/upgrades/OCP-74296_upgrade-roles-cluster-in-the-condition-that-cs-returns-sts-arbitrary-policies-fe/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-73449
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-74224
+  - verifies: https://redhat.atlassian.net/browse/OCM-8648

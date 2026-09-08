@@ -1,0 +1,14 @@
+summary: "User can create upgrade policy via ROSA cli with interactive mode"
+description: "[SDA-3107][rosacli] User can create upgrade policy via ROSA cli with interactive mode"
+id: OCP-38828
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, ocp-release, classic]
+author: xueli
+contact: [zwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/upgrades/OCP-38828_user-can-create-upgrade-policy-via-rosa-cli-with-interactive-mode/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - verifies: https://redhat.atlassian.net/browse/SDA-3107

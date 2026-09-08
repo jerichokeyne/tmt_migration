@@ -1,0 +1,16 @@
+summary: "Create the IDPs in the interactive mode by the rosa cli"
+description: "[moactl] Create the IDPs in the interactive mode by the rosa cli"
+id: OCP-38781
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, smoke, fr, classic, hcp]
+author: yuwan
+contact: [akanni]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/idps/OCP-38781_create-the-idps-in-the-interactive-mode-by-the-rosa-cli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33330
+  - verifies: https://redhat.atlassian.net/browse/SDA-2986
+  - verifies: https://redhat.atlassian.net/browse/SDA-6056

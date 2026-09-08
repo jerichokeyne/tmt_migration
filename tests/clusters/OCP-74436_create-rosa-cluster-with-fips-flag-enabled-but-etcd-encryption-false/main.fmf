@@ -1,0 +1,10 @@
+summary: "Create rosa cluster with 'fips' flag enabled but '--etcd-encryption=false'"
+description: "Create rosa cluster with 'fips' flag enabled but '--etcd-encryption=false'"
+id: OCP-74436
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: zwan
+contact: [zwan]
+link:
+  - documented-by: /tests/clusters/OCP-74436_create-rosa-cluster-with-fips-flag-enabled-but-etcd-encryption-false/manual.md

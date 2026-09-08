@@ -1,0 +1,13 @@
+summary: "Delete iamserviceaccount via rosacli in the interactive mode"
+description: "[XCMSTRAT-1311] Delete iamserviceaccount via rosacli in the interactive mode"
+id: OCP-84392
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, ocp-release, excludemanual, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/iam-service-accounts/OCP-84392_delete-iamserviceaccount-via-rosacli-in-the-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/XCMSTRAT-1311

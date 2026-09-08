@@ -1,0 +1,14 @@
+summary: "Create ROSA cluster with default-mp-labels option will succeed in interactive mode"
+description: "[SDA-7377] Create ROSA cluster with default-mp-labels option will succeed in interactive mode"
+id: OCP-57092
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, classic]
+author: amalykhi
+contact: [oaharoni]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-57092_create-rosa-cluster-with-default-mp-labels-option-will-succeed-in-interactive-mo/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-57056
+  - verifies: https://redhat.atlassian.net/browse/SDA-7377

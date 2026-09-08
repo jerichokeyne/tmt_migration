@@ -1,0 +1,11 @@
+summary: "Disable oauth login flags for govcloud in ROSA CLI"
+description: "Disable oauth login flags for govcloud in ROSA CLI"
+id: OCP-72539
+tier: "2"
+manual: false
+tag: [automated, fr-only, classic]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/login/OCP-72539_disable-oauth-login-flags-for-govcloud-in-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4969

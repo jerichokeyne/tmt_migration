@@ -1,0 +1,12 @@
+summary: "ROSA cli will check the pre-existing roles when create sts cluster"
+description: "[SDA-4624] ROSA cli will check the pre-existing roles when create sts cluster"
+id: OCP-45742
+tier: "1"
+manual: false
+tag: [automated, 10set2, classic, hcp]
+author: xueli
+contact: [yuwan]
+extra-runner: akanni
+link:
+  - documented-by: /tests/clusters/OCP-45742_rosa-cli-will-check-the-pre-existing-roles-when-create-sts-cluster/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-4624

@@ -1,0 +1,13 @@
+summary: "Check the output of the STS cluster creation with new oidc flow"
+description: "Check the output of the STS cluster creation with new oidc flow"
+id: OCP-75925
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-75925_check-the-output-of-the-sts-cluster-creation-with-new-oidc-flow/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-75904
+  - verifies: https://redhat.atlassian.net/browse/OCM-7551

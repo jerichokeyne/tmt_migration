@@ -1,0 +1,12 @@
+summary: "User can set availability zones to create rosa cluster"
+description: "[SDA-6222] User can set availability zones to create rosa cluster"
+id: OCP-52691
+tier: "0"
+manual: false
+tag: [automated, classic]
+author: xueli
+contact: [zwan]
+extra-runner: oaharoni
+link:
+  - documented-by: /tests/clusters/OCP-52691_user-can-set-availability-zones-to-create-rosa-cluster/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6222

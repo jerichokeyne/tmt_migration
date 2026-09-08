@@ -1,0 +1,20 @@
+summary: "Create/List/Delete machine pool to the rosa cluster will succeed"
+description: "[SDA-3007][rosacli] Create/List/Delete machine pool to the rosa cluster will succeed"
+id: OCP-36293
+tier: "0"
+manual: false
+tag: [automated, smoke, fr, classic]
+author: yuwan
+contact: [oaharoni]
+extra-runner: yasun
+link:
+  - documented-by: /tests/machine-pools/OCP-36293_create-list-delete-machine-pool-to-the-rosa-cluster-will-succeed/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-35715
+  - verifies: https://redhat.atlassian.net/browse/OCM-1599
+  - verifies: https://redhat.atlassian.net/browse/SDA-8272
+  - verifies: https://redhat.atlassian.net/browse/SDA-7521
+  - verifies: https://redhat.atlassian.net/browse/SDA-6155
+  - verifies: https://redhat.atlassian.net/browse/SDA-3007
+  - verifies: https://redhat.atlassian.net/browse/SDA-7166
+  - verifies: https://redhat.atlassian.net/browse/SDA-7375

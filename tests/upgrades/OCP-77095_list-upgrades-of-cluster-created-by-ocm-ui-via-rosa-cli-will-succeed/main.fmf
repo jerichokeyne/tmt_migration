@@ -1,0 +1,11 @@
+summary: "List upgrades of cluster created by OCM UI via ROSA cli will succeed"
+description: "List upgrades of cluster created by OCM UI via ROSA cli will succeed"
+id: OCP-77095
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, classic]
+author: zwan
+contact: [zwan]
+link:
+  - documented-by: /tests/upgrades/OCP-77095_list-upgrades-of-cluster-created-by-ocm-ui-via-rosa-cli-will-succeed/manual.md

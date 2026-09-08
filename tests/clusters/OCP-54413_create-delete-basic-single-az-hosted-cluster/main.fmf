@@ -1,0 +1,14 @@
+summary: "Create/Delete basic single AZ hosted cluster"
+description: "Create/Delete basic single AZ hosted cluster"
+id: OCP-54413
+tier: "0"
+manual: false
+tag: [automated, smoke, hcp]
+author: yuwan
+contact: [tradisso]
+extra-runner: yasun
+link:
+  - documented-by: /tests/clusters/OCP-54413_create-delete-basic-single-az-hosted-cluster/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6223
+  - verifies: https://redhat.atlassian.net/browse/SDA-8184
+  - verifies: https://redhat.atlassian.net/browse/SDA-9046

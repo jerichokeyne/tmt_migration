@@ -1,0 +1,12 @@
+summary: "Validation for deletion upgrade policy of ROSA cluster will work via rosacli"
+description: "[rosacli]Validation for deletion upgrade policy of ROSA cluster will work via rosacli"
+id: OCP-38787
+tier: "2"
+manual: false
+tag: [automated, moactl, classic]
+author: xueli
+contact: [zwan]
+link:
+  - documented-by: /tests/upgrades/OCP-38787_validation-for-deletion-upgrade-policy-of-rosa-cluster-will-work-via-rosacli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - verifies: https://redhat.atlassian.net/browse/SDA-2593

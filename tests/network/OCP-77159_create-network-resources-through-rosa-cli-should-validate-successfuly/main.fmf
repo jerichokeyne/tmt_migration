@@ -1,0 +1,13 @@
+summary: "Create network resources through rosa cli should validate successfuly"
+description: "[OCM-11538] Create network resources through rosa cli should validate successfuly"
+id: OCP-77159
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: aaraj
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/network/OCP-77159_create-network-resources-through-rosa-cli-should-validate-successfuly/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-11538
+  - verifies: https://redhat.atlassian.net/browse/OCM-14846

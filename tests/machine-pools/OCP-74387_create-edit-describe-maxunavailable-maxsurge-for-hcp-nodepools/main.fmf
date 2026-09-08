@@ -1,0 +1,11 @@
+summary: "Create/Edit/Describe MaxUnavailable/MaxSurge for HCP NodePools"
+description: "[OCM-7289] Create/Edit/Describe MaxUnavailable/MaxSurge for HCP NodePools"
+id: OCP-74387
+tier: "0"
+manual: false
+tag: [automated, hcp]
+author: aaraj
+contact: [aaraj]
+link:
+  - documented-by: /tests/machine-pools/OCP-74387_create-edit-describe-maxunavailable-maxsurge-for-hcp-nodepools/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7289

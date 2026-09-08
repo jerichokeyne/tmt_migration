@@ -1,0 +1,13 @@
+summary: "ROSACLI can filter instance types that support Win-LI"
+description: "[OCM-20958] ROSACLI can filter instance types that support Win-LI"
+id: OCP-86109
+tier: "0"
+manual: true
+test: manual.md
+tag: [notautomated, excludemanual, hcp]
+author: jkeyne
+contact: [jkeyne]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/machine-pools/OCP-86109_rosacli-can-filter-instance-types-that-support-win-li/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-20958

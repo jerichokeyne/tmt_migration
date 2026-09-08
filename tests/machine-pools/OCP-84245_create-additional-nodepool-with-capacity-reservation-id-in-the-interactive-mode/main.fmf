@@ -1,0 +1,13 @@
+summary: "Create additional nodepool with capacity reservation id in the interactive mode"
+description: "[OCM-17631]Create additional nodepool with capacity reservation id in the interactive mode"
+id: OCP-84245
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, smoke, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/machine-pools/OCP-84245_create-additional-nodepool-with-capacity-reservation-id-in-the-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-17631

@@ -1,0 +1,13 @@
+summary: "Upgrade account-roles with the managed policies should be forbidden"
+description: "[SDA-7678] Upgrade account-roles with the managed policies should be forbidden"
+id: OCP-57441
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [zwan]
+extra-runner: mgahagan
+link:
+  - documented-by: /tests/upgrades/OCP-57441_upgrade-account-roles-with-the-managed-policies-should-be-forbidden/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-7678
+  - verifies: https://redhat.atlassian.net/browse/SDA-7941

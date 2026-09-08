@@ -1,0 +1,13 @@
+summary: "Validate default-mp-labels option for ROSA cluster creation in interactive mode"
+description: "[SDA-7377] Validate default-mp-labels option for ROSA cluster creation in interactive mode"
+id: OCP-57091
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, classic]
+author: amalykhi
+contact: [oaharoni]
+link:
+  - documented-by: /tests/clusters/OCP-57091_validate-default-mp-labels-option-for-rosa-cluster-creation-in-interactive-mode/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-57090
+  - verifies: https://redhat.atlassian.net/browse/SDA-7377

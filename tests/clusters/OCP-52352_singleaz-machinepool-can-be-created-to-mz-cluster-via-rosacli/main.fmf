@@ -1,0 +1,12 @@
+summary: "SingleAZ machinepool can be created to MZ cluster via rosacli"
+description: "[SDA-6155] SingleAZ machinepool can be created to MZ cluster via rosacli"
+id: OCP-52352
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: xueli
+contact: [oaharoni]
+extra-runner: yasun
+link:
+  - documented-by: /tests/clusters/OCP-52352_singleaz-machinepool-can-be-created-to-mz-cluster-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6155

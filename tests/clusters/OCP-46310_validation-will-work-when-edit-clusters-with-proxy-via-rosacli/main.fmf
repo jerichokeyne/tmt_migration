@@ -1,0 +1,18 @@
+summary: "Validation will work when edit clusters with proxy via rosacli"
+description: "[SDA-4733]Validation will work when edit clusters with proxy via rosacli"
+id: OCP-46310
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [dawang]
+link:
+  - documented-by: /tests/clusters/OCP-46310_validation-will-work-when-edit-clusters-with-proxy-via-rosacli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-44643
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-44644
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-45509
+  - verifies: https://redhat.atlassian.net/browse/SDA-7772
+  - verifies: https://redhat.atlassian.net/browse/SDA-8221
+  - verifies: https://redhat.atlassian.net/browse/SDA-4733
+  - verifies: https://redhat.atlassian.net/browse/SDA-5612
+  - verifies: https://redhat.atlassian.net/browse/SDA-6102

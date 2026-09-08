@@ -1,0 +1,16 @@
+summary: "Check the validations for the SingleAZ machinepool creation on local zone on BYOVPC rosa clusters via rosacli"
+description: "[SDA-7160] Check the validations for the SingleAZ machinepool creation on local zone on BYOVPC rosa clusters via rosacli"
+id: OCP-55980
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, sts, non-sts, classic]
+author: yuwan
+contact: [oaharoni]
+extra-runner: vshapova
+link:
+  - documented-by: /tests/machine-pools/OCP-55980_check-the-validations-for-the-singleaz-machinepool-creation-on-local-zone-on-byo/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-52352
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-55979
+  - verifies: https://redhat.atlassian.net/browse/SDA-7160
+  - verifies: https://redhat.atlassian.net/browse/SDA-7180

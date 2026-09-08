@@ -1,0 +1,11 @@
+summary: "Expose additional allowed principals for HCP negative"
+description: "Expose additional allowed principals for HCP negative"
+id: OCP-74433
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/clusters/OCP-74433_expose-additional-allowed-principals-for-hcp-negative/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-8315

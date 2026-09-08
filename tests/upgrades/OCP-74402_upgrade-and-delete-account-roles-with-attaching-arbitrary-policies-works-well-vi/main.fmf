@@ -1,0 +1,15 @@
+summary: "Upgrade and delete account-roles with attaching arbitrary policies works well via rosacli in auto mode"
+description: "[OCM-1752] Upgrade and delete account-roles with attaching arbitrary policies works well via rosacli in auto mode"
+id: OCP-74402
+tier: "1"
+manual: false
+tag: [automated, 10set2, classic]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/upgrades/OCP-74402_upgrade-and-delete-account-roles-with-attaching-arbitrary-policies-works-well-vi/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-73731
+  - verifies: https://redhat.atlassian.net/browse/OCM-1752
+  - verifies: https://redhat.atlassian.net/browse/OCM-7415
+  - verifies: https://redhat.atlassian.net/browse/OCM-7860

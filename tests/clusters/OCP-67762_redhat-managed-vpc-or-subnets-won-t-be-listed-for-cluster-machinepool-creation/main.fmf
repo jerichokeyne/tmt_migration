@@ -1,0 +1,12 @@
+summary: "redhat-managed vpc or subnets won't be listed for cluster/machinepool creation"
+description: "[OCM-3392] redhat-managed vpc or subnets won't be listed for cluster/machinepool creation"
+id: OCP-67762
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, classic, hcp]
+author: xueli
+contact: [oaharoni]
+link:
+  - documented-by: /tests/clusters/OCP-67762_redhat-managed-vpc-or-subnets-won-t-be-listed-for-cluster-machinepool-creation/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-3392

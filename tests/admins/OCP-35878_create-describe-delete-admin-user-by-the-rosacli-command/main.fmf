@@ -1,0 +1,19 @@
+summary: "Create/describe/delete admin user by the rosacli command"
+description: "[SDA-2922] Create/describe/delete admin user by the rosacli command"
+id: OCP-35878
+tier: "0"
+manual: false
+tag: [automated, smoke, fr, classic, hcp]
+author: yuwan
+contact: [akanni]
+extra-runner: tzhou
+link:
+  - documented-by: /tests/admins/OCP-35878_create-describe-delete-admin-user-by-the-rosacli-command/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-35715
+  - verifies: https://redhat.atlassian.net/browse/SDA-6170
+  - verifies: https://redhat.atlassian.net/browse/SDA-3086
+  - verifies: https://redhat.atlassian.net/browse/SDA-2922
+  - verifies: https://redhat.atlassian.net/browse/SDA-3088
+  - verifies: https://redhat.atlassian.net/browse/SDA-3087
+  - verifies: https://redhat.atlassian.net/browse/SDA-3089

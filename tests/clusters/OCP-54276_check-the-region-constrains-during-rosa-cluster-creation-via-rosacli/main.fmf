@@ -1,0 +1,14 @@
+summary: "Check the region constrains during rosa cluster creation via rosacli"
+description: "[SDA-6765] Check the region constrains during rosa cluster creation via rosacli"
+id: OCP-54276
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, zset0813, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-54276_check-the-region-constrains-during-rosa-cluster-creation-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6765
+  - verifies: https://redhat.atlassian.net/browse/OCM-2572

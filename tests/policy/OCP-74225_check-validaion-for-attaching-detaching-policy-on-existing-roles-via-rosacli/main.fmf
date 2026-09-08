@@ -1,0 +1,14 @@
+summary: "Check validaion for attaching/detaching policy on existing roles via rosacli"
+description: "[OCM-6542] Check validaion for attaching/detaching policy on existing roles via rosacli"
+id: OCP-74225
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/policy/OCP-74225_check-validaion-for-attaching-detaching-policy-on-existing-roles-via-rosacli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-73449
+  - verifies: https://redhat.atlassian.net/browse/OCM-6542
+  - verifies: https://redhat.atlassian.net/browse/OCM-6543

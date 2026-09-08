@@ -1,0 +1,22 @@
+summary: "Create/register/List/Delete BYO oidc config/oidc-provder and create/delete BYO operator-roles via rosacli in manual/interative mode"
+description: "[SDA-8610] Create/register/List/Delete BYO oidc config/oidc-provder and create/delete BYO operator-roles via rosacli in manual/interative mode"
+id: OCP-62010
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, aset0813, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/operator-roles/OCP-62010_create-register-list-delete-byo-oidc-config-oidc-provder-and-create-delete-byo-o/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-62009
+  - verifies: https://redhat.atlassian.net/browse/OCM-1012
+  - verifies: https://redhat.atlassian.net/browse/OCM-955
+  - verifies: https://redhat.atlassian.net/browse/OCM-2246
+  - verifies: https://redhat.atlassian.net/browse/OCM-2103
+  - verifies: https://redhat.atlassian.net/browse/SDA-8636
+  - verifies: https://redhat.atlassian.net/browse/SDA-8817
+  - verifies: https://redhat.atlassian.net/browse/SDA-8610
+  - verifies: https://redhat.atlassian.net/browse/SDA-8657
+  - verifies: https://redhat.atlassian.net/browse/SDA-8698

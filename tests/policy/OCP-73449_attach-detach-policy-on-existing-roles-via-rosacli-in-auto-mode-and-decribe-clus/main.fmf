@@ -1,0 +1,14 @@
+summary: "Attach/Detach policy on existing roles via rosacli in auto mode and decribe cluster with '--get-role-policy-bindings' to check them"
+description: "[OCM-6542] Attach/Detach policy on existing roles via rosacli in auto mode and decribe cluster with '--get-role-policy-bindings' to check them"
+id: OCP-73449
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/policy/OCP-73449_attach-detach-policy-on-existing-roles-via-rosacli-in-auto-mode-and-decribe-clus/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6542
+  - verifies: https://redhat.atlassian.net/browse/OCM-6543
+  - verifies: https://redhat.atlassian.net/browse/OCM-6544

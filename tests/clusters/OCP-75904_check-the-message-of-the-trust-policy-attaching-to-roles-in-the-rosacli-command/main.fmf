@@ -1,0 +1,12 @@
+summary: "Check the message of the trust policy attaching to roles in the rosacli command"
+description: "[OCM-7551] Check the message of the trust policy attaching to roles in the rosacli command"
+id: OCP-75904
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-75904_check-the-message-of-the-trust-policy-attaching-to-roles-in-the-rosacli-command/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7551

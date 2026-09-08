@@ -1,0 +1,22 @@
+summary: "Regression testing on the cluster created by previous version rosacli"
+description: "[rosacli] Regression testing on the cluster created by previous version rosacli"
+id: OCP-48958
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, moactl, interoperability, aset0813, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/general/OCP-48958_regression-testing-on-the-cluster-created-by-previous-version-rosacli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38768
+  - verifies: https://redhat.atlassian.net/browse/OCM-5154
+  - verifies: https://redhat.atlassian.net/browse/OCM-1540
+  - verifies: https://redhat.atlassian.net/browse/SDA-4308
+  - verifies: https://redhat.atlassian.net/browse/SDA-5547
+  - verifies: https://redhat.atlassian.net/browse/SDA-5596
+  - verifies: https://redhat.atlassian.net/browse/SDA-5597
+  - verifies: https://redhat.atlassian.net/browse/SDA-5598
+  - verifies: https://redhat.atlassian.net/browse/SDA-5599

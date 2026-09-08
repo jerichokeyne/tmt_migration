@@ -1,0 +1,21 @@
+summary: "Upgrade account roles and operator roles then upgrade the cluster via rosalci in auto mode"
+description: "[SDA-4663][rosacli] Upgrade account roles and operator roles then upgrade the cluster via rosalci in auto mode"
+id: OCP-45745
+tier: "1"
+manual: false
+tag: [automated, ocp-release, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: mgahagan
+link:
+  - documented-by: /tests/upgrades/OCP-45745_upgrade-account-roles-and-operator-roles-then-upgrade-the-cluster-via-rosalci-in/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-37499
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-45744
+  - verifies: https://redhat.atlassian.net/browse/SDa-5776
+  - verifies: https://redhat.atlassian.net/browse/SDA-6010
+  - verifies: https://redhat.atlassian.net/browse/SDA-5598
+  - verifies: https://redhat.atlassian.net/browse/SDA-5599
+  - verifies: https://redhat.atlassian.net/browse/SDA-5453
+  - verifies: https://redhat.atlassian.net/browse/SDA-4663
+  - verifies: https://redhat.atlassian.net/browse/SDA-5319

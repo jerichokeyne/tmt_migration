@@ -1,0 +1,15 @@
+summary: "Create/Delete the HTPasswd IDPs in the interactive mode by the rosacli"
+description: "[SDA-4924][rosacli] Create/Delete the HTPasswd IDPs in the interactive mode by the rosacli"
+id: OCP-49136
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, smoke, fr, classic, hcp]
+author: yuwan
+contact: [akanni]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/idps/OCP-49136_create-delete-the-htpasswd-idps-in-the-interactive-mode-by-the-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-4924
+  - verifies: https://redhat.atlassian.net/browse/OCM-2690
+  - verifies: https://redhat.atlassian.net/browse/OCM-2690

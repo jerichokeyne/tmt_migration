@@ -1,0 +1,12 @@
+summary: "Create/Edit/Describe clusters with channel flag by command"
+description: "[OCM-22351] Create/Edit/Describe clusters with channel flag by command"
+id: OCP-88311
+tier: "0"
+manual: false
+tag: [automated, idms, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-88311_create-edit-describe-clusters-with-channel-flag-by-command/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-22351

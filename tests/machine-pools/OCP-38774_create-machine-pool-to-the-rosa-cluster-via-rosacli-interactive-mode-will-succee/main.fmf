@@ -1,0 +1,20 @@
+summary: "Create machine pool to the ROSA cluster via rosacli interactive mode will succeed"
+description: "[SDA-3007][rosacli] Create machine pool to the ROSA cluster via rosacli interactive mode will succeed"
+id: OCP-38774
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, smoke, classic]
+author: xueli
+contact: [oaharoni]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/machine-pools/OCP-38774_create-machine-pool-to-the-rosa-cluster-via-rosacli-interactive-mode-will-succee/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-35715
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-36293
+  - verifies: https://redhat.atlassian.net/browse/OCM-6716
+  - verifies: https://redhat.atlassian.net/browse/OCM-15
+  - verifies: https://redhat.atlassian.net/browse/SDA-6155
+  - verifies: https://redhat.atlassian.net/browse/SDA-3007
+  - verifies: https://redhat.atlassian.net/browse/SDA-7166

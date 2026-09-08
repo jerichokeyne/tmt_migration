@@ -1,0 +1,12 @@
+summary: "Edit cluster with channel-group via rosacli"
+description: "[OCM-15096] Edit cluster with channel-group via rosacli"
+id: OCP-81399
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-81399_edit-cluster-with-channel-group-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-15096

@@ -1,0 +1,12 @@
+summary: "Create HCP cluster with network type can work well via rosa cli"
+description: "[OCM-5530]Create HCP cluster with network type can work well via rosa cli"
+id: OCP-71050
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/clusters/OCP-71050_create-hcp-cluster-with-network-type-can-work-well-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-5530
+  - verifies: https://redhat.atlassian.net/browse/OCM-10303

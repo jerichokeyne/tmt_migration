@@ -1,0 +1,11 @@
+summary: "Create machinepool with tags for classic cluster will work well"
+description: "[OCM-6716] Create machinepool with tags for classic cluster will work well"
+id: OCP-73469
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: xueli
+contact: [oaharoni]
+link:
+  - documented-by: /tests/machine-pools/OCP-73469_create-machinepool-with-tags-for-classic-cluster-will-work-well/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6716

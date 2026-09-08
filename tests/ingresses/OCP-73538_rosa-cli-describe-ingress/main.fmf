@@ -1,0 +1,11 @@
+summary: "ROSA CLI describe ingress"
+description: "[OCM-6527] ROSA CLI describe ingress"
+id: OCP-73538
+tier: "3"
+manual: false
+tag: [automated, classic, hcp]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/ingresses/OCP-73538_rosa-cli-describe-ingress/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6527

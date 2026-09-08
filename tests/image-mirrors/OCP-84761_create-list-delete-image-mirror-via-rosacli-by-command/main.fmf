@@ -1,0 +1,12 @@
+summary: "Create/List/Delete image-mirror via rosacli by command"
+description: "[OCM-17876] Create/List/Delete image-mirror via rosacli by command"
+id: OCP-84761
+tier: "0"
+manual: false
+tag: [automated, idms, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/image-mirrors/OCP-84761_create-list-delete-image-mirror-via-rosacli-by-command/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-17876

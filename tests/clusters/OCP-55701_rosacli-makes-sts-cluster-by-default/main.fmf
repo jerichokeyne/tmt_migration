@@ -1,0 +1,12 @@
+summary: "rosacli makes STS cluster by default"
+description: "[SDA-6643] rosacli makes STS cluster by default"
+id: OCP-55701
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-55701_rosacli-makes-sts-cluster-by-default/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6643

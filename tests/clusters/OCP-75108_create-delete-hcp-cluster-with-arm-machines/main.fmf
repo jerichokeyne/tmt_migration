@@ -1,0 +1,14 @@
+summary: "Create/Delete HCP cluster with ARM machines"
+description: "[ROSA] Create/Delete HCP cluster with ARM machines"
+id: OCP-75108
+tier: "1"
+manual: false
+tag: [automated, day1, cluster, multiarch, hcp]
+author: tradisso
+contact: [tradisso]
+extra-runner: tradisso
+link:
+  - documented-by: /tests/clusters/OCP-75108_create-delete-hcp-cluster-with-arm-machines/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-72444
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-75107
+  - verifies: https://redhat.atlassian.net/browse/https://issues.redhat.com/browse/OCM-9705

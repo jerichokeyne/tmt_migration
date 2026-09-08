@@ -1,0 +1,13 @@
+summary: "Customer can upgrade machine pool of hosted cluster via ROSA CLI"
+description: "[OCM-954]Customer can upgrade machine pool of hosted cluster via ROSA CLI"
+id: OCP-67412
+tier: "0"
+manual: false
+tag: [automated, moactl, hcp]
+author: yingzhan
+contact: [tradisso]
+link:
+  - documented-by: /tests/upgrades/OCP-67412_customer-can-upgrade-machine-pool-of-hosted-cluster-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-954
+  - verifies: https://redhat.atlassian.net/browse/OCM-2447
+  - verifies: https://redhat.atlassian.net/browse/OCM-7477

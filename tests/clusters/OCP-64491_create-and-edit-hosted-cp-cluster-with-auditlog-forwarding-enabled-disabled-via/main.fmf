@@ -1,0 +1,12 @@
+summary: "Create and edit hosted-cp cluster with AuditLog Forwarding enabled/disabled via rosacli"
+description: "[OCM-1640] Create and edit hosted-cp cluster with AuditLog Forwarding enabled/disabled via rosacli"
+id: OCP-64491
+tier: "0"
+manual: false
+tag: [automated, hcp]
+author: yuwan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/clusters/OCP-64491_create-and-edit-hosted-cp-cluster-with-auditlog-forwarding-enabled-disabled-via/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-1640
+  - verifies: https://redhat.atlassian.net/browse/OCM-2348

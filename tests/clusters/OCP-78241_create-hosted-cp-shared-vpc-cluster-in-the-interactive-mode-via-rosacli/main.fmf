@@ -1,0 +1,14 @@
+summary: "Create hosted-cp shared vpc cluster in the interactive mode via rosacli"
+description: "[OCM-12364]Create hosted-cp shared vpc cluster in the interactive mode via rosacli"
+id: OCP-78241
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-78241_create-hosted-cp-shared-vpc-cluster-in-the-interactive-mode-via-rosacli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-78240
+  - verifies: https://redhat.atlassian.net/browse/OCM-12364

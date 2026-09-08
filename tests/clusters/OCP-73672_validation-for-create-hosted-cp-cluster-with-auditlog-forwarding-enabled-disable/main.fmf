@@ -1,0 +1,12 @@
+summary: "Validation for create hosted-cp cluster with AuditLog Forwarding enabled/disabled via rosacli"
+description: "Validation for create hosted-cp cluster with AuditLog Forwarding enabled/disabled via rosacli"
+id: OCP-73672
+tier: "2"
+manual: false
+tag: [automated, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/clusters/OCP-73672_validation-for-create-hosted-cp-cluster-with-auditlog-forwarding-enabled-disable/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-1640
+  - verifies: https://redhat.atlassian.net/browse/OCM-2348

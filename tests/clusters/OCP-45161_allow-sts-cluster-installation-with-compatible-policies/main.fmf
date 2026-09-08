@@ -1,0 +1,12 @@
+summary: "Allow sts cluster installation with compatible policies"
+description: "[SDA-4855] Allow sts cluster installation with compatible policies"
+id: OCP-45161
+tier: "1"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+link:
+  - documented-by: /tests/clusters/OCP-45161_allow-sts-cluster-installation-with-compatible-policies/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-41822
+  - verifies: https://redhat.atlassian.net/browse/SDA-4855

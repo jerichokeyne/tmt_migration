@@ -1,0 +1,14 @@
+summary: "Force to create operator roles which were created with cluster to ensure the policies action updated"
+description: "[SDA-7898]Force to create operator roles which were created with cluster to ensure the policies action updated"
+id: OCP-74661
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/operator-roles/OCP-74661_force-to-create-operator-roles-which-were-created-with-cluster-to-ensure-the-pol/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-59551
+  - verifies: https://redhat.atlassian.net/browse/SDA-7898
+  - verifies: https://redhat.atlassian.net/browse/OCM-264

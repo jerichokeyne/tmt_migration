@@ -1,0 +1,18 @@
+summary: "Check the validation for creating ROSA Hypershift cluster with the KMS and etcd encryption by rosa-cli"
+description: "[SDA-8164] Check the validation for creating ROSA Hypershift cluster with the KMS and etcd encryption by rosa-cli"
+id: OCP-60084
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, classic, hcp]
+author: amalykhi
+contact: [dawang]
+extra-runner: amalykhi
+link:
+  - documented-by: /tests/clusters/OCP-60084_check-the-validation-for-creating-rosa-hypershift-cluster-with-the-kms-and-etcd/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43181
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43183
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43504
+  - verifies: https://redhat.atlassian.net/browse/SDA-8164
+  - verifies: https://redhat.atlassian.net/browse/SDA-8195
+  - verifies: https://redhat.atlassian.net/browse/OCM-3155

@@ -1,0 +1,12 @@
+summary: "Create hosted-cp cluster with user workload monitoring setting should fail"
+description: "[OCM-18528] Create hosted-cp cluster with user workload monitoring setting should fail"
+id: OCP-86119
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-86119_create-hosted-cp-cluster-with-user-workload-monitoring-setting-should-fail/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-18528

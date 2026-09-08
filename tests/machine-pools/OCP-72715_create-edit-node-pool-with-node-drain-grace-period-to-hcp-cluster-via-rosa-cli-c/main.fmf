@@ -1,0 +1,11 @@
+summary: "Create/Edit node pool with node_drain_grace_period to HCP cluster via ROSA cli can work well"
+description: "[OCM-6106] Create/Edit node pool with node_drain_grace_period to HCP cluster via ROSA cli can work well"
+id: OCP-72715
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/machine-pools/OCP-72715_create-edit-node-pool-with-node-drain-grace-period-to-hcp-cluster-via-rosa-cli-c/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6106

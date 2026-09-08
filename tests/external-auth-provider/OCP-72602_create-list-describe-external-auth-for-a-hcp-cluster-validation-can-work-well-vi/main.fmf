@@ -1,0 +1,11 @@
+summary: "Create/List/Describe external_auth for a HCP cluster validation can work well via rosa client"
+description: "[OCM-4459]Create/List/Describe external_auth for a HCP cluster validation can work well via rosa client"
+id: OCP-72602
+tier: "2"
+manual: false
+tag: [automated, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/external-auth-provider/OCP-72602_create-list-describe-external-auth-for-a-hcp-cluster-validation-can-work-well-vi/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4459

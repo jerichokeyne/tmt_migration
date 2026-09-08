@@ -1,0 +1,13 @@
+summary: "Users can upgrade STS rosa cluster with not-standard suffix acc roles OR more than one policies attached via ROSA cli after upgrade wide AMI roles by `rosa upgrade roles`"
+description: "[rosacli][SDA-6407] Users can upgrade STS rosa cluster with not-standard suffix acc roles OR more than one policies attached via ROSA cli after upgrade wide AMI roles by `rosa upgrade roles`"
+id: OCP-56119
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, moactl, sts, one-time, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/upgrades/OCP-56119_users-can-upgrade-sts-rosa-cluster-with-not-standard-suffix-acc-roles-or-more-th/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6407

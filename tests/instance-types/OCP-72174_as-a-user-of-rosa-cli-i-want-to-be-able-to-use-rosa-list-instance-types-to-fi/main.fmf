@@ -1,0 +1,11 @@
+summary: "As a user of ROSA CLI, I want to be able to use `rosa list instance-types` to fi..."
+description: "As a user of ROSA CLI, I want to be able to use `rosa list instance-types` to fi..."
+id: OCP-72174
+tier: "3"
+manual: false
+tag: [automated, classic]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/instance-types/OCP-72174_as-a-user-of-rosa-cli-i-want-to-be-able-to-use-rosa-list-instance-types-to-fi/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-1733

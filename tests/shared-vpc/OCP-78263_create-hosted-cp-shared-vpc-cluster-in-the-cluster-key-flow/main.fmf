@@ -1,0 +1,13 @@
+summary: "Create hosted-cp shared vpc cluster in the cluster key flow"
+description: "[OCM-12775]Create hosted-cp shared vpc cluster in the cluster key flow"
+id: OCP-78263
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/shared-vpc/OCP-78263_create-hosted-cp-shared-vpc-cluster-in-the-cluster-key-flow/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-12775

@@ -1,0 +1,14 @@
+summary: "edit/describe autonode configuration in interactive mode"
+description: "edit/describe autonode configuration in interactive mode"
+id: OCP-84982
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, hcp]
+author: jkeyne
+contact: [jkeyne]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-84982_edit-describe-autonode-configuration-in-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-17621
+  - verifies: https://redhat.atlassian.net/browse/OCM-17622

@@ -1,0 +1,14 @@
+summary: "User can delete account-roles via rosacli"
+description: "[SDA-4779] User can delete account-roles via rosacli"
+id: OCP-45342
+tier: "1"
+manual: false
+tag: [automated, smoke, fr, classic, hcp]
+author: yuwan
+contact: [jfrazier]
+extra-runner: aaraj
+link:
+  - documented-by: /tests/account-roles/OCP-45342_user-can-delete-account-roles-via-rosacli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43053
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-45334
+  - verifies: https://redhat.atlassian.net/browse/SDA-4779

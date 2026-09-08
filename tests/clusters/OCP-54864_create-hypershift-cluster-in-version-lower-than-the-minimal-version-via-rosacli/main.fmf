@@ -1,0 +1,14 @@
+summary: "Create hypershift cluster in version lower than the minimal version via rosacli will fail"
+description: "[SDA-6760] Create hypershift cluster in version lower than the minimal version via rosacli will fail"
+id: OCP-54864
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, classic, hcp]
+author: xueli
+contact: [yingzhan]
+link:
+  - documented-by: /tests/clusters/OCP-54864_create-hypershift-cluster-in-version-lower-than-the-minimal-version-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4690
+  - verifies: https://redhat.atlassian.net/browse/SDA-6760
+  - verifies: https://redhat.atlassian.net/browse/OCM-3367

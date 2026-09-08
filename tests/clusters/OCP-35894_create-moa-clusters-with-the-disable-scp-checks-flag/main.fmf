@@ -1,0 +1,12 @@
+summary: "Create MOA clusters with the \"--disable-scp-checks\" flag"
+description: "[SDA-2733] Create MOA clusters with the \"--disable-scp-checks\" flag"
+id: OCP-35894
+tier: "2"
+manual: false
+tag: [automated, moactl, classic]
+author: yuwan
+contact: [zwan]
+link:
+  - documented-by: /tests/clusters/OCP-35894_create-moa-clusters-with-the-disable-scp-checks-flag/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33532
+  - verifies: https://redhat.atlassian.net/browse/SDA-2733

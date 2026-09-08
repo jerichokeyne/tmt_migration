@@ -1,0 +1,15 @@
+summary: "Changing billing account for rosa hcp cluster in rosa cli"
+description: "[OCM] Changing billing account for rosa hcp cluster in rosa cli"
+id: OCP-75921
+tier: "1"
+manual: false
+tag: [automated, billing-account, classic]
+author: tzhou
+contact: [tzhou]
+link:
+  - documented-by: /tests/clusters/OCP-75921_changing-billing-account-for-rosa-hcp-cluster-in-rosa-cli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-71994
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-71995
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-72043
+  - verifies: https://redhat.atlassian.net/browse/OCM-9613
+  - verifies: https://redhat.atlassian.net/browse/OCM-17611

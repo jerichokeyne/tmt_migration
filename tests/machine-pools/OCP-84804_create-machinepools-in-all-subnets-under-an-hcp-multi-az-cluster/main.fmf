@@ -1,0 +1,14 @@
+summary: "Create machinepools in all subnets under an HCP Multi-AZ cluster"
+description: "[OCM-17422] Create machinepools in all subnets under an HCP Multi-AZ cluster"
+id: OCP-84804
+tier: "1"
+manual: false
+tag: [automated, zero-egress, hcp]
+author: gcalixto
+contact: [gcalixto]
+extra-runner: gcalixto
+link:
+  - documented-by: /tests/machine-pools/OCP-84804_create-machinepools-in-all-subnets-under-an-hcp-multi-az-cluster/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-76543
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-84741
+  - verifies: https://redhat.atlassian.net/browse/OCM-7068

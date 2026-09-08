@@ -1,0 +1,15 @@
+summary: "Create Nodepool with tuning config in interactive mode"
+description: "[SDA-8382]Create Nodepool with tuning config in interactive mode"
+id: OCP-63181
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, nodepool, fr, hcp]
+author: amalykhi
+contact: [aaraj]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/machine-pools/OCP-63181_create-nodepool-with-tuning-config-in-interactive-mode/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-62909
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-63178
+  - verifies: https://redhat.atlassian.net/browse/SDA-8382

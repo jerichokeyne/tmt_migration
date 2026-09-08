@@ -1,0 +1,14 @@
+summary: "podPidLimit fullcycle via rosacli will work well in interactive mode"
+description: "[OCM-3854] podPidLimit fullcycle via rosacli will work well in interactive mode"
+id: OCP-68837
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, excludemanual, classic, hcp]
+author: xueli
+contact: [xueli]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/kubeletconfigs/OCP-68837_podpidlimit-fullcycle-via-rosacli-will-work-well-in-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4375
+  - verifies: https://redhat.atlassian.net/browse/OCM-3854

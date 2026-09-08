@@ -1,0 +1,15 @@
+summary: "Validation of Version parameter should work well for nodepool creation/editing"
+description: "[ROSACLI] [SDA-8218] Validation of Version parameter should work well for nodepool creation/editing"
+id: OCP-61139
+tier: "2"
+manual: false
+tag: [automated, nodepool, hcp]
+author: amalykhi
+contact: [tradisso]
+extra-runner: amalykhi
+link:
+  - documented-by: /tests/machine-pools/OCP-61139_validation-of-version-parameter-should-work-well-for-nodepool-creation-editing/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8218
+  - verifies: https://redhat.atlassian.net/browse/OCM-4336
+  - verifies: https://redhat.atlassian.net/browse/OCM-3367
+  - verifies: https://redhat.atlassian.net/browse/OCM-3701

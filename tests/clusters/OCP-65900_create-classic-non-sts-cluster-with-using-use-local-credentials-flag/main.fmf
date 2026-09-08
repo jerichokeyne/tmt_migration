@@ -1,0 +1,13 @@
+summary: "Create classic non-sts cluster with using use-local-credentials flag"
+description: "[SDA-5644] Create classic non-sts cluster with using use-local-credentials flag"
+id: OCP-65900
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [jkeyne]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-65900_create-classic-non-sts-cluster-with-using-use-local-credentials-flag/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-5644
+  - verifies: https://redhat.atlassian.net/browse/OCM-1220

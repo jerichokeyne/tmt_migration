@@ -1,0 +1,12 @@
+summary: "Create/describe nodepools with tags in HCP cluster with interactive mode"
+description: "[OCM-6723] Create/describe nodepools with tags in HCP cluster with interactive mode"
+id: OCP-73662
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, hcp]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/machine-pools/OCP-73662_create-describe-nodepools-with-tags-in-hcp-cluster-with-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6723

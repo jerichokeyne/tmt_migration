@@ -1,0 +1,11 @@
+summary: "HCP cluster creation subnets validation"
+description: "[OCM-6253] HCP cluster creation subnets validation"
+id: OCP-72538
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: tradisso
+contact: [tradisso]
+link:
+  - documented-by: /tests/clusters/OCP-72538_hcp-cluster-creation-subnets-validation/manual.md
+  - verifies: https://redhat.atlassian.net/browse/https://issues.redhat.com/browse/OCM-6253

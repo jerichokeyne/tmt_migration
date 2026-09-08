@@ -1,0 +1,12 @@
+summary: "Create/List/Describe/Delete HCP cluster with break_glass_credentials via ROSA client can work well"
+description: "[OCM-4460]Create/List/Describe/Delete HCP cluster with break_glass_credentials via ROSA client can work well"
+id: OCP-72899
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/break-glass-credentials/OCP-72899_create-list-describe-delete-hcp-cluster-with-break-glass-credentials-via-rosa-cl/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4460
+  - verifies: https://redhat.atlassian.net/browse/OCM-7792

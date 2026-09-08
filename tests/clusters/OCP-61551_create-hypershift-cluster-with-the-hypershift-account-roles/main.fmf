@@ -1,0 +1,13 @@
+summary: "Create hypershift cluster with the hypershift account roles"
+description: "[SDA-8454] Create hypershift cluster with the hypershift account roles"
+id: OCP-61551
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, fr, hcp]
+author: yuwan
+contact: [yingzhan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-61551_create-hypershift-cluster-with-the-hypershift-account-roles/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8454

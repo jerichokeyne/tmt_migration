@@ -1,0 +1,13 @@
+summary: "Validation for Create/Delete the HTPasswd IDPs by the rosacli command"
+description: "[SDA-4924][rosacli] Validation for Create/Delete the HTPasswd IDPs by the rosacli command"
+id: OCP-53031
+tier: "2"
+manual: false
+tag: [automated, moactl, classic, hcp]
+author: yuwan
+contact: [akanni]
+link:
+  - documented-by: /tests/idps/OCP-53031_validation-for-create-delete-the-htpasswd-idps-by-the-rosacli-command/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-49136
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-49137
+  - verifies: https://redhat.atlassian.net/browse/SDA-4924

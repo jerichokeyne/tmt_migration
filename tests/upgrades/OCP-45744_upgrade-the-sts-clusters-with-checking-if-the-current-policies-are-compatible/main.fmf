@@ -1,0 +1,22 @@
+summary: "Upgrade the sts clusters with checking if the current policies are compatible"
+description: "[SDA-4818][rosacli] Upgrade the sts clusters with checking if the current policies are compatible"
+id: OCP-45744
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, ocp-release, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/upgrades/OCP-45744_upgrade-the-sts-clusters-with-checking-if-the-current-policies-are-compatible/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-37499
+  - verifies: https://redhat.atlassian.net/browse/SDA-5776
+  - verifies: https://redhat.atlassian.net/browse/SDA-5598
+  - verifies: https://redhat.atlassian.net/browse/SDA-5599
+  - verifies: https://redhat.atlassian.net/browse/SDA-5697
+  - verifies: https://redhat.atlassian.net/browse/SDA-4818
+  - verifies: https://redhat.atlassian.net/browse/SDA-5319
+  - verifies: https://redhat.atlassian.net/browse/SDA-5453
+  - verifies: https://redhat.atlassian.net/browse/SDA-5547

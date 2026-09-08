@@ -1,0 +1,14 @@
+summary: "List versions can work correctly for hosted-cp cluster via ROSA cli"
+description: "[rosacli] List versions can work correctly for hosted-cp cluster via ROSA cli"
+id: OCP-62088
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: amalykhi
+contact: [yingzhan]
+link:
+  - documented-by: /tests/ocp-versions/OCP-62088_list-versions-can-work-correctly-for-hosted-cp-cluster-via-rosa-cli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38810
+  - verifies: https://redhat.atlassian.net/browse/SDA-8685
+  - verifies: https://redhat.atlassian.net/browse/OCM-5461
+  - verifies: https://redhat.atlassian.net/browse/OCM-5926

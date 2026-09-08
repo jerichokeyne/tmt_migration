@@ -1,0 +1,15 @@
+summary: "Create/Delete basic multi AZ hosted cluster"
+description: "Create/Delete basic multi AZ hosted cluster"
+id: OCP-75535
+tier: "0"
+manual: false
+tag: [automated, smoke, hcp]
+author: tradisso
+contact: [tradisso]
+extra-runner: yasun
+link:
+  - documented-by: /tests/clusters/OCP-75535_create-delete-basic-multi-az-hosted-cluster/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-54413
+  - verifies: https://redhat.atlassian.net/browse/SDA-6223
+  - verifies: https://redhat.atlassian.net/browse/SDA-8184
+  - verifies: https://redhat.atlassian.net/browse/SDA-9046

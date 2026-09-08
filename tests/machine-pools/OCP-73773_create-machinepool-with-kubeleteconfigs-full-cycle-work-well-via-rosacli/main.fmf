@@ -1,0 +1,14 @@
+summary: "Create machinepool with kubeleteconfigs full cycle work well via rosacli"
+description: "[OCM-7268]Create machinepool with kubeleteconfigs full cycle work well via rosacli"
+id: OCP-73773
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, excludemanual, classic, hcp]
+author: xueli
+contact: [xueli]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/machine-pools/OCP-73773_create-machinepool-with-kubeleteconfigs-full-cycle-work-well-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7268
+  - verifies: https://redhat.atlassian.net/browse/OCM-8020

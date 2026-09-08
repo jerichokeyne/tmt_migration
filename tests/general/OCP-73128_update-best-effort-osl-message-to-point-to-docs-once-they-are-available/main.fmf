@@ -1,0 +1,12 @@
+summary: "Update best effort osl message to point to docs once they are available"
+description: "Update best effort osl message to point to docs once they are available"
+id: OCP-73128
+tier: "2"
+manual: true
+test: manual.md
+tag: [notautomated, classic]
+author: vshapova
+contact: [jkeyne]
+link:
+  - documented-by: /tests/general/OCP-73128_update-best-effort-osl-message-to-point-to-docs-once-they-are-available/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-2604

@@ -1,0 +1,11 @@
+summary: "Validation for operator roles and oidc provider will work well"
+description: "[OCM-5508]Validation for operator roles and oidc provider will work well"
+id: OCP-70859
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/operator-roles/OCP-70859_validation-for-operator-roles-and-oidc-provider-will-work-well/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-5508

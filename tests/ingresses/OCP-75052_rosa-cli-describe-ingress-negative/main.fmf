@@ -1,0 +1,11 @@
+summary: "ROSA CLI describe ingress negative"
+description: "ROSA CLI describe ingress negative"
+id: OCP-75052
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/ingresses/OCP-75052_rosa-cli-describe-ingress-negative/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6527

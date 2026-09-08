@@ -1,0 +1,13 @@
+summary: "Info message and validation error about the MaxNodeLimit and MaxNodeLimitation when create/edit nodepool on hosted-cp cluster"
+description: "[OCM-14136] Info message and validation error about the MaxNodeLimit and MaxNodeLimitation when create/edit nodepool on hosted-cp cluster"
+id: OCP-79848
+tier: "0"
+manual: false
+tag: [automated, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/machine-pools/OCP-79848_info-message-and-validation-error-about-the-maxnodelimit-and-maxnodelimitation-w/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-79843
+  - verifies: https://redhat.atlassian.net/browse/OCM-14136

@@ -1,0 +1,12 @@
+summary: "Create/List/Delete IDPs for MOA clusters by the rosa tool"
+description: "[SDA][moactl] Create/List/Delete IDPs for MOA clusters by the rosa tool"
+id: OCP-35896
+tier: "1"
+manual: false
+tag: [automated, smoke, fr, classic, hcp]
+author: yuwan
+contact: [akanni]
+link:
+  - documented-by: /tests/idps/OCP-35896_create-list-delete-idps-for-moa-clusters-by-the-rosa-tool/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-2943
+  - verifies: https://redhat.atlassian.net/browse/SDA-2862

@@ -1,0 +1,12 @@
+summary: "Validation for create/delete upgrade policies for hypershift clusters via rosacli should work well"
+description: "Validation for create/delete upgrade policies for hypershift clusters via rosacli should work well"
+id: OCP-73814
+tier: "2"
+manual: false
+tag: [automated, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/upgrades/OCP-73814_validation-for-create-delete-upgrade-policies-for-hypershift-clusters-via-rosacl/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8472
+  - verifies: https://redhat.atlassian.net/browse/OCM-953

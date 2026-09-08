@@ -1,0 +1,13 @@
+summary: "CLI can edit/describe autonode configuration"
+description: "CLI can edit/describe autonode configuration"
+id: OCP-84981
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: jkeyne
+contact: [jkeyne]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-84981_cli-can-edit-describe-autonode-configuration/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-17621
+  - verifies: https://redhat.atlassian.net/browse/OCM-17622

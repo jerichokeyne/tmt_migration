@@ -1,0 +1,13 @@
+summary: "Zero-egress cluster without worker policy"
+description: "[OCM-17700] Zero-egress cluster without worker policy"
+id: OCP-84741
+tier: "1"
+manual: false
+tag: [automated, zero-egress, hcp]
+author: gcalixto
+contact: [gcalixto]
+extra-runner: gcalixto
+link:
+  - documented-by: /tests/clusters/OCP-84741_zero-egress-cluster-without-worker-policy/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-76543
+  - verifies: https://redhat.atlassian.net/browse/OCM-7068

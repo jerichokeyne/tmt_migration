@@ -1,0 +1,15 @@
+summary: "Delete operator-roles with attaching arbitrary policies works well via rosacli in auto mode"
+description: "[OCM-1752] Delete operator-roles with attaching arbitrary policies works well via rosacli in auto mode"
+id: OCP-74403
+tier: "1"
+manual: false
+tag: [automated, 10set2, classic]
+author: yuwan
+contact: [yuwan]
+extra-runner: akanni
+link:
+  - documented-by: /tests/operator-roles/OCP-74403_delete-operator-roles-with-attaching-arbitrary-policies-works-well-via-rosacli-i/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-73731
+  - verifies: https://redhat.atlassian.net/browse/OCM-1752
+  - verifies: https://redhat.atlassian.net/browse/OCM-7415
+  - verifies: https://redhat.atlassian.net/browse/OCM-7860

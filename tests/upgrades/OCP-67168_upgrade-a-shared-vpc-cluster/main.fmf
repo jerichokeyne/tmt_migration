@@ -1,0 +1,18 @@
+summary: "Upgrade a shared VPC cluster"
+description: "[DRAFT][OCM-2865][ROSA] Upgrade a shared VPC cluster"
+id: OCP-67168
+tier: "1"
+manual: false
+tag: [automated, ocp-release, shared-vpc, classic]
+author: yunjiang
+contact: [zwan]
+extra-runner: zwan
+link:
+  - documented-by: /tests/upgrades/OCP-67168_upgrade-a-shared-vpc-cluster/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-64780
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-66348
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-66350
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-66515
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-66741
+  - verifies: https://redhat.atlassian.net/browse/OCM-253
+  - verifies: https://redhat.atlassian.net/browse/OCM-2865

@@ -1,0 +1,15 @@
+summary: "User can create/delete operator-roles and oidc-provider to cluster via rosacli by commands in the manual mode"
+description: "[SDA-4329] User can create/delete operator-roles and oidc-provider to cluster via rosacli by commands in the manual mode"
+id: OCP-43053
+tier: "1"
+manual: false
+tag: [automated, 10set1, classic, hcp]
+author: xueli
+contact: [yuwan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/operator-roles/OCP-43053_user-can-create-delete-operator-roles-and-oidc-provider-to-cluster-via-rosacli-b/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6010
+  - verifies: https://redhat.atlassian.net/browse/SDA-5597
+  - verifies: https://redhat.atlassian.net/browse/SDA-4613
+  - verifies: https://redhat.atlassian.net/browse/SDA-4329

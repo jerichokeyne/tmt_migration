@@ -1,0 +1,12 @@
+summary: "Create/Delete hosted cluster with path policy"
+description: "Create/Delete hosted cluster with path policy"
+id: OCP-75525
+tier: "1"
+manual: false
+tag: [automated, smoke, hcp]
+author: tradisso
+contact: [tradisso]
+extra-runner: yasun
+link:
+  - documented-by: /tests/clusters/OCP-75525_create-delete-hosted-cluster-with-path-policy/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-54413

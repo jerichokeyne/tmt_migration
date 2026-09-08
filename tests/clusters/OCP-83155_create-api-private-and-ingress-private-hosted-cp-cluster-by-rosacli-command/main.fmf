@@ -1,0 +1,12 @@
+summary: "Create API private and ingress private hosted-cp cluster by rosacli command"
+description: "[OCM-15992] Create API private and ingress private hosted-cp cluster by rosacli command"
+id: OCP-83155
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-83155_create-api-private-and-ingress-private-hosted-cp-cluster-by-rosacli-command/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-15992

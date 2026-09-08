@@ -1,0 +1,14 @@
+summary: "Can approve and deny access requests from the CLI"
+description: "Can approve and deny access requests from the CLI"
+id: OCP-76570
+tier: "1"
+manual: true
+test: manual.md
+tag: [notautomated, excludemanual, classic, hcp]
+author: jkeyne
+contact: [jkeyne]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/access-requests/OCP-76570_can-approve-and-deny-access-requests-from-the-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7780
+  - verifies: https://redhat.atlassian.net/browse/OCM-7781

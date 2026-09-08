@@ -1,0 +1,15 @@
+summary: "Validation for deletion ROSA cluster will work via rosacli"
+description: "[SDA-2593][rosacli]Validation for deletion ROSA cluster will work via rosacli"
+id: OCP-38778
+tier: "2"
+manual: false
+tag: [automated, moactl, classic, hcp]
+author: xueli
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-38778_validation-for-deletion-rosa-cluster-will-work-via-rosacli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32986
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32987
+  - verifies: https://redhat.atlassian.net/browse/SDA-2593

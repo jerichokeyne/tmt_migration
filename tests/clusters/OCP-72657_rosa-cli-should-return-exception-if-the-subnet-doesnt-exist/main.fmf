@@ -1,0 +1,11 @@
+summary: "ROSA CLI should return exception if the subnet doesnt exist"
+description: "ROSA CLI should return exception if the subnet doesnt exist"
+id: OCP-72657
+tier: "3"
+manual: false
+tag: [automated, classic]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/clusters/OCP-72657_rosa-cli-should-return-exception-if-the-subnet-doesnt-exist/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-6513

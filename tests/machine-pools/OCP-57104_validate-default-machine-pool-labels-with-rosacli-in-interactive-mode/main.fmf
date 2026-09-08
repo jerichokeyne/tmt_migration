@@ -1,0 +1,14 @@
+summary: "Validate Default machine pool labels with rosacli in interactive mode"
+description: "[SDA-7375] Validate Default machine pool labels with rosacli in interactive mode"
+id: OCP-57104
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, classic]
+author: amalykhi
+contact: [oaharoni]
+link:
+  - documented-by: /tests/machine-pools/OCP-57104_validate-default-machine-pool-labels-with-rosacli-in-interactive-mode/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-57090
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-57091
+  - verifies: https://redhat.atlassian.net/browse/SDA-7375

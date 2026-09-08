@@ -1,0 +1,16 @@
+summary: "Create/Delete operator roles for hosted-cp shared vpc cluster in the interactive mode"
+description: "[OCM-12799]Create/Delete operator roles for hosted-cp shared vpc cluster in the interactive mode"
+id: OCP-77976
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/operator-roles/OCP-77976_create-delete-operator-roles-for-hosted-cp-shared-vpc-cluster-in-the-interactive/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-12964
+  - verifies: https://redhat.atlassian.net/browse/OCM-12799
+  - verifies: https://redhat.atlassian.net/browse/OCM-12806
+  - verifies: https://redhat.atlassian.net/browse/OCM-12871

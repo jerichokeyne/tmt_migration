@@ -1,0 +1,14 @@
+summary: "Create Nodepool with tuning config will validate well"
+description: "[SDA-8382]Create Nodepool with tuning config will validate well"
+id: OCP-63179
+tier: "2"
+manual: false
+tag: [automated, nodepool, hcp]
+author: amalykhi
+contact: [aaraj]
+extra-runner: tradisso
+link:
+  - documented-by: /tests/machine-pools/OCP-63179_create-nodepool-with-tuning-config-will-validate-well/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-62911
+  - duplicates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-63182
+  - verifies: https://redhat.atlassian.net/browse/SDA-8382

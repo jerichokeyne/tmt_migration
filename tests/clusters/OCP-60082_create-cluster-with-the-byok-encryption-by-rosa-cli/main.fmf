@@ -1,0 +1,14 @@
+summary: "Create cluster with the BYOK encryption by rosa-cli"
+description: "[SDA-4571] Create cluster with the BYOK encryption by rosa-cli"
+id: OCP-60082
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: amalykhi
+contact: [dawang]
+extra-runner: yisun
+link:
+  - documented-by: /tests/clusters/OCP-60082_create-cluster-with-the-byok-encryption-by-rosa-cli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43503
+  - verifies: https://redhat.atlassian.net/browse/SDA-4571
+  - verifies: https://redhat.atlassian.net/browse/OSD-11983

@@ -1,0 +1,12 @@
+summary: "Validation for the managed policy attached on the managed account-roles"
+description: "[SDA-7904] Validation for the managed policy attached on the managed account-roles"
+id: OCP-59547
+tier: "2"
+manual: false
+tag: [automated, hcp]
+author: yuwan
+contact: [yingzhan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/account-roles/OCP-59547_validation-for-the-managed-policy-attached-on-the-managed-account-roles/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-7904

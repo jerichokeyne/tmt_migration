@@ -1,0 +1,14 @@
+summary: "rosacli can show the details of hypershift cluster well when describe"
+description: "[SDA-6797] rosacli can show the details of hypershift cluster well when describe"
+id: OCP-54869
+tier: "0"
+manual: false
+tag: [automated, smoke, hcp]
+author: xueli
+contact: [tradisso]
+extra-runner: yingzhan
+link:
+  - documented-by: /tests/clusters/OCP-54869_rosacli-can-show-the-details-of-hypershift-cluster-well-when-describe/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6797
+  - verifies: https://redhat.atlassian.net/browse/SDA-7231
+  - verifies: https://redhat.atlassian.net/browse/SDA-8573

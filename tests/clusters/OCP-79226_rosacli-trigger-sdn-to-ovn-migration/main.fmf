@@ -1,0 +1,14 @@
+summary: "ROSACLI trigger SDN to OVN migration"
+description: "[OCM-11581] ROSACLI trigger SDN to OVN migration"
+id: OCP-79226
+tier: "1"
+manual: true
+test: manual.md
+tag: [notautomated, excludemanual, classic]
+author: jkeyne
+contact: [jkeyne]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-79226_rosacli-trigger-sdn-to-ovn-migration/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-12065
+  - verifies: https://redhat.atlassian.net/browse/OCM-11581

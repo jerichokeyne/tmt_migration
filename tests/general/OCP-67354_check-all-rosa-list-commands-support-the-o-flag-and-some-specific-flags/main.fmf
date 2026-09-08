@@ -1,0 +1,13 @@
+summary: "Check all `rosa list` commands support the -o flag and some specific flags"
+description: "[OCM-2907] Check all `rosa list` commands support the -o flag and some specific flags"
+id: OCP-67354
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, excludemanual, classic]
+author: yuwan
+contact: [jkeyne]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/general/OCP-67354_check-all-rosa-list-commands-support-the-o-flag-and-some-specific-flags/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-2907

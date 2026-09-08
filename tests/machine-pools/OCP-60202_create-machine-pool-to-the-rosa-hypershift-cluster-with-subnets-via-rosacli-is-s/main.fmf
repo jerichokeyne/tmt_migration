@@ -1,0 +1,16 @@
+summary: "Create machine pool to the ROSA Hypershift cluster with subnets via rosacli is succeed"
+description: "[SDA-8090][rosacli] Create machine pool to the ROSA Hypershift cluster with subnets via rosacli is succeed"
+id: OCP-60202
+tier: "0"
+manual: false
+tag: [automated, smoke, hcp]
+author: amalykhi
+contact: [tradisso]
+extra-runner: yingzhan
+link:
+  - documented-by: /tests/machine-pools/OCP-60202_create-machine-pool-to-the-rosa-hypershift-cluster-with-subnets-via-rosacli-is-s/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-56748
+  - verifies: https://redhat.atlassian.net/browse/OCM-3397
+  - verifies: https://redhat.atlassian.net/browse/SDA-8090
+  - verifies: https://redhat.atlassian.net/browse/SDA-8573
+  - verifies: https://redhat.atlassian.net/browse/SDA-8220

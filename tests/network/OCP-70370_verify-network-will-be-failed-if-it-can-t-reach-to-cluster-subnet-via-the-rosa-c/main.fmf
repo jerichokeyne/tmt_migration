@@ -1,0 +1,13 @@
+summary: "Verify network will be failed if it can't reach to cluster subnet via the rosa cli"
+description: "[OCM-152] Verify network will be failed if it can't reach to cluster subnet via the rosa cli"
+id: OCP-70370
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/network/OCP-70370_verify-network-will-be-failed-if-it-can-t-reach-to-cluster-subnet-via-the-rosa-c/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-5310
+  - verifies: https://redhat.atlassian.net/browse/OCM-152
+  - verifies: https://redhat.atlassian.net/browse/OCM-4449

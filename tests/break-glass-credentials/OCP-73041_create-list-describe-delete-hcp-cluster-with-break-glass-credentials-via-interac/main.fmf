@@ -1,0 +1,13 @@
+summary: "Create/List/Describe/Delete HCP cluster with break_glass_credentials via interactive mode can work well"
+description: "[OCM-4460]Create/List/Describe/Delete HCP cluster with break_glass_credentials via interactive mode can work well"
+id: OCP-73041
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, hcp]
+author: yingzhan
+contact: [yingzhan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/break-glass-credentials/OCP-73041_create-list-describe-delete-hcp-cluster-with-break-glass-credentials-via-interac/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4460

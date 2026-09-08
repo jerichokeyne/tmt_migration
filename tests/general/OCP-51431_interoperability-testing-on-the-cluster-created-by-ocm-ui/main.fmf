@@ -1,0 +1,15 @@
+summary: "Interoperability testing on the cluster created by OCM UI"
+description: "[rosacli] Interoperability testing on the cluster created by OCM UI"
+id: OCP-51431
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, moactl, interoperability, zset0813, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/general/OCP-51431_interoperability-testing-on-the-cluster-created-by-ocm-ui/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38768
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-48958

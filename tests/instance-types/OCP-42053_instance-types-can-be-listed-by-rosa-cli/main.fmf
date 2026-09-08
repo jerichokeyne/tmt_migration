@@ -1,0 +1,14 @@
+summary: "Instance types can be listed by ROSA cli"
+description: "[SDA-3909] Instance types can be listed by ROSA cli"
+id: OCP-42053
+tier: "2"
+manual: false
+tag: [automated, moactl, classic]
+author: yuwan
+contact: [jfrazier]
+extra-runner: tradisso
+link:
+  - documented-by: /tests/instance-types/OCP-42053_instance-types-can-be-listed-by-rosa-cli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-34950
+  - verifies: https://redhat.atlassian.net/browse/SDA-3909

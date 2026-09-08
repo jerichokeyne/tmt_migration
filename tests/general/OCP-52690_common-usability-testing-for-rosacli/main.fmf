@@ -1,0 +1,12 @@
+summary: "Common usability testing for rosacli"
+description: "[ROSACLI] Common usability testing for rosacli"
+id: OCP-52690
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, ux, classic]
+author: yuwan
+contact: [jkeyne]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/general/OCP-52690_common-usability-testing-for-rosacli/manual.md

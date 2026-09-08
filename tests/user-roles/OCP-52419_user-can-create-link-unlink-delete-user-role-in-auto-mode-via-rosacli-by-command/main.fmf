@@ -1,0 +1,15 @@
+summary: "User can create/link/unlink/delete user-role in auto mode via rosacli by command"
+description: "[SDA-4989] User can create/link/unlink/delete user-role in auto mode via rosacli by command"
+id: OCP-52419
+tier: "0"
+manual: false
+tag: [automated, smoke, fr, classic, hcp]
+author: yuwan
+contact: [jfrazier]
+link:
+  - documented-by: /tests/user-roles/OCP-52419_user-can-create-link-unlink-delete-user-role-in-auto-mode-via-rosacli-by-command/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43070
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-46187
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-46281
+  - verifies: https://redhat.atlassian.net/browse/SDA-5596
+  - verifies: https://redhat.atlassian.net/browse/SDA-4989

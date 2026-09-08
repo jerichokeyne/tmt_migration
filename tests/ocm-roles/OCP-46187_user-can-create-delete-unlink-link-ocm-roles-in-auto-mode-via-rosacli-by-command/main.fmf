@@ -1,0 +1,17 @@
+summary: "User can create/delete/unlink/link ocm-roles in auto mode via rosacli by command"
+description: "[SDA-4988] User can create/delete/unlink/link ocm-roles in auto mode via rosacli by command"
+id: OCP-46187
+tier: "1"
+manual: false
+tag: [automated, smoke, fr, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/ocm-roles/OCP-46187_user-can-create-delete-unlink-link-ocm-roles-in-auto-mode-via-rosacli-by-command/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43070
+  - verifies: https://redhat.atlassian.net/browse/SDA-5596
+  - verifies: https://redhat.atlassian.net/browse/SDA-4988
+  - verifies: https://redhat.atlassian.net/browse/SDA-5118
+  - verifies: https://redhat.atlassian.net/browse/SDA-4992
+  - verifies: https://redhat.atlassian.net/browse/SDA-5136

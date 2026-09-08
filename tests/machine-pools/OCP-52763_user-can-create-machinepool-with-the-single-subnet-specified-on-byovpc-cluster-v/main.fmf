@@ -1,0 +1,17 @@
+summary: "User can create machinepool with the single subnet specified on BYOVPC cluster via rosacli in the interactive mode"
+description: "[SDA-6289] User can create machinepool with the single subnet specified on BYOVPC cluster via rosacli in the interactive mode"
+id: OCP-52763
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, classic]
+author: yuwan
+contact: [oaharoni]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/machine-pools/OCP-52763_user-can-create-machinepool-with-the-single-subnet-specified-on-byovpc-cluster-v/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-52623
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-52762
+  - verifies: https://redhat.atlassian.net/browse/SDA-6289
+  - verifies: https://redhat.atlassian.net/browse/OCM-3104
+  - verifies: https://redhat.atlassian.net/browse/OCM-2107

@@ -1,0 +1,11 @@
+summary: "Validation for HCP cluster break_glass_credentials create/list/describe/delete can work well via ROSA client"
+description: "[OCM-4460]Validation for HCP cluster break_glass_credentials create/list/describe/delete can work well via ROSA client"
+id: OCP-73018
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/break-glass-credentials/OCP-73018_validation-for-hcp-cluster-break-glass-credentials-create-list-describe-delete-c/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4460

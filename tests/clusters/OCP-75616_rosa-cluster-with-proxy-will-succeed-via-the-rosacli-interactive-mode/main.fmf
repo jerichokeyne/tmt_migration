@@ -1,0 +1,16 @@
+summary: "Rosa cluster with proxy will succeed via the rosacli interactive mode"
+description: "[SDA-4731]Rosa cluster with proxy will succeed via the rosacli interactive mode"
+id: OCP-75616
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, classic, hcp]
+author: dawang
+contact: [dawang]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-75616_rosa-cluster-with-proxy-will-succeed-via-the-rosacli-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-7135
+  - verifies: https://redhat.atlassian.net/browse/SDA-8221
+  - verifies: https://redhat.atlassian.net/browse/SDA-4731
+  - verifies: https://redhat.atlassian.net/browse/SDA-5612

@@ -1,0 +1,13 @@
+summary: "User can set availability zones to create rosa multi-az STS cluster"
+description: "[SDA-6222] User can set availability zones to create rosa multi-az STS cluster"
+id: OCP-56224
+tier: "0"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: xueli
+link:
+  - documented-by: /tests/clusters/OCP-56224_user-can-set-availability-zones-to-create-rosa-multi-az-sts-cluster/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-52691
+  - verifies: https://redhat.atlassian.net/browse/SDA-6222

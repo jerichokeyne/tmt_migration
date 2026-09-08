@@ -1,0 +1,12 @@
+summary: "Create HCP cluster with compute machine type"
+description: "[OCM-5530]Create HCP cluster with compute machine type"
+id: OCP-75150
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: tradisso
+contact: [tradisso]
+link:
+  - documented-by: /tests/clusters/OCP-75150_create-hcp-cluster-with-compute-machine-type/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-71050
+  - verifies: https://redhat.atlassian.net/browse/OCM-5530

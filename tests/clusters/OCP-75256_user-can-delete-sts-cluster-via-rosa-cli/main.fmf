@@ -1,0 +1,20 @@
+summary: "User can delete sts cluster via rosa cli"
+description: "[SDA-4101] User can delete sts cluster via rosa cli"
+id: OCP-75256
+tier: "0"
+manual: false
+tag: [automated, smoke, fr, 10set1, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-75256_user-can-delete-sts-cluster-via-rosa-cli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-41822
+  - verifies: https://redhat.atlassian.net/browse/SDA-4693
+  - verifies: https://redhat.atlassian.net/browse/SDA-4646
+  - verifies: https://redhat.atlassian.net/browse/SDA-4645
+  - verifies: https://redhat.atlassian.net/browse/SDA-4664
+  - verifies: https://redhat.atlassian.net/browse/SDA-4329
+  - verifies: https://redhat.atlassian.net/browse/SDA-4101
+  - verifies: https://redhat.atlassian.net/browse/SDA-4217
+  - verifies: https://redhat.atlassian.net/browse/SDA-4274

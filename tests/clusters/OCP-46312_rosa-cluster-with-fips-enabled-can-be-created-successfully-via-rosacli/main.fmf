@@ -1,0 +1,13 @@
+summary: "Rosa cluster with fips enabled can be created successfully via rosacli"
+description: "[SDA-5060]Rosa cluster with fips enabled can be created successfully via rosacli"
+id: OCP-46312
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: tzhou
+link:
+  - documented-by: /tests/clusters/OCP-46312_rosa-cluster-with-fips-enabled-can-be-created-successfully-via-rosacli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-44643
+  - verifies: https://redhat.atlassian.net/browse/SDA-5060

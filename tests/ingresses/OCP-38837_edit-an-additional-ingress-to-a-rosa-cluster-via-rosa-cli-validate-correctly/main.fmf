@@ -1,0 +1,11 @@
+summary: "Edit an additional ingress to a ROSA cluster via rosa-cli validate correctly"
+description: "[rosa] Edit an additional ingress to a ROSA cluster via rosa-cli validate correctly"
+id: OCP-38837
+tier: "3"
+manual: false
+tag: [automated, classic]
+author: xueli
+contact: [xueli]
+extra-runner: xueli
+link:
+  - documented-by: /tests/ingresses/OCP-38837_edit-an-additional-ingress-to-a-rosa-cluster-via-rosa-cli-validate-correctly/manual.md

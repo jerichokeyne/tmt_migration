@@ -1,0 +1,11 @@
+summary: "Node pool cannot be created into a local zone"
+description: "[OCM-993] Node pool cannot be created into a local zone"
+id: OCP-71319
+tier: "2"
+manual: false
+tag: [automated, nodepool, hcp]
+author: tradisso
+contact: [tradisso]
+extra-runner: yingzhan
+link:
+  - documented-by: /tests/machine-pools/OCP-71319_node-pool-cannot-be-created-into-a-local-zone/manual.md

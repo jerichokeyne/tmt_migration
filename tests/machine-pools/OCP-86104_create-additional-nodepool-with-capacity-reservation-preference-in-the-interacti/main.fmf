@@ -1,0 +1,13 @@
+summary: "Create additional nodepool with capacity reservation preference in the interactive mode"
+description: "[OCM-20730]Create additional nodepool with capacity reservation preference in the interactive mode"
+id: OCP-86104
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, smoke, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/machine-pools/OCP-86104_create-additional-nodepool-with-capacity-reservation-preference-in-the-interacti/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-20730

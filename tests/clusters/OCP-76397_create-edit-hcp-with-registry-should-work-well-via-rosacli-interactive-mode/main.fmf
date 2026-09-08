@@ -1,0 +1,13 @@
+summary: "Create/edit HCP with registry should work well via rosacli interactive mode"
+description: "[OCM-7315]Create/edit HCP with registry should work well via rosacli interactive mode"
+id: OCP-76397
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, registry-config, hcp]
+author: yingzhan
+contact: [yingzhan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-76397_create-edit-hcp-with-registry-should-work-well-via-rosacli-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7315

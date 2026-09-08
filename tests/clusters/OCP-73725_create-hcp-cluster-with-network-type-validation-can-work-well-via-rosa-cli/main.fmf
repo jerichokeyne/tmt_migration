@@ -1,0 +1,11 @@
+summary: "Create HCP cluster with network type validation can work well via rosa cli"
+description: "[OCM-5530]Create HCP cluster with network type validation can work well via rosa cli"
+id: OCP-73725
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/clusters/OCP-73725_create-hcp-cluster-with-network-type-validation-can-work-well-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-5530

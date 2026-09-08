@@ -1,0 +1,14 @@
+summary: "Edit the Default machine pool labels with rosacli will succeed"
+description: "[SDA-7375] Edit the Default machine pool labels with rosacli will succeed"
+id: OCP-57102
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: amalykhi
+contact: [oaharoni]
+extra-runner: mgahagan
+link:
+  - documented-by: /tests/machine-pools/OCP-57102_edit-the-default-machine-pool-labels-with-rosacli-will-succeed/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-7375
+  - verifies: https://redhat.atlassian.net/browse/SDA-8219
+  - verifies: https://redhat.atlassian.net/browse/SDA-8272

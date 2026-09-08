@@ -1,0 +1,16 @@
+summary: "Upgrading/Deleting account-roles/operator-roles/roles with attaching arbitrary policies works well via rosacli in manual mode"
+description: "[OCM-1752] Upgrading/Deleting account-roles/operator-roles/roles with attaching arbitrary policies works well via rosacli in manual mode"
+id: OCP-74228
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, zset0813, ocp-release, classic]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/upgrades/OCP-74228_upgrading-deleting-account-roles-operator-roles-roles-with-attaching-arbitrary-p/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-73731
+  - verifies: https://redhat.atlassian.net/browse/OCM-1752
+  - verifies: https://redhat.atlassian.net/browse/OCM-7415
+  - verifies: https://redhat.atlassian.net/browse/OCM-7860

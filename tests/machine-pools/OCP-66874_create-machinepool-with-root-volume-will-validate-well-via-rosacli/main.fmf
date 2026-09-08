@@ -1,0 +1,12 @@
+summary: "Create machinepool with root volume will validate well via rosacli"
+description: "[OCM-15] Create machinepool with root volume will validate well via rosacli"
+id: OCP-66874
+tier: "2"
+manual: false
+tag: [automated, disk-size, classic, hcp]
+author: xueli
+contact: [dawang]
+link:
+  - documented-by: /tests/machine-pools/OCP-66874_create-machinepool-with-root-volume-will-validate-well-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-15
+  - verifies: https://redhat.atlassian.net/browse/OCM-9876

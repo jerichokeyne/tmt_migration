@@ -1,0 +1,11 @@
+summary: "Create account-roles with invalid version/channel group"
+description: "Create account-roles with invalid version/channel group"
+id: OCP-75246
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: zwan
+contact: [zwan]
+link:
+  - documented-by: /tests/account-roles/OCP-75246_create-account-roles-with-invalid-version-channel-group/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6405

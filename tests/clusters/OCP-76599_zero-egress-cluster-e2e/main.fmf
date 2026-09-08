@@ -1,0 +1,12 @@
+summary: "Zero-egress cluster e2e"
+description: "[OCM-7068] Zero-egress cluster e2e"
+id: OCP-76599
+tier: "1"
+manual: false
+tag: [automated, zero-egress, hcp]
+author: jfrazier
+contact: [jfrazier]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/clusters/OCP-76599_zero-egress-cluster-e2e/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7068

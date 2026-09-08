@@ -1,0 +1,15 @@
+summary: "Upgrade STS cluster which account roles have the unified path set via rosacli in the interactive mode and manual mode"
+description: "[SDA-6246]Upgrade STS cluster which account roles have the unified path set via rosacli in the interactive mode and manual mode"
+id: OCP-53574
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, ocp-release, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/upgrades/OCP-53574_upgrade-sts-cluster-which-account-roles-have-the-unified-path-set-via-rosacli-in/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6246
+  - verifies: https://redhat.atlassian.net/browse/SDA-6436
+  - verifies: https://redhat.atlassian.net/browse/SDA-6866

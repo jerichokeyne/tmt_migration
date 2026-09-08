@@ -1,0 +1,14 @@
+summary: "ROSA CLI can create and list OCM role with no console permissions"
+description: "[ROSAENG-6795] ROSA CLI can create and list OCM role with no console permissions"
+id: OCP-89325
+tier: "1"
+manual: true
+test: manual.md
+tag: [notautomated, classic, hcp]
+author: jkeyne
+contact: [jkeyne]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/ocm-roles/OCP-89325_rosa-cli-can-create-and-list-ocm-role-with-no-console-permissions/manual.md
+  - verifies: https://redhat.atlassian.net/browse/ROSAENG-6795
+  - verifies: https://redhat.atlassian.net/browse/ROSAENG-6797

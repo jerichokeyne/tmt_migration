@@ -1,0 +1,12 @@
+summary: "Validation will work well when user create spot machine pool via rosacli"
+description: "[SDA-4459] Validation will work well when user create spot machine pool via rosacli"
+id: OCP-43252
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: xueli
+contact: [oaharoni]
+link:
+  - documented-by: /tests/machine-pools/OCP-43252_validation-will-work-well-when-user-create-spot-machine-pool-via-rosacli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43251
+  - verifies: https://redhat.atlassian.net/browse/SDA-4459

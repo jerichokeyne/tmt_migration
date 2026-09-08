@@ -1,0 +1,11 @@
+summary: "Validation should work when user set availability zones to create rosa cluster"
+description: "[SDA-6222] Validation should work when user set availability zones to create rosa cluster"
+id: OCP-52692
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: xueli
+contact: [zwan]
+link:
+  - documented-by: /tests/clusters/OCP-52692_validation-should-work-when-user-set-availability-zones-to-create-rosa-cluster/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6222

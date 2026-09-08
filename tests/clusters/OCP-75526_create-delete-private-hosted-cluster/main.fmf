@@ -1,0 +1,12 @@
+summary: "Create/Delete private hosted cluster"
+description: "Create/Delete private hosted cluster"
+id: OCP-75526
+tier: "0"
+manual: false
+tag: [automated, smoke, private, hcp]
+author: tradisso
+contact: [tradisso]
+extra-runner: yasun
+link:
+  - documented-by: /tests/clusters/OCP-75526_create-delete-private-hosted-cluster/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-54413

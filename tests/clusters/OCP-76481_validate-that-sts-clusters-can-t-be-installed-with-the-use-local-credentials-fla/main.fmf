@@ -1,0 +1,12 @@
+summary: "Validate that sts clusters can't be installed with the \"--use-local-credentials\" flag"
+description: "Validate that sts clusters can't be installed with the \"--use-local-credentials\" flag"
+id: OCP-76481
+tier: "3"
+manual: false
+tag: [automated, classic]
+author: jkeyne
+contact: [jkeyne]
+link:
+  - documented-by: /tests/clusters/OCP-76481_validate-that-sts-clusters-can-t-be-installed-with-the-use-local-credentials-fla/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-5644
+  - verifies: https://redhat.atlassian.net/browse/OCM-1220

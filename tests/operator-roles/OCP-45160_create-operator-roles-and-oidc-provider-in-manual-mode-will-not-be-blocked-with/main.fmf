@@ -1,0 +1,14 @@
+summary: "Create operator-roles and oidc-provider in manual mode will not be blocked with the account without enough permission via rosacli"
+description: "[SDA-4800] Create operator-roles and oidc-provider in manual mode will not be blocked with the account without enough permission via rosacli"
+id: OCP-45160
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, aset0813, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: akanni
+link:
+  - documented-by: /tests/operator-roles/OCP-45160_create-operator-roles-and-oidc-provider-in-manual-mode-will-not-be-blocked-with/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43053
+  - verifies: https://redhat.atlassian.net/browse/SDA-4800

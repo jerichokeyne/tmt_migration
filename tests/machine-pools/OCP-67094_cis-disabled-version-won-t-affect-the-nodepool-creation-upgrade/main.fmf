@@ -1,0 +1,12 @@
+summary: "CIS disabled version won't affect the nodepool creation/upgrade"
+description: "[OCM-954] CIS disabled version won't affect the nodepool creation/upgrade"
+id: OCP-67094
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, nodepool, hcp]
+author: xueli
+contact: [tradisso]
+link:
+  - documented-by: /tests/machine-pools/OCP-67094_cis-disabled-version-won-t-affect-the-nodepool-creation-upgrade/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-954

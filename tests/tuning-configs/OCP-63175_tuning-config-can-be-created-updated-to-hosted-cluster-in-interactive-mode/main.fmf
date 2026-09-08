@@ -1,0 +1,15 @@
+summary: "Tuning config can be created/updated to hosted cluster in interactive mode"
+description: "[SDA-8382]Tuning config can be created/updated to hosted cluster in interactive mode"
+id: OCP-63175
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, excludemanual, hcp]
+author: amalykhi
+contact: [aaraj]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/tuning-configs/OCP-63175_tuning-config-can-be-created-updated-to-hosted-cluster-in-interactive-mode/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-62907
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-63164
+  - verifies: https://redhat.atlassian.net/browse/SDA-8382

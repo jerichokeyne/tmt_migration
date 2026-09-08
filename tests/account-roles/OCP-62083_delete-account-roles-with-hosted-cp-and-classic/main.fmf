@@ -1,0 +1,13 @@
+summary: "Delete account-roles with --hosted-cp and --classic"
+description: "[SDA-8600] Delete account-roles with --hosted-cp and --classic"
+id: OCP-62083
+tier: "0"
+manual: false
+tag: [automated, smoke, fr, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/account-roles/OCP-62083_delete-account-roles-with-hosted-cp-and-classic/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8666
+  - verifies: https://redhat.atlassian.net/browse/SDA-8600

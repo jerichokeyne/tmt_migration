@@ -1,0 +1,10 @@
+summary: "Test rosa-cli cluster creation command to allow name <= 54 chars and domain_prefix to be <= 15"
+description: "[rosacli] Test rosa-cli cluster creation command to allow name <= 54 chars and domain_prefix to be <= 15"
+id: OCP-72294
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: akanni
+contact: [akanni]
+link:
+  - documented-by: /tests/clusters/OCP-72294_test-rosa-cli-cluster-creation-command-to-allow-name-54-chars-and-domain-prefix/manual.md

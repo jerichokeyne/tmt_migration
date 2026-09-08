@@ -1,0 +1,10 @@
+summary: "OCM-5583 Test new instace types for cluster provision"
+description: "OCM-5583 Test new instace types for cluster provision"
+id: OCP-73308
+tier: "2"
+manual: false
+tag: [automated]
+author: akanni
+contact: [akanni]
+link:
+  - documented-by: /tests/clusters/OCP-73308_ocm-5583-test-new-instace-types-for-cluster-provision/manual.md

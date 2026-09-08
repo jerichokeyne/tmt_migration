@@ -1,0 +1,14 @@
+summary: "Delete in-used BYO operator-roles/oidc via rosacli by command"
+description: "[SDA-7992] Delete in-used BYO operator-roles/oidc via rosacli by command"
+id: OCP-74761
+tier: "0"
+manual: false
+tag: [automated, 10set1, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/operator-roles/OCP-74761_delete-in-used-byo-operator-roles-oidc-via-rosacli-by-command/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-60956
+  - verifies: https://redhat.atlassian.net/browse/SDA-7992
+  - verifies: https://redhat.atlassian.net/browse/SDA-8387

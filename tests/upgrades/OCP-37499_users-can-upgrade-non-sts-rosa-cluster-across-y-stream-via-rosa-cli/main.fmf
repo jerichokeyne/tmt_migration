@@ -1,0 +1,15 @@
+summary: "Users can upgrade NON-STS rosa cluster across Y stream via ROSA cli"
+description: "[rosacli] Users can upgrade NON-STS rosa cluster across Y stream via ROSA cli"
+id: OCP-37499
+tier: "0"
+manual: false
+tag: [automated, moactl, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/upgrades/OCP-37499_users-can-upgrade-non-sts-rosa-cluster-across-y-stream-via-rosa-cli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - verifies: https://redhat.atlassian.net/browse/SDA-5776
+  - verifies: https://redhat.atlassian.net/browse/SDA-3107
+  - verifies: https://redhat.atlassian.net/browse/SDA-3445

@@ -1,0 +1,11 @@
+summary: "List versions can work correctly via ROSA cli"
+description: "[rosacli] List versions can work correctly via ROSA cli"
+id: OCP-38810
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: xueli
+contact: [msmigiel]
+link:
+  - documented-by: /tests/ocp-versions/OCP-38810_list-versions-can-work-correctly-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-8685

@@ -1,0 +1,13 @@
+summary: "Users can upgrade NON-STS rosa cluster via ROSA cli in the interactive mode"
+description: "[rosacli] Users can upgrade NON-STS rosa cluster via ROSA cli in the interactive mode"
+id: OCP-56241
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, moactl, non-sts, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/upgrades/OCP-56241_users-can-upgrade-non-sts-rosa-cluster-via-rosa-cli-in-the-interactive-mode/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-55881

@@ -1,0 +1,14 @@
+summary: "User can disable workload monitoring on/off via rosa-cli"
+description: "[SDA-4689] User can disable workload monitoring on/off via rosa-cli"
+id: OCP-45159
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [xueli]
+extra-runner: tzhou
+link:
+  - documented-by: /tests/clusters/OCP-45159_user-can-disable-workload-monitoring-on-off-via-rosa-cli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-41661
+  - verifies: https://redhat.atlassian.net/browse/SDA-4689
+  - verifies: https://redhat.atlassian.net/browse/OCM-18528

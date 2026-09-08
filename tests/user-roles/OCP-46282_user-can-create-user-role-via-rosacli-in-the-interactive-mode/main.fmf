@@ -1,0 +1,17 @@
+summary: "User can create user-role via rosacli in the interactive mode"
+description: "[SDA-4989] User can create user-role via rosacli in the interactive mode"
+id: OCP-46282
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, jset0813, fr, excludemanual, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/user-roles/OCP-46282_user-can-create-user-role-via-rosacli-in-the-interactive-mode/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-43070
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-46187
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-46188
+  - verifies: https://redhat.atlassian.net/browse/SDA-4989
+  - verifies: https://redhat.atlassian.net/browse/SDA-6001

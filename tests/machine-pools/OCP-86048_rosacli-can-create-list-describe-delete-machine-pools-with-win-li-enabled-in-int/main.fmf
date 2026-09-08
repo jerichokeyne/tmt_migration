@@ -1,0 +1,14 @@
+summary: "ROSACLI can create/list/describe/delete machine pools with Win-LI enabled in interactive mode"
+description: "[OCM-20194] ROSACLI can create/list/describe/delete machine pools with Win-LI enabled in interactive mode"
+id: OCP-86048
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, hcp]
+author: jkeyne
+contact: [jkeyne]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/machine-pools/OCP-86048_rosacli-can-create-list-describe-delete-machine-pools-with-win-li-enabled-in-int/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-20194
+  - verifies: https://redhat.atlassian.net/browse/OCM-20775

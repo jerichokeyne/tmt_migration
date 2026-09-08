@@ -1,0 +1,13 @@
+summary: "Restrict master API endpoint to direct, private connectivity or not"
+description: "[moactl] Restrict master API endpoint to direct, private connectivity or not"
+id: OCP-38850
+tier: "1"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: tzhou
+link:
+  - documented-by: /tests/general/OCP-38850_restrict-master-api-endpoint-to-direct-private-connectivity-or-not/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-34177

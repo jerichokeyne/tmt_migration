@@ -1,0 +1,12 @@
+summary: "User can create spot machine pool via rosacli"
+description: "[SDA-4459] User can create spot machine pool via rosacli"
+id: OCP-43251
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: xueli
+contact: [zwan]
+extra-runner: vshapova
+link:
+  - documented-by: /tests/machine-pools/OCP-43251_user-can-create-spot-machine-pool-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-4459

@@ -1,0 +1,11 @@
+summary: "Create multiple HTPasswd IDPs including creating admin flow by the rosacli command"
+description: "[OCM-2506] Create multiple HTPasswd IDPs including creating admin flow by the rosacli command"
+id: OCP-65160
+tier: "0"
+manual: false
+tag: [automated, moactl, classic, hcp]
+author: yuwan
+contact: [akanni]
+link:
+  - documented-by: /tests/idps/OCP-65160_create-multiple-htpasswd-idps-including-creating-admin-flow-by-the-rosacli-comma/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-2506

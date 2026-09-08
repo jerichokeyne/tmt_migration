@@ -1,0 +1,14 @@
+summary: "The network verifier validation should work well"
+description: "[OCM-152]The network verifier validation should work well"
+id: OCP-68751
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/network/OCP-68751_the-network-verifier-validation-should-work-well/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-3221
+  - verifies: https://redhat.atlassian.net/browse/OCM-152
+  - verifies: https://redhat.atlassian.net/browse/OCM-4450
+  - verifies: https://redhat.atlassian.net/browse/OCM-4767

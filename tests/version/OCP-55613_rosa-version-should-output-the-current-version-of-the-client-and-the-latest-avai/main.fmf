@@ -1,0 +1,14 @@
+summary: "`rosa version` should output the current version of the client and the latest available version along with a link to download it"
+description: "[SDA-4611] `rosa version` should output the current version of the client and the latest available version along with a link to download it"
+id: OCP-55613
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, excludemanual, classic]
+author: amalykhi
+contact: [zwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/version/OCP-55613_rosa-version-should-output-the-current-version-of-the-client-and-the-latest-avai/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-4611
+  - verifies: https://redhat.atlassian.net/browse/SDA-4612

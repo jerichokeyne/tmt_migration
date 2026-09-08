@@ -1,0 +1,15 @@
+summary: "Create HCP cluster and validate property 'skip_inflight_tests':'true'"
+description: "[OCM-18827] Create HCP cluster and validate property 'skip_inflight_tests':'true'"
+id: OCP-85689
+tier: "1"
+manual: false
+tag: [automated, skip-inflight-tests, hcp]
+author: gcalixto
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-85689_create-hcp-cluster-and-validate-property-skip-inflight-tests-true/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-76543
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-84741
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-84804
+  - verifies: https://redhat.atlassian.net/browse/OCM-18827

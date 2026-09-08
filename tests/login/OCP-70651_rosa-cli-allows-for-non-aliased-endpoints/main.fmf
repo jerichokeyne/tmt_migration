@@ -1,0 +1,13 @@
+summary: "Rosa CLI allows for non-aliased endpoints"
+description: "[OCM-2433][FR Only] Rosa CLI allows for non-aliased endpoints"
+id: OCP-70651
+tier: "0"
+manual: true
+test: manual.md
+tag: [manualonly, fr-only, classic]
+author: ccrum
+contact: [oaharoni]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/login/OCP-70651_rosa-cli-allows-for-non-aliased-endpoints/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-2433

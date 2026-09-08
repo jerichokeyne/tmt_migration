@@ -1,0 +1,16 @@
+summary: "Check the help message and the validation for the IDP creation by the rosa cli in the interactive mode"
+description: "[moactl] Check the help message and the validation for the IDP creation by the rosa cli in the interactive mode"
+id: OCP-46111
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, moactl, classic, hcp]
+author: yuwan
+contact: [akanni]
+link:
+  - documented-by: /tests/idps/OCP-46111_check-the-help-message-and-the-validation-for-the-idp-creation-by-the-rosa-cli-i/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33330
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38781
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38786
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38788

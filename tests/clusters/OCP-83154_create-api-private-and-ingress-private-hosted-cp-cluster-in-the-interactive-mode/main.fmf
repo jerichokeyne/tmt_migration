@@ -1,0 +1,13 @@
+summary: "Create API private and ingress private hosted-cp cluster in the interactive mode"
+description: "[OCM-15992] Create API private and ingress private hosted-cp cluster in the interactive mode"
+id: OCP-83154
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-83154_create-api-private-and-ingress-private-hosted-cp-cluster-in-the-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-15992

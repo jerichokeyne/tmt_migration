@@ -1,0 +1,17 @@
+summary: "Check the basic validation for the classic rosa cluster creation by the rosa cli"
+description: "[moactl] Check the basic validation for the classic rosa cluster creation by the rosa cli"
+id: OCP-38770
+tier: "2"
+manual: false
+tag: [automated, moactl, aset0813, classic]
+author: yuwan
+contact: [yuwan]
+extra-runner: akanni
+link:
+  - documented-by: /tests/clusters/OCP-38770_check-the-basic-validation-for-the-classic-rosa-cluster-creation-by-the-rosa-cli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38768
+  - verifies: https://redhat.atlassian.net/browse/OCM-17719
+  - verifies: https://redhat.atlassian.net/browse/SDA-4217
+  - verifies: https://redhat.atlassian.net/browse/OCM-3663
+  - verifies: https://redhat.atlassian.net/browse/OCM-4801

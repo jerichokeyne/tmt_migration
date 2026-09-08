@@ -1,0 +1,13 @@
+summary: "Create/Delete external_auth for a HCP cluster can work well via interactive mode"
+description: "[OCM-4459]Create/Delete external_auth for a HCP cluster can work well via interactive mode"
+id: OCP-72601
+tier: "2"
+manual: true
+test: manual.md
+tag: [manualonly, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/external-auth-provider/OCP-72601_create-delete-external-auth-for-a-hcp-cluster-can-work-well-via-interactive-mode/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4459
+  - verifies: https://redhat.atlassian.net/browse/OCM-7673

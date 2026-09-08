@@ -1,0 +1,13 @@
+summary: "Create/describe/edit/delete cluster autoscaler by rosacli"
+description: "[OCM-3313][day2]Create/describe/edit/delete cluster autoscaler by rosacli"
+id: OCP-67275
+tier: "0"
+manual: false
+tag: [automated, classic]
+author: zhsun
+contact: [yingzhan]
+extra-runner: yingzhan
+link:
+  - documented-by: /tests/autoscalers/OCP-67275_create-describe-edit-delete-cluster-autoscaler-by-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-3313
+  - verifies: https://redhat.atlassian.net/browse/OCM-10616

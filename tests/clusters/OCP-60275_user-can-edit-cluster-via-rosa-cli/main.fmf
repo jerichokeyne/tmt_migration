@@ -1,0 +1,12 @@
+summary: "User can edit cluster via rosa-cli"
+description: "[rosacli]User can edit cluster via rosa-cli"
+id: OCP-60275
+tier: "0"
+manual: false
+tag: [automated, smoke, fr, classic, hcp]
+author: yuwan
+contact: [zwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/clusters/OCP-60275_user-can-edit-cluster-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-17719

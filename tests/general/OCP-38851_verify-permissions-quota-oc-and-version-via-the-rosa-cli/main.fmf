@@ -1,0 +1,16 @@
+summary: "Verify permissions/quota/oc and version via the rosa cli"
+description: "[rosaclil] Verify permissions/quota/oc and version via the rosa cli"
+id: OCP-38851
+tier: "2"
+manual: false
+tag: [automated, moactl, jset0813, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/general/OCP-38851_verify-permissions-quota-oc-and-version-via-the-rosa-cli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38848
+  - verifies: https://redhat.atlassian.net/browse/SDA-4729
+  - verifies: https://redhat.atlassian.net/browse/OCM-2559
+  - verifies: https://redhat.atlassian.net/browse/OCM-5782

@@ -1,0 +1,13 @@
+summary: "enabling the ingress controller via ROSA CLI"
+description: "[OCM-118][OCM-853][Day1] enabling the ingress controller via ROSA CLI"
+id: OCP-65798
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: hongli
+contact: [xueli]
+extra-runner: xueli
+link:
+  - documented-by: /tests/ingresses/OCP-65798_enabling-the-ingress-controller-via-rosa-cli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-853
+  - verifies: https://redhat.atlassian.net/browse/OCM-118

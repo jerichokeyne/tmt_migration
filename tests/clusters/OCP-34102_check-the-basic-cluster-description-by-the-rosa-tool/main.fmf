@@ -1,0 +1,27 @@
+summary: "Check the basic cluster description by the rosa tool"
+description: "[SDA-2675]Check the basic cluster description by the rosa tool"
+id: OCP-34102
+tier: "2"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: tzhou
+link:
+  - documented-by: /tests/clusters/OCP-34102_check-the-basic-cluster-description-by-the-rosa-tool/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - verifies: https://redhat.atlassian.net/browse/OCM-17719
+  - verifies: https://redhat.atlassian.net/browse/OCM-5117
+  - verifies: https://redhat.atlassian.net/browse/OCM-10532
+  - verifies: https://redhat.atlassian.net/browse/OCM-6142
+  - verifies: https://redhat.atlassian.net/browse/OCM-1405
+  - verifies: https://redhat.atlassian.net/browse/SDA-7231
+  - verifies: https://redhat.atlassian.net/browse/SDA-8074
+  - verifies: https://redhat.atlassian.net/browse/SDA-8320
+  - verifies: https://redhat.atlassian.net/browse/SDA-4160
+  - verifies: https://redhat.atlassian.net/browse/SDA-3635
+  - verifies: https://redhat.atlassian.net/browse/SDA-3095
+  - verifies: https://redhat.atlassian.net/browse/SDA-2675
+  - verifies: https://redhat.atlassian.net/browse/SDA-2850
+  - verifies: https://redhat.atlassian.net/browse/SDA-3041
+  - verifies: https://redhat.atlassian.net/browse/SDA-2899

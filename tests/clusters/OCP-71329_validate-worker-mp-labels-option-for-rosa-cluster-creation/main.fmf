@@ -1,0 +1,12 @@
+summary: "Validate --worker-mp-labels option for ROSA cluster creation"
+description: "[OCM-1225] Validate --worker-mp-labels option for ROSA cluster creation"
+id: OCP-71329
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: eweiss
+contact: [oaharoni]
+link:
+  - documented-by: /tests/clusters/OCP-71329_validate-worker-mp-labels-option-for-rosa-cluster-creation/manual.md
+  - duplicates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-57090
+  - verifies: https://redhat.atlassian.net/browse/SDA-7377

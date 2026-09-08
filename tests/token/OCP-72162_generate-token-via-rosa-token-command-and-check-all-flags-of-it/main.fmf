@@ -1,0 +1,11 @@
+summary: "Generate token via `rosa token` command and check all flags of it"
+description: "[OCM-5804] Generate token via `rosa token` command and check all flags of it"
+id: OCP-72162
+tier: "0"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [yuwan]
+link:
+  - documented-by: /tests/token/OCP-72162_generate-token-via-rosa-token-command-and-check-all-flags-of-it/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-5804

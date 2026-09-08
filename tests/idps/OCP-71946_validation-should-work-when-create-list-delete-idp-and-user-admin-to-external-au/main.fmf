@@ -1,0 +1,11 @@
+summary: "Validation should work when create/list/delete idp and user/admin to external_auth_config cluster via ROSA client"
+description: "[OCM-4458]Validation should work when create/list/delete idp and user/admin to external_auth_config cluster via ROSA client"
+id: OCP-71946
+tier: "2"
+manual: false
+tag: [automated, hcp]
+author: yingzhan
+contact: [yingzhan]
+link:
+  - documented-by: /tests/idps/OCP-71946_validation-should-work-when-create-list-delete-idp-and-user-admin-to-external-au/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-4458

@@ -1,0 +1,13 @@
+summary: "Validation for creating upgrade policy via ROSA cli will work"
+description: "[SDA-3107][rosacli] Validation for creating upgrade policy via ROSA cli will work"
+id: OCP-38829
+tier: "2"
+manual: false
+tag: [automated, moactl, classic]
+author: xueli
+contact: [zwan]
+extra-runner: mgahagan
+link:
+  - documented-by: /tests/upgrades/OCP-38829_validation-for-creating-upgrade-policy-via-rosa-cli-will-work/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - verifies: https://redhat.atlassian.net/browse/SDA-3107

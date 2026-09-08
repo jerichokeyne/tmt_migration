@@ -1,0 +1,10 @@
+summary: "Upgrade wide AMI roles with the managed policies in manual mode"
+description: "Upgrade wide AMI roles with the managed policies in manual mode"
+id: OCP-75445
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: zwan
+contact: [zwan]
+link:
+  - documented-by: /tests/upgrades/OCP-75445_upgrade-wide-ami-roles-with-the-managed-policies-in-manual-mode/manual.md

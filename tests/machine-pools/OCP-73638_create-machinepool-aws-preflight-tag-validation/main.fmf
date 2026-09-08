@@ -1,0 +1,11 @@
+summary: "Create machinepool AWS preflight tag validation"
+description: "[ROSA] Create machinepool AWS preflight tag validation"
+id: OCP-73638
+tier: "2"
+manual: false
+tag: [automated, hcp]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/machine-pools/OCP-73638_create-machinepool-aws-preflight-tag-validation/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7010

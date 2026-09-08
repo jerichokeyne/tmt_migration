@@ -1,0 +1,17 @@
+summary: "Create/Edit/List/Describe/Delete log forwarders on hosted-cp cluster by command"
+description: "[OCM-21382] Create/Edit/List/Describe/Delete log forwarders on hosted-cp cluster by command"
+id: OCP-86448
+tier: "0"
+manual: false
+tag: [automated, idms, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/log-forwarders/OCP-86448_create-edit-list-describe-delete-log-forwarders-on-hosted-cp-cluster-by-command/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-86415
+  - verifies: https://redhat.atlassian.net/browse/OCM-21152
+  - verifies: https://redhat.atlassian.net/browse/OCM-21147
+  - verifies: https://redhat.atlassian.net/browse/OCM-21150
+  - verifies: https://redhat.atlassian.net/browse/OCM-21151
+  - verifies: https://redhat.atlassian.net/browse/OCM-21154

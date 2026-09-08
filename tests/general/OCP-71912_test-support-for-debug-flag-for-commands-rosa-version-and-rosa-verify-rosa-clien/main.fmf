@@ -1,0 +1,11 @@
+summary: "Test support for '--debug' flag for commands 'rosa version' and 'rosa verify rosa-client'"
+description: "[OCM-5185] Test support for '--debug' flag for commands 'rosa version' and 'rosa verify rosa-client'"
+id: OCP-71912
+tier: "2"
+manual: true
+test: manual.md
+tag: [notautomated, classic]
+author: akanni
+contact: [akanni]
+link:
+  - documented-by: /tests/general/OCP-71912_test-support-for-debug-flag-for-commands-rosa-version-and-rosa-verify-rosa-clien/manual.md

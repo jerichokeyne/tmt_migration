@@ -1,0 +1,11 @@
+summary: "Validation for Create/List/Delete machine pool to the rosa cluster"
+description: "[OCM-3315][rosacli]Validation for Create/List/Delete machine pool to the rosa cluster"
+id: OCP-67057
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: eweiss
+contact: [oaharoni]
+link:
+  - documented-by: /tests/machine-pools/OCP-67057_validation-for-create-list-delete-machine-pool-to-the-rosa-cluster/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-3315

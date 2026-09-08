@@ -1,0 +1,15 @@
+summary: "BYO-VPC rosa cluster can edit proxy via rosacli"
+description: "[SDA-4733]BYO-VPC rosa cluster can edit proxy via rosacli"
+id: OCP-46308
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [dawang]
+extra-runner: aaraj
+link:
+  - documented-by: /tests/clusters/OCP-46308_byo-vpc-rosa-cluster-can-edit-proxy-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-7772
+  - verifies: https://redhat.atlassian.net/browse/SDA-8221
+  - verifies: https://redhat.atlassian.net/browse/SDA-4733
+  - verifies: https://redhat.atlassian.net/browse/SDA-5612

@@ -1,0 +1,16 @@
+summary: "ROSACLI can init and create cluster with aws security token"
+description: "[SDA-4244] ROSACLI can init and create cluster with aws security token"
+id: OCP-42031
+tier: "1"
+manual: true
+test: manual.md
+tag: [manualonly, classic, hcp]
+author: xueli
+contact: [yuwan]
+extra-runner: lufreita
+link:
+  - documented-by: /tests/clusters/OCP-42031_rosacli-can-init-and-create-cluster-with-aws-security-token/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-4329
+  - verifies: https://redhat.atlassian.net/browse/SDA-4244
+  - verifies: https://redhat.atlassian.net/browse/SDA-5098
+  - verifies: https://redhat.atlassian.net/browse/OCM-8352

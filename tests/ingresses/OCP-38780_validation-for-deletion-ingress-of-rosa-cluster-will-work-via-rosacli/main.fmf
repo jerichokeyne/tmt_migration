@@ -1,0 +1,13 @@
+summary: "Validation for deletion ingress of ROSA cluster will work via rosacli"
+description: "[rosacli]Validation for deletion ingress of ROSA cluster will work via rosacli"
+id: OCP-38780
+tier: "2"
+manual: false
+tag: [automated, moactl, classic]
+author: xueli
+contact: [oaharoni]
+extra-runner: xueli
+link:
+  - documented-by: /tests/ingresses/OCP-38780_validation-for-deletion-ingress-of-rosa-cluster-will-work-via-rosacli/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - verifies: https://redhat.atlassian.net/browse/SDA-2593

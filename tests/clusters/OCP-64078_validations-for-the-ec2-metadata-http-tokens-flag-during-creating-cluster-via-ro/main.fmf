@@ -1,0 +1,12 @@
+summary: "Validations for the '--ec2-metadata-http-tokens' flag during creating cluster via rosacli"
+description: "[OCM-140]Validations for the '--ec2-metadata-http-tokens' flag during creating cluster via rosacli"
+id: OCP-64078
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: zhsun
+contact: [xueli]
+extra-runner: xueli
+link:
+  - documented-by: /tests/clusters/OCP-64078_validations-for-the-ec2-metadata-http-tokens-flag-during-creating-cluster-via-ro/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-140

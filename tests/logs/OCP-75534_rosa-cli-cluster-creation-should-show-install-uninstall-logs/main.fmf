@@ -1,0 +1,13 @@
+summary: "ROSA CLI cluster creation should show install/uninstall logs"
+description: "ROSA CLI cluster creation should show install/uninstall logs"
+id: OCP-75534
+tier: "0"
+manual: false
+tag: [automated, smoke, hcp]
+author: tradisso
+contact: [tradisso]
+extra-runner: yasun
+link:
+  - documented-by: /tests/logs/OCP-75534_rosa-cli-cluster-creation-should-show-install-uninstall-logs/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-54413
+  - verifies: https://redhat.atlassian.net/browse/SDA-6823

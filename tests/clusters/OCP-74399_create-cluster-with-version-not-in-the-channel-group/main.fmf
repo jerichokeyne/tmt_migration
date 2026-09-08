@@ -1,0 +1,10 @@
+summary: "Create cluster with version not in the channel-group"
+description: "Create cluster with version not in the channel-group"
+id: OCP-74399
+tier: "2"
+manual: false
+tag: [automated, classic]
+author: zwan
+contact: [zwan]
+link:
+  - documented-by: /tests/clusters/OCP-74399_create-cluster-with-version-not-in-the-channel-group/manual.md

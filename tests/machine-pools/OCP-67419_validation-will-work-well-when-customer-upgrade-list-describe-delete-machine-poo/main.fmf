@@ -1,0 +1,11 @@
+summary: "Validation will work well when customer upgrade/list/describe/delete machine pool of hosted cluster via ROSA cli"
+description: "[OCM-954] Validation will work well when customer upgrade/list/describe/delete machine pool of hosted cluster via ROSA cli"
+id: OCP-67419
+tier: "2"
+manual: false
+tag: [automated, moactl, hcp]
+author: yingzhan
+contact: [tradisso]
+link:
+  - documented-by: /tests/machine-pools/OCP-67419_validation-will-work-well-when-customer-upgrade-list-describe-delete-machine-poo/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-954

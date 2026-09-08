@@ -1,0 +1,19 @@
+summary: "Create/Edit/List/Delete machine pool to the ROSA Hypershift cluster will succeed"
+description: "[SDA-7166][rosacli] Create/Edit/List/Delete machine pool to the ROSA Hypershift cluster will succeed"
+id: OCP-56782
+tier: "0"
+manual: false
+tag: [automated, smoke, hcp]
+author: amalykhi
+contact: [tradisso]
+extra-runner: yasun
+link:
+  - documented-by: /tests/machine-pools/OCP-56782_create-edit-list-delete-machine-pool-to-the-rosa-hypershift-cluster-will-succeed/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-35715
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-33534
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-36293
+  - verifies: https://redhat.atlassian.net/browse/SDA-8272
+  - verifies: https://redhat.atlassian.net/browse/SDA-7957
+  - verifies: https://redhat.atlassian.net/browse/SDA-7166
+  - verifies: https://redhat.atlassian.net/browse/SDA-7767
+  - verifies: https://redhat.atlassian.net/browse/SDA-8219

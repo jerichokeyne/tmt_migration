@@ -1,0 +1,12 @@
+summary: "Customer can set kubeletconfig for nodepool via rosacli"
+description: "[OCM-7268] Customer can set kubeletconfig for nodepool via rosacli"
+id: OCP-73765
+tier: "1"
+manual: false
+tag: [automated, hcp]
+author: xueli
+contact: [xueli]
+link:
+  - documented-by: /tests/machine-pools/OCP-73765_customer-can-set-kubeletconfig-for-nodepool-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7268
+  - verifies: https://redhat.atlassian.net/browse/OCM-8020

@@ -1,0 +1,12 @@
+summary: "Create ROSA cluster with default-mp-labels option will succeed"
+description: "[SDA-7377] Create ROSA cluster with default-mp-labels option will succeed"
+id: OCP-57056
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: amalykhi
+contact: [oaharoni]
+extra-runner: yasun
+link:
+  - documented-by: /tests/clusters/OCP-57056_create-rosa-cluster-with-default-mp-labels-option-will-succeed/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-7377

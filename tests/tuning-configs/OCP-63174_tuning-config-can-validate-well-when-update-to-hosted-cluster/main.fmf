@@ -1,0 +1,12 @@
+summary: "Tuning config can validate well when update to hosted cluster"
+description: "[SDA-8382]Tuning config can validate well when update to hosted cluster"
+id: OCP-63174
+tier: "2"
+manual: false
+tag: [automated, hcp]
+author: amalykhi
+contact: [tradisso]
+link:
+  - documented-by: /tests/tuning-configs/OCP-63174_tuning-config-can-validate-well-when-update-to-hosted-cluster/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-62906
+  - verifies: https://redhat.atlassian.net/browse/SDA-8382

@@ -1,0 +1,15 @@
+summary: "List/Describe/Delete machine pool upgrade policies for hypershift clusters via rosacli"
+description: "[OCM-954]List/Describe/Delete machine pool upgrade policies for hypershift clusters via rosacli"
+id: OCP-67414
+tier: "0"
+manual: false
+tag: [automated, moactl, hcp]
+author: yingzhan
+contact: [tradisso]
+link:
+  - documented-by: /tests/upgrades/OCP-67414_list-describe-delete-machine-pool-upgrade-policies-for-hypershift-clusters-via-r/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7477
+  - verifies: https://redhat.atlassian.net/browse/OCM-954
+  - verifies: https://redhat.atlassian.net/browse/OCM-2447
+  - verifies: https://redhat.atlassian.net/browse/OCM-2446
+  - verifies: https://redhat.atlassian.net/browse/OCM-3911

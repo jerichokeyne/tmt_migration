@@ -1,0 +1,17 @@
+summary: "Check non-enforcing the user-role/ocm-role via rosacli"
+description: "[SDA-6171][rosacli] Check non-enforcing the user-role/ocm-role via rosacli"
+id: OCP-52106
+tier: "0"
+manual: false
+tag: [automated, classic, hcp]
+author: yuwan
+contact: [yuwan]
+extra-runner: yuwan
+link:
+  - documented-by: /tests/ocm-roles/OCP-52106_check-non-enforcing-the-user-role-ocm-role-via-rosacli/manual.md
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-38768
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-48958
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - relates: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-51431
+  - verifies: https://redhat.atlassian.net/browse/SDA-6171
+  - verifies: https://redhat.atlassian.net/browse/SDA-6209

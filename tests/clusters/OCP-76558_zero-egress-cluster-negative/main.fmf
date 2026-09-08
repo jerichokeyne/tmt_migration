@@ -1,0 +1,12 @@
+summary: "Zero-egress cluster negative"
+description: "[OCM-7068] Zero-egress cluster negative"
+id: OCP-76558
+tier: "2"
+manual: true
+test: manual.md
+tag: [notautomated, zero-egress, hcp]
+author: jfrazier
+contact: [jfrazier]
+link:
+  - documented-by: /tests/clusters/OCP-76558_zero-egress-cluster-negative/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-7068

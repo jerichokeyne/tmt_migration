@@ -1,0 +1,12 @@
+summary: "Unsupported ingress attribute message for HCP"
+description: "Unsupported ingress attribute message for HCP"
+id: OCP-71174
+tier: "3"
+manual: false
+tag: [automated, classic, hcp]
+author: jfrazier
+contact: [jfrazier]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/ingresses/OCP-71174_unsupported-ingress-attribute-message-for-hcp/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-5536

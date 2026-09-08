@@ -1,0 +1,12 @@
+summary: "ROSACLI will validate the options when create private link cluster"
+description: "[SDA-3631] ROSACLI will validate the options when create private link cluster"
+id: OCP-41556
+tier: "3"
+manual: true
+test: manual.md
+tag: [manualonly, classic]
+author: xueli
+contact: [xueli]
+link:
+  - documented-by: /tests/clusters/OCP-41556_rosacli-will-validate-the-options-when-create-private-link-cluster/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-3631

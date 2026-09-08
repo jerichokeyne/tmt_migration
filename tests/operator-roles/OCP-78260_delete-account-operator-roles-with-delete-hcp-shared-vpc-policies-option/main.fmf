@@ -1,0 +1,13 @@
+summary: "Delete account/operator roles with --delete-hcp-shared-vpc-policies option"
+description: "[OCM-12964] Delete account/operator roles with --delete-hcp-shared-vpc-policies option"
+id: OCP-78260
+tier: "1"
+manual: true
+test: manual.md
+tag: [notautomated, excludemanual, hcp]
+author: jkeyne
+contact: [jkeyne]
+extra-runner: jkeyne
+link:
+  - documented-by: /tests/operator-roles/OCP-78260_delete-account-operator-roles-with-delete-hcp-shared-vpc-policies-option/manual.md
+  - verifies: https://redhat.atlassian.net/browse/OCM-12964

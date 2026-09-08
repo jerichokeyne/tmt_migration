@@ -1,0 +1,12 @@
+summary: "Create/Upgrade account-roles by setting version and channel-group via rosacli"
+description: "[SDA-6405] Create/Upgrade account-roles by setting version and channel-group via rosacli"
+id: OCP-54469
+tier: "1"
+manual: false
+tag: [automated, classic]
+author: yuwan
+contact: [zwan]
+extra-runner: oaharoni
+link:
+  - documented-by: /tests/account-roles/OCP-54469_create-upgrade-account-roles-by-setting-version-and-channel-group-via-rosacli/manual.md
+  - verifies: https://redhat.atlassian.net/browse/SDA-6405

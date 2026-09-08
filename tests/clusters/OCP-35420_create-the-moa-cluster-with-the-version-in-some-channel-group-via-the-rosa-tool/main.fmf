@@ -1,0 +1,12 @@
+summary: "Create the MOA cluster with the version in some channel-group via the rosa tool"
+description: "[SDA-2945] Create the MOA cluster with the version in some channel-group via the rosa tool"
+id: OCP-35420
+tier: "2"
+manual: false
+tag: [automated, moactl, classic]
+author: yuwan
+contact: [zwan]
+link:
+  - documented-by: /tests/clusters/OCP-35420_create-the-moa-cluster-with-the-version-in-some-channel-group-via-the-rosa-tool/manual.md
+  - verifies: https://polarion.engineering.redhat.com/polarion/#/project/OSE/workitem?id=OCP-32867
+  - verifies: https://redhat.atlassian.net/browse/SDA-2945
