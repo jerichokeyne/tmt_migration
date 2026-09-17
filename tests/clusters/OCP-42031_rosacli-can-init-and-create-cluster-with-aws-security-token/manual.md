@@ -2,15 +2,21 @@
 How to generate security token and how to setup the env:  
 1. Setup valid aws credentials on your local  
 2. Run command below to get the security token and store it to a file  
-$ aws sts assume-role --role-arn arn:aws:iam::301721915996:role/OSDCCSAdmin --role-session-name s3-access-example --profile default > assume-role-output.txt  
-3. Run below commands to set the tokens to env variables  
-`$ ``export AWS_ACCESS_KEY_ID=ASIAIOSFODNN7EXAMPLE`   
-`$ ``export AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY`   
-`$ ``export AWS_SESSION_TOKEN=AQoDYXdzEJr...<remainder of security token>  
-`4. After setup, run below command to check whether it work`  
-`$ ``aws ec2 describe-instances --region us-west-1`  
-`You can move your credentials to credentials.bk to make sure below testing is using the security token`  
-`Reference doc: [reference doc](<https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_use-resources.html>) ``
+```bash
+aws sts assume-role --role-arn arn:aws:iam::301721915996:role/OSDCCSAdmin --role-session-name s3-access-example --profile default > assume-role-output.txt
+```
+3. Run below commands to set the tokens to env variables
+```bash
+export AWS_ACCESS_KEY_ID="<Credentials.AccessKeyId>" 
+export AWS_SECRET_ACCESS_KEY="<Credentials.SecretAccessKey>"   
+export AWS_SESSION_TOKEN="<Credentials.SessionToken>"
+```
+4. After setup, run below command to check whether it work
+```bash
+aws ec2 describe-instances --region us-west-1
+```
+- You can move your credentials to `credentials.bk` to make sure below testing is using the security token
+- Reference doc: [reference doc](<https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_temp_use-resources.html>)
 
 # Test
 
