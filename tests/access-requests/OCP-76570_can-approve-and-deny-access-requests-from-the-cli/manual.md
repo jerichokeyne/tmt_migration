@@ -68,7 +68,7 @@ echo '{"kind": "Label", "internal": true, "key": "capability.cluster.enable_acce
 ## Step
 4. Create an access request (if your account can't make an access request, try with the org admin account)
 
-You can create an access request by running this (replace CLUSTER_ID with your cluster's ID, and if needed you can replace SDAINT-9253 with another JIRA ticket in the SDAINT project):
+You can create an access request by running this (replace CLUSTER_ID with your cluster's ID, and if needed you can replace `SDAINT-9253` with another JIRA ticket in the SDAINT project):
 ```bash
 echo "{\"justification\": \"Testing\", \"cluster_id\": \"${CLUSTER_ID}\", \"internal_support_case_id\": \"SDAINT-9253\"}" | ocm post /api/access_transparency/v1/access_requests
 ```
