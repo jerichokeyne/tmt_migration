@@ -6,20 +6,20 @@ Prepare a multi zone sts cluster with BYOVPC set via rosacli
 ## Expect
 
 ## Step
-Create a single zone machinepool with the private subnet used to create the cluster  
+Create a single zone machinepool with the private subnet used to create the cluster
 \# rosa create machinepool -c yuwan-stswj4 --name d5d --replicas=3 --subnet <subnet-id>
 
 ## Expect
-- The machinepool is created successfully  
-- The subnet should be the one used for the machinepool creation  
+- The machinepool is created successfully
+- The subnet should be the one used for the machinepool creation
 - The availability zone should be detected correctly
 
 ## Step
-Retrieve the machinepool.  
+Retrieve the machinepool.
 \# rosa list machinepool
 
 ## Expect
-- The subnet used for the machinepool creation will be in the 'SUBNETS' colume.  
+- The subnet used for the machinepool creation will be in the 'SUBNETS' colume.
 - The availability zone should be detected correctly
 
 ## Step
@@ -34,19 +34,19 @@ Prepare another subnet belongs to same vpc in other zones and has a label of [ku
 ## Expect
 
 ## Step
-Create machinepool with the subnet  
+Create machinepool with the subnet
 \# rosa create machinepool -c yuwan-stswj4 --name d5d --replicas=3 --subnet <subnet-id>
 
 ## Expect
-- The machinepool should be created successfully  
+- The machinepool should be created successfully
 - The zone should be detected correctly
 
 ## Step
-Retrieve the machinepool.  
+Retrieve the machinepool.
 \# rosa list machinepool
 
 ## Expect
-- The subnet used for the machinepool creation will be in the 'SUBNETS' colume.  
+- The subnet used for the machinepool creation will be in the 'SUBNETS' colume.
 - The availability zone should be detected correctly
 
 ## Step
@@ -67,11 +67,11 @@ Scale up and down the machinepool by `rosa edit machinepool`
 ~~- The machine should be started correctly and finally running~~
 
 ## Step
-Retrieve the machinepool.  
+Retrieve the machinepool.
 \# rosa list machinepool
 
 ## Expect
-- The machinepool should be created successfully  
+- The machinepool should be created successfully
 - The zone should be detected correctly
 
 ## Step

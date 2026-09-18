@@ -1,18 +1,20 @@
 # Test
 
 ## Step
-Log in with the rosa tool
+Log in with the ROSA tool.
 
 ## Expect
 
 ## Step
-Run below command to check the list regions help message
+Run the following command to check the `list regions` help message:
+
 ```bash
 rosa list regions --help
 ```
 
 ## Expect
-- All of the description is clear and correct
+- All descriptions are clear and correct.
+
 ```
 List regions that are available for the current AWS account.
 
@@ -42,14 +44,16 @@ Global Flags:
 ```
 
 ## Step
-Run below command to list the available regions
+Run the following command to list the available regions:
+
 ```bash
 rosa list regions
 ```
 
 ## Expect
-- The available regions will be listed
-- 4 columns `ID`, `NAME`, `MULTI-AZ SUPPORT`, `HOSTED-CP SUPPORT` and its values should be correct
+- The available regions are listed.
+- The four columns `ID`, `NAME`, `MULTI-AZ SUPPORT`, and `HOSTED-CP SUPPORT`, and their values, are correct.
+
 ```
 ID                NAME                         MULTI-AZ SUPPORT    HOSTED-CP SUPPORT
 ap-northeast-1    Asia Pacific, Tokyo          true                false
@@ -85,23 +89,27 @@ us-west-2         US West, Oregon              true                true
 ```
 
 ## Step
-Mark a region to unavailable on AWS(Cannot simulate for QE now)
+Mark a region unavailable on AWS. This cannot currently be simulated for QE.
 
 ## Expect
 
 ## Step
-- Run below command to list the available regions
+Run the following command to list available regions:
+
 ```bash
 rosa list regions
 ```
-- since QE cannot simulate the above step, we need to check it via command
+
+Since QE cannot simulate the preceding step, check it with:
+
 ```bash
 rosa list regions --debug
 ```
 
 ## Expect
-- The unavailable region cannot be listed
-- If checking through `--debug`, check that the regions should comes from API `/api/cluster_mgmt/v1/cloud_providers/aws/available_regions`
+- The unavailable region cannot be listed.
+- When checking with `--debug`, verify that the regions come from API `/api/cluster_mgmt/v1/cloud_providers/aws/available_regions`.
+
 ```
 ...
 time=2026-09-03T17:07:29-04:00 level=debug msg=Request method is POST
@@ -135,13 +143,14 @@ time=2026-09-03T17:07:29-04:00 level=debug msg={
 ```
 
 ## Step
-Run command to list the multi_az regions
+Run the command to list multi-AZ regions:
+
 ```bash
 rosa list regions --multi-az # optionally --debug
 ```
 
 ## Expect
-Compare with the response body, all of the regions listed should support multi az
+Compare with the response body. All listed regions should support multi-AZ.
 
 ```
 ID                NAME                         MULTI-AZ SUPPORT    HOSTED-CP SUPPORT
@@ -177,14 +186,15 @@ us-west-2         US West, Oregon              true                true
 ```
 
 ## Step
-List hosted-cp supported ones,
+List hosted-CP-supported regions:
 
 ```bash
 rosa list regions --hosted-cp
 ```
 
 ## Expect
-- Only regions which are supported on hosted-cp cluster are shown.
+- Only regions supported by hosted-CP clusters are shown.
+
 ```
 ID           NAME               MULTI-AZ SUPPORT    HOSTED-CP SUPPORT
 us-east-2    US East, Ohio      true                true
@@ -192,20 +202,22 @@ us-west-2    US West, Oregon    true                true
 ```
 
 ## Step
-Check all of the flags should work for the list regions command
+Check that all flags work for the `list regions` command:
+
 - `--profile`
-- `--V` # TODO: Find out what this was supposed to be
+- `--V` (TODO: Find out what this was supposed to be.)
 
 ## Expect
 
 ## Step
-Check the unsupported flag
+Check the unsupported flag:
+
 ```bash
 rosa list regions --interactive
 ```
 
 ## Expect
-unknown flag Error with <usage> returned
+An unknown-flag error with usage is returned.
 
 ```
 Failed to execute root command: unknown flag: --interactive

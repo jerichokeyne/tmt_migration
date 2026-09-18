@@ -1,120 +1,180 @@
 # Test
 
 ## Step
+
 Launch staging env via rosa cli and prepare a low version cluster
 
 ## Expect
 
 ## Step
-Run command to check the list machine pool help  
-$ rosa list upgrades --help
+
+Run command to check the list machine pool help:
+
+```bash
+rosa list upgrades --help
+```
 
 ## Expect
-[xueli@xueli-work tmp]$ rosa list upgrades -h  
-List available and scheduled cluster version upgrades  
-  
-  
-Usage:  
-rosa list upgrades [flags]  
-  
-  
-Aliases:  
-upgrades, upgrade  
-  
-  
-Flags:  
--c, --cluster string Name or ID of the cluster to list the upgrades of (required).  
--h, --help help for upgrades  
-  
-  
-Global Flags:  
---debug Enable debug mode.  
---profile string Use a specific AWS profile from your credential file.  
--v, --v Level log level for V logs
+
+```
+List available and scheduled cluster version upgrades
+
+Usage:
+rosa list upgrades [flags]
+
+Aliases:
+upgrades, upgrade
+
+Flags:
+  -c, --cluster string       Name or ID of the cluster.
+      --machinepool string   Machine pool of the cluster to target
+  -y, --yes                  Automatically answer yes to confirm operation.
+  -o, --output string        Output format. Allowed formats are [json yaml]
+  -h, --help                 help for upgrades
+
+Global Flags:
+      --color string     Surround certain characters with escape sequences to display them in color on the terminal. Allowed options are [auto never always] (default "auto")
+      --debug            Enable debug mode.
+      --profile string   Use a specific AWS profile from your credential file.
+      --region string    Use a specific AWS region, overriding the AWS_REGION environment variable. (DEPRECATED: Region flag will be removed from this command in future versions)
+```
 
 ## Step
-Prepare no upgrades and list the upgrades  
-$ rosa list upgrades -c <cluster name>
+
+Prepare no upgrades and list the upgrades:
+
+```bash
+rosa list upgrades -c <cluster_name>
+```
 
 ## Expect
-- The scheduled upgrades will show with scheduled time  
-[xueli@xueli-work tmp]$ rosa list upgrades -c xueli-rosa  
-VERSION NOTES  
-4.6.2 recommended  
+
+- The scheduled upgrades will show with scheduled time:
+
+```bash
+rosa list upgrades -c xueli-rosa
+```
+
+```
+VERSION NOTES
+4.6.2 recommended
 4.6.1
+```
 
 ## Step
+
 Create a upgrades policy
 
 ## Expect
 
 ## Step
-Run command to list the upgrade  
-$ rosa list upgrades -c <cluster name>
+
+Run command to list the upgrade:
+
+```bash
+rosa list upgrades -c <cluster_name>
+```
 
 ## Expect
-- The scheduled upgrades will show with scheduled time  
-[xueli@xueli-work tmp]$ rosa list upgrades -c xueli-rosa  
-VERSION NOTES  
-4.6.2 recommended  
-4.6.1 scheduled for 2021-01-26 11:56 UTC
 
-## Step
-Wait until the scheduled policy started/delayed  
-Run command to list the upgrade  
-$ rosa list upgrades -c <cluster name>
+- The scheduled upgrades will show with scheduled time:
 
-## Expect
-- The scheduled upgrades will show current status of the policy  
-[xueli@xueli-work tmp]$ rosa list upgrades -c xueli-rosa  
-VERSION NOTES  
-4.6.2 recommended  
-4.6.1 started
+```bash
+rosa list upgrades -c xueli-rosa
+```
 
-## Step
-Wait until policy upgrade finished/failed  
-Wait until the scheduled policy started/delayed  
-Run command to list the upgrade  
-$ rosa list upgrades -c <cluster name>
-
-## Expect
-- The scheduled upgrades policy is deleted  
-[xueli@xueli-work tmp]$ rosa list upgrades -c xueli-rosa  
-VERSION NOTES  
+```
+VERSION NOTES
 4.6.2 recommended
+4.6.1 scheduled for 2021-01-26 11:56 UTC
+```
 
 ## Step
-Run command to list the upgrades without cluster set  
-$ rosa list upgrades
+
+Wait until the scheduled policy started/delayed. Run command to list the upgrade:
+
+```bash
+rosa list upgrades -c <cluster_name>
+```
 
 ## Expect
-Error: required flag(s) "cluster" not set  
+
+- The scheduled upgrades will show current status of the policy:
+
+```bash
+rosa list upgrades -c xueli-rosa
+```
+
+```
+VERSION NOTES
+4.6.2 recommended
+4.6.1 started
+```
+
+## Step
+
+Wait until policy upgrade finished/failed
+Wait until the scheduled policy started/delayed
+Run command to list the upgrade:
+
+```bash
+rosa list upgrades -c <cluster_name>
+```
+
+## Expect
+
+- The scheduled upgrades policy is deleted:
+
+```bash
+rosa list upgrades -c xueli-rosa
+```
+
+```
+VERSION NOTES
+4.6.2 recommended
+```
+
+## Step
+
+Run command to list the upgrades without cluster set:
+
+```bash
+rosa list upgrades
+```
+
+## Expect
+
+```
+Error: required flag(s) "cluster" not set
 <usage> show
+```
 
 ## Step
-Run command to list the upgrades invalid flag  
-$ rosa list upgrades --interactive
+
+Run command to list the upgrades invalid flag:
+
+```bash
+rosa list upgrades --interactive
+```
 
 ## Expect
-[xueli@xueli-work tmp]$ rosa list upgrades --interactive  
-Error: unknown flag: --interactive  
-Usage:  
-rosa list upgrades [flags]  
-  
-  
-Aliases:  
-upgrades, upgrade  
-  
-  
-Flags:  
--c, --cluster string Name or ID of the cluster to list the upgrades of (required).  
--h, --help help for upgrades  
-  
-  
-Global Flags:  
---debug Enable debug mode.  
---profile string Use a specific AWS profile from your credential file.  
--v, --v Level log level for V logs  
-  
-  
+
+```
+Error: unknown flag: --interactive
+Usage:
+rosa list upgrades [flags]
+
+Aliases:
+upgrades, upgrade
+
+Flags:
+-c, --cluster string Name or ID of the cluster to list the upgrades of (required).
+-h, --help help for upgrades
+
+Global Flags:
+--debug Enable debug mode.
+--profile string Use a specific AWS profile from your credential file.
+-v, --v Level log level for V logs
+
 Failed to execute root command: unknown flag: --interactive
+```

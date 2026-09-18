@@ -6,15 +6,19 @@ Prepare a hosted cluster
 ## Expect
 
 ## Step
-Create machinepool with multiple kubelet config ids  
-$ rosa create machinepool --kubelet-configs kube1,kube2 --replicas 0 --name multikube
+Create machinepool with multiple kubelet config ids
+```bash
+rosa create machinepool --kubelet-configs kube1,kube2 --replicas 0 --name multikube
+```
 
 ## Expect
 It will fail with only 1 supported
 
 ## Step
-Create machinepool with not existing kubeletconfig name  
-$ rosa create machinepool --kubelet-configs notexisting --replicas 0 --name not existing
+Create machinepool with not existing kubeletconfig name
+```bash
+rosa create machinepool --kubelet-configs notexisting --replicas 0 --name not existing
+```
 
 ## Expect
 It will fail with error message the kubeletconfig not existing

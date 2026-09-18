@@ -1,29 +1,35 @@
 # Test
 
 ## Step
-Log in rosacli and create(link) ocm-role and make sure there is no linked user-role
+
+1. Log in to ROSA CLI and create and link an OCM role. Confirm that no user role is linked.
 
 ## Expect
 
 ## Step
-Create STS cluster via rosacli
+
+1. Create an STS cluster through ROSA CLI.
 
 ## Expect
-It should succeed
+
+It succeeds.
 
 ## Step
-Test all actions bellow  
 
-  * Create/Edit/Delete cluster
-  * Create/Edit/Delete machinepool
-  * Create/Edit/Delete idp
-  * others operation
+1. Test these actions:
+   - Create, edit, and delete a cluster.
+   - Create, edit, and delete a machine pool.
+   - Create, edit, and delete an IDP.
+   - Other operations.
 
 ## Expect
-It should succeed
+
+It succeeds.
 
 ## Step
-Repeat step1~3 with an account which has no ocm-role
+
+1. Repeat steps 1 through 3 with an account that has no OCM role.
 
 ## Expect
-It should succeed
+
+It succeeds.

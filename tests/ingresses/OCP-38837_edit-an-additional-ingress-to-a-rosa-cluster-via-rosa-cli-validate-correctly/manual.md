@@ -1,51 +1,70 @@
 # Test
 
 ## Step
-note: cannot create additional ingress on staging/int env since the "managed-ingress-support" is toggled on for all users on staging/int env from now (09/18)  
-Edit/Delete additional ingress should work if it is present  
-Edit default ingress is not changed.  
-  
-Launch rosa cli to staging env
+
+1. Note that additional ingresses cannot be created in staging/INT because `managed-ingress-support` is enabled for all users (from 09/18). Edit and delete additional ingress if present. Editing the default ingress is unchanged. Launch the ROSA CLI in the staging environment.
 
 ## Expect
 
 ## Step
-Prepare a ready rosa cluster
+
+2. Prepare a ready ROSA cluster.
 
 ## Expect
 
 ## Step
-Run command to record the ingress:  
-$ rosa list ingress -c <cluster name>
+
+3. Record the ingress.
+
+```bash
+rosa list ingress -c <cluster name>
+```
 
 ## Expect
 
 ## Step
-Run command to edit ingress with invalid label:  
-$ rosa edit ingress <ingress id> -c <cluster name> --label-match "aaa,"
+
+4. Edit an ingress with an invalid label.
+
+```bash
+rosa edit ingress <ingress id> -c <cluster name> --label-match "aaa,"
+```
 
 ## Expect
-- There will be error message returned E: Expected key=value format for label-match  
-- Ingress not updated
+
+- `E: Expected key=value format for label-match` is returned.
+- The ingress is not updated.
 
 ## Step
-Run command with non-allowed flag  
-$ rosa edit ingress <ingress id> --nonallowed
+
+5. Run the command with a non-allowed flag.
+
+```bash
+rosa edit ingress <ingress id> --nonallowed
+```
 
 ## Expect
-- The help message should show  
-- Error message : Error: unknown flag: --nonallowed
+
+- The help message is shown.
+- `Error: unknown flag: --nonallowed` is returned.
 
 ## Step
-Run command without cluster indicated  
-$ rosa edit ingress <ingress id>
+
+6. Run the command without a cluster.
+
+```bash
+rosa edit ingress <ingress id>
+```
 
 ## Expect
-- Error message: Error: required flag(s) "cluster" not set  
-- The help usage should show
+
+- `Error: required flag(s) "cluster" not set` is returned.
+- The help usage is shown.
 
 ## Step
-Run command with all of the flags in the help message
+
+7. Run the command with all flags in the help message.
 
 ## Expect
-- All of flags should be meaningful and can work correctly
+
+- All flags are meaningful and work correctly.

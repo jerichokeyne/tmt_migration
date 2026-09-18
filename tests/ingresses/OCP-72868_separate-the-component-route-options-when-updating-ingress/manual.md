@@ -1,77 +1,164 @@
 # Test
 
 ## Step
-Prepare one ready ROSA cluster
+
+1. Prepare one ready ROSA cluster.
 
 ## Expect
 
 ## Step
-Verify the --help/-h statement for rosa edit ingress  
-  
-rosa edit ingress --help  
-  
-OR   
-  
+
+2. Verify the `--help` and `-h` output for `rosa edit ingress`.
+
+```bash
+rosa edit ingress --help
 rosa edit ingress -h
+```
 
 ## Expect
-Edit a cluster ingress for a cluster.  
-  
-Usage:  
-rosa edit ingress ID [flags]  
-  
-Flags:  
--c, --cluster string Name or ID of the cluster.  
---component-routes string Component routes settings. Available keys [oauth, console, downloads]. For each key a pair of hostname and tlsSecretRef is expected to be supplied. Format should be a comma separate list 'oauth: hostname=example-hostname;tlsSecretRef=example-secret-ref,downloads:...
+
+```
+Edit a cluster ingress for a cluster.
+
+Usage:
+  rosa edit ingress ID [flags]
+
+Aliases:
+  ingress, route
+
+Examples:
+  # Make additional ingress with ID 'a1b2' private on a cluster named 'mycluster'
+  rosa edit ingress --private --cluster=mycluster a1b2
+
+  # Update the router selectors for the additional ingress with ID 'a1b2'
+  rosa edit ingress --label-match=foo=bar --cluster=mycluster a1b2
+
+  # Update the default ingress using the sub-domain identifier
+  rosa edit ingress --private=false --cluster=mycluster apps
+
+  # Update the load balancer type of the apps2 ingress
+  rosa edit ingress --lb-type=nlb --cluster=mycluster apps2
+
+Flags:
+  -c, --cluster string                      Name or ID of the cluster.
+      --component-routes string             Component route settings. Specify one or more routes to update; routes not specified remain unchanged. Available keys are [oauth, console, downloads] (HCP clusters support console and downloads only). Each route requires a hostname and tlsSecretRef. To clear a route, set both to empty values. Format: 'console: hostname=example-hostname;tlsSecretRef=example-secret-ref,downloads:...'
+      --excluded-namespaces string          Excluded namespaces for ingress. Format should be a comma-separated list 'value1, value2...'. If no values are specified, all namespaces will be exposed.
+  -h, --help                                help for ingress
+      --label-match string                  Alias to 'route-selector' flag.
+      --lb-type string                      Type of Load Balancer. Options are classic,nlb.
+      --namespace-ownership-policy string   Namespace Ownership Policy for ingress. Options are Strict,InterNamespaceAllowed. Default is 'Strict'.
+      --private                             Restrict application route to direct, private connectivity.
+      --route-selector string               Route Selector for ingress. Format should be a comma-separated list of 'key=value'. If no label is specified, all routes will be exposed on both routers. For legacy ingress support these are inclusion labels, otherwise they are treated as exclusion label.
+      --wildcard-policy string              Wildcard Policy for ingress. Options are WildcardsDisallowed,WildcardsAllowed. Default is 'WildcardsDisallowed'.
+
+Global Flags:
+      --color string     Surround certain characters with escape sequences to display them in color on the terminal. Allowed options are [auto never always] (default "auto")
+      --debug            Enable debug mode.
+  -i, --interactive      Enable interactive mode.
+      --profile string   Use a specific AWS profile from your credential file.
+      --region string    Use a specific AWS region, overriding the AWS_REGION environment variable. (DEPRECATED: Region flag will be removed from this command in future versions)
+  -y, --yes              Automatically answer yes to confirm operation.
+```
 
 ## Step
-List the ingresses of the cluster: rosa list ingresses cluster_identifier
+
+3. List the ingresses of the cluster.
+
+```bash
+rosa list ingresses cluster_identifier
+```
 
 ## Expect
 
 ## Step
-Verify the ability to simultaneously set custom hostname, certificate secrets for oauth, downloads and console routes by using the following: rosa edit ingress -c cluster_identifier ingress_identifier --component-routes "oauth: hostname=<hostname>;tlsSecretRef=<secret-ref>,downloads: hostname=<hostname>;tlsSecretRef=<secret-ref>,console: hostname=<hostname>;tlsSecretRef=<secret-ref>"
+
+4. Simultaneously set custom hostnames and certificate secrets for the OAuth, downloads, and console routes.
+
+```bash
+rosa edit ingress -c cluster_identifier ingress_identifier --component-routes "oauth: hostname=<hostname>;tlsSecretRef=<secret-ref>,downloads: hostname=<hostname>;tlsSecretRef=<secret-ref>,console: hostname=<hostname>;tlsSecretRef=<secret-ref>"
+```
 
 ## Expect
-You should get the following output: I: Updated ingress 'id' on cluster 'cluster_name'
+
+```
+I: Updated ingress 'id' on cluster 'cluster_name'
+```
 
 ## Step
-Verify the same changes in the interactive mode: rosa edit ingress -i
+
+5. Verify the same changes in interactive mode.
+
+```bash
+rosa edit ingress -i
+```
 
 ## Expect
 
 ## Step
-Verify the update: rosa list ingresses cluster_identifier
+
+6. Verify the update.
+
+```bash
+rosa list ingresses cluster_identifier
+```
 
 ## Expect
-Call “/api/clusters_mgmt/v1/clusters/<cluster_id>/ingresses” with a get request: Oauth, downloads, and console routes reflect the respective custom values
+
+Call `/api/clusters_mgmt/v1/clusters/<cluster_id>/ingresses` with a GET request. OAuth, downloads, and console routes reflect the respective custom values.
 
 ## Step
-Confirm that error is return when not all required component routes are specified in the command
+
+7. Confirm that an error is returned when not all required component routes are specified.
 
 ## Expect
+
+```
 E: An error occurred whilst parsing the supplied component routes: the expected amount of component routes is 3, but 1 have been supplied
+```
 
 ## Step
-Test updating all component routes with new certificate secrets using rosa edit ingress
+
+8. Update all component routes with new certificate secrets using `rosa edit ingress`.
 
 ## Expect
-Should be updated successfully (rosa list ingresses cluster_identifier, call the api with a get request)
+
+The routes are updated successfully. Verify with `rosa list ingresses cluster_identifier` and an API GET request.
 
 ## Step
-Test setting individual hostnames and secrets to each route
+
+9. Set individual hostnames and secrets for each route.
 
 ## Expect
-Should be updated successfully (rosa list ingresses cluster_identifier, call the api with a get request)
+
+The routes are updated successfully. Verify with `rosa list ingresses cluster_identifier` and an API GET request.
 
 ## Step
-Verify the behaviour if you do not supply the correct syntax etc for the parameters:  
-[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth: hostname:custom1;tlsSecretRef=custom1,downloads: hostname=custom2;tlsSecretRef=custom2,console: hostname=custom3;tlsSecretRef=custom3"E: An error occurred whilst parsing the supplied component routes: only the name of the component should be followed by ':'[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth: hostname=custom1;tlsSecretRef=custom1,downloads: hostname:custom2;tlsSecretRef:custom2,console: hostname=custom3;tlsSecretRef=custom3"E: An error occurred whilst parsing the supplied component routes: only the name of the component should be followed by ':'[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth: hostname=custom1;tlsSecretRef=custom1,downloads: hostname=custom2;tlsSecretRef=custom2,console: hostname:custom3;tlsSecretRef=custom3"E: An error occurred whilst parsing the supplied component routes: only the name of the component should be followed by ':'[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth= hostname=custom1;tlsSecretRef=custom1,downloads: hostname=custom2;tlsSecretRef=custom2,console: hostname=custom3;tlsSecretRef=custom3"E: An error occurred whilst parsing the supplied component routes: only the name of the component should be followed by ':'[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth: hostname=custom1;tlsSecretRef=custom1,downloads= hostname=custom2;tlsSecretRef=custom2,console: hostname=custom3;tlsSecretRef=custom3"E: An error occurred whilst parsing the supplied component routes: only the name of the component should be followed by ':'[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth: hostname=custom1;tlsSecretRef=custom1,downloads: hostname=custom2;tlsSecretRef=custom2,console= hostname=custom3;tlsSecretRef=custom3"E: An error occurred whilst parsing the supplied component routes: only the name of the component should be followed by ':'[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth: hostname=custom1;tlsSecretRef=custom1,downloads: hostname=custom2;tlsSecretRef=custom2,console:= hostname=custom3;tlsSecretRef=custom3"E: An error occurred whilst parsing the supplied component routes: '' is not a valid parameter for a component route. Expected include [hostname, tlsSecretRef]
+
+10. Verify behavior for incorrect parameter syntax.
+
+```
+[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth: hostname:custom1;tlsSecretRef=custom1,downloads: hostname=custom2;tlsSecretRef=custom2,console: hostname=custom3;tlsSecretRef=custom3"
+E: An error occurred whilst parsing the supplied component routes: only the name of the component should be followed by ':'
+[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth: hostname=custom1;tlsSecretRef=custom1,downloads: hostname:custom2;tlsSecretRef:custom2,console: hostname=custom3;tlsSecretRef=custom3"
+E: An error occurred whilst parsing the supplied component routes: only the name of the component should be followed by ':'
+[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth: hostname=custom1;tlsSecretRef=custom1,downloads: hostname=custom2;tlsSecretRef=custom2,console: hostname:custom3;tlsSecretRef=custom3"
+E: An error occurred whilst parsing the supplied component routes: only the name of the component should be followed by ':'
+[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth= hostname=custom1;tlsSecretRef=custom1,downloads: hostname=custom2;tlsSecretRef=custom2,console: hostname=custom3;tlsSecretRef=custom3"
+E: An error occurred whilst parsing the supplied component routes: only the name of the component should be followed by ':'
+[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth: hostname=custom1;tlsSecretRef=custom1,downloads= hostname=custom2;tlsSecretRef=custom2,console: hostname=custom3;tlsSecretRef=custom3"
+E: An error occurred whilst parsing the supplied component routes: only the name of the component should be followed by ':'
+[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth: hostname=custom1;tlsSecretRef=custom1,downloads: hostname=custom2;tlsSecretRef=custom2,console= hostname=custom3;tlsSecretRef=custom3"
+E: An error occurred whilst parsing the supplied component routes: only the name of the component should be followed by ':'
+[valeriiashapoval@fedora rosa-1.2.37.rc4]$ rosa edit ingress -c vshapova-7047 m9s9 --component-routes "oauth: hostname=custom1;tlsSecretRef=custom1,downloads: hostname=custom2;tlsSecretRef=custom2,console:= hostname=custom3;tlsSecretRef=custom3"
+E: An error occurred whilst parsing the supplied component routes: '' is not a valid parameter for a component route. Expected include [hostname, tlsSecretRef]
+```
 
 ## Expect
-Call the API with a GET request, verify that no changes have been made (/api/clusters_mgmt/v1/clusters/<cluster_id>/ingresses)
+
+Call the API with a GET request and verify that no changes were made: `/api/clusters_mgmt/v1/clusters/<cluster_id>/ingresses`.
 
 ## Step
-Repeat the steps on a hosted CP cluster.
+
+11. Repeat the steps on a hosted CP cluster.
 
 ## Expect

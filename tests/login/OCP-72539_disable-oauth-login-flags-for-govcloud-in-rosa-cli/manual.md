@@ -1,15 +1,25 @@
 # Test
 
 ## Step
-1. Verify login fails when using --use-auth-code with govcloud
+1. Verify login fails when using `--use-auth-code` with govcloud.
+
+```bash
+rosa login --env=integration --govcloud --use-auth-code
+```
 
 ## Expect
-rosa login --env=integration --govcloud --use-auth-code  
+```
 E: This login method is currently not supported with FedRAMP
+```
 
 ## Step
-2. Verify login fails when using --use-device-code with govcloud
+2. Verify login fails when using `--use-device-code` with govcloud.
+
+```bash
+rosa login --env=integration --govcloud --use-device-code
+```
 
 ## Expect
-rosa login --env=integration --govcloud --use-device-code  
+```
 E: This login method is currently not supported with FedRAMP
+```

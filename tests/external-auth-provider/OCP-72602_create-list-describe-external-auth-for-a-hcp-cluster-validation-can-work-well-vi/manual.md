@@ -1,30 +1,42 @@
 # Test
 
 ## Step
-Prepare HCP cluster with  --external-auth-providers-enabled
+Prepare HCP cluster with `--external-auth-providers-enabled`
 
 ## Expect
 
 ## Step
-Create/List external_provider to HCP cluster that external_auth_config is not enable
+Create/list external provider for an HCP cluster where external authentication configuration is not enabled
 
 ## Expect
-it should return readable and actionable error message  
-./rosa create external-auth-provider -c sdq-ci-bgzwy   
-E: external authentication configuration is not enabled for cluster 'sdq-ci-bgzwy'  
-Create a hosted control plane with '--external-auth-providers-enabled' parameter to enabled the configuration
+It should return a readable and actionable error message.
+
+```bash
+./rosa create external-auth-provider -c sdq-ci-bgzwy
+```
+
+```
+E: external authentication configuration is not enabled for cluster 'sdq-ci-bgzwy'
+```
+
+Create a hosted control plane with the `--external-auth-providers-enabled` parameter to enable the configuration.
 
 ## Step
-Create external_provider to the cluster   
---without attribute id/issuer/issuer.audiences/issuer.url/claim one by one for external_auth request--(It will goto interactive mode)
+Create external provider for the cluster without attribute `id`, `issuer`, `issuer.audiences`, `issuer.url`, or `claim`, one by one, for the external authentication request. It will go to interactive mode.
 
 ## Expect
-it should return readable and actionable error message
+It should return a readable and actionable error message.
 
 ## Step
-Create/List non HCP cluster with external_auth_config and external_auths
+Create/list non-HCP cluster with external authentication configuration and external authentications
 
 ## Expect
-it should return readable and actionable error message  
-rosa create external-auth-provider -c sdq-ci-izzxi   
+It should return a readable and actionable error message.
+
+```bash
+rosa create external-auth-provider -c sdq-ci-izzxi
+```
+
+```
 E: external authentication provider is only supported for Hosted Control Planes
+```

@@ -1,46 +1,56 @@
 # Test
 
 ## Step
+
 Check the help message of `rosa create cluster -h`
 
 ## Expect
-There should help massage for the flag '--hosted-cp' and some example for creating Hypershift cluster  
+
+There should help massage for the flag '--hosted-cp' and some example for creating Hypershift cluster
 "rosa create" command will deprecate "multi-az, single-az" flags when used with "--hosted-cp".
 
 ## Step
-Create basic one AZ Hosted cluster  
-  
-Example:  
+
+Create basic one AZ Hosted cluster
+
+Example:
 ./rosa create cluster --cluster-name yuwan-bhs1 --sts --role-arn arn:aws:iam::301721915996:role/yw0921accrhs1-Installer-Role --support-role-arn arn:aws:iam::301721915996:role/yw0921accrhs1-Support-Role --controlplane-iam-role arn:aws:iam::301721915996:role/yw0921accrhs1-ControlPlane-Role --worker-iam-role arn:aws:iam::301721915996:role/yw0921accrhs1-Worker-Role --operator-roles-prefix yuwan-bhs1-h3b1 --region us-west-2 --replicas 2 --subnet-ids <private-subnet-1>,<public-subnet-1> --hosted-cp -y --mode auto
 
 ## Expect
-Checklist:  
-- Cluster ready  
-- Describe cluster and check:  
-- billing account  
-- version used (should be latest)  
-- operator roles list  
-- Machinepool ready  
-- machinepool should be created on the given subnet with 2 replicas  
+
+Checklist:
+- Cluster ready
+- Describe cluster and check:
+- billing account
+- version used (should be latest)
+- operator roles list
+- Machinepool ready
+- machinepool should be created on the given subnet with 2 replicas
 - Cluster Operators ready
 
 ## Step
+
 Delete the Hypershift cluster by `rosa delete cluster`
 
 ## Expect
-- The cluster can be deleted  
+
+- The cluster can be deleted
 - All resource on AWS should be deleted.
 
 ## Step
+
 Delete operator roles
 
 ## Expect
-- The operator roles are deleted from AWS  
+
+- The operator roles are deleted from AWS
 - There are readable message shown about the role deletion
 
 ## Step
+
 Delete oidc provider
 
 ## Expect
-- The oidc-provider are deleted from AWS  
+
+- The oidc-provider are deleted from AWS
 - There are readable message shown about the oidc-provider deletion

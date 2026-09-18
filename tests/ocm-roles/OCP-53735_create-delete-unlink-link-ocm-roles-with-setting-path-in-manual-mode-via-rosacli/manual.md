@@ -1,82 +1,102 @@
 # Test
 
 ## Step
-Check the help message:  
-\# rosa create ocm-role -h  
-\# rosa create user-role -h
+
+1. Check the help messages.
+
+```bash
+rosa create ocm-role -h
+rosa create user-role -h
+```
 
 ## Expect
-There is the help info of '--path'
+
+The help output includes `--path`.
 
 ## Step
-Create user-role in the interactive mode then choose manual in the promoted option
+
+1. Create a user role in interactive mode, then choose manual mode when prompted.
 
 ## Expect
-- AWS command is prompted, and it includes "Key=red-hat-managed,Value=true"(SDA-6439)  
-- There is the rosacli command for linking the role  
-- The promoted AWS/ROSACLI commands can be executed successfully   
-  
-After the commands are executed:  
-- The user-role with setting path is created successfully.  
-- The user should show correctly by `rosa list user-role`
+
+- An AWS command is prompted and includes `Key=red-hat-managed,Value=true` (SDA-6439).
+- A ROSA CLI command to link the role is shown.
+- The prompted AWS and ROSA CLI commands execute successfully.
+- After the commands execute, the user role with the configured path is created successfully.
+- The user role displays correctly in `rosa list user-role`.
 
 ## Step
-Create another user-role in the interactive mode then choose auto in the promoted option
+
+1. Create another user role in interactive mode, then choose auto mode when prompted.
 
 ## Expect
-- The user-role with setting path is created successfully.  
-- The user-role should show correctly by `rosa list user-role`
+
+- The user role with the configured path is created successfully.
+- The user role displays correctly in `rosa list user-role`.
 
 ## Step
-Unlink the user-role created in step2
+
+1. Unlink the user role created in step 2.
 
 ## Expect
-It should succeed
+
+It succeeds.
 
 ## Step
-Delete the user-role created in step2
+
+1. Delete the user role created in step 2.
 
 ## Expect
-It should succeed
+
+It succeeds.
 
 ## Step
-Create ocm-role in the interactive mode then choose manual in the promoted option
+
+1. Create an OCM role in interactive mode, then choose manual mode when prompted.
 
 ## Expect
-- AWS command is prompted, and it includes "Key=red-hat-managed,Value=true"(SDA-6439)  
-- There is the rosacli command for linking the role  
-- The promoted AWS/ROSACLI commands can be executed successfully   
-  
-After the commands are executed:  
-- The ocm-role with setting path is created successfully.  
-- The ocm-role should show correctly by `rosa list user-role`
+
+- An AWS command is prompted and includes `Key=red-hat-managed,Value=true` (SDA-6439).
+- A ROSA CLI command to link the role is shown.
+- The prompted AWS and ROSA CLI commands execute successfully.
+- After the commands execute, the OCM role with the configured path is created successfully.
+- The OCM role displays correctly in `rosa list user-role`.
 
 ## Step
-Create another ocm-role in the interactive mode then choose auto in the promoted option
+
+1. Create another OCM role in interactive mode, then choose auto mode when prompted.
 
 ## Expect
-- The ocm-role with setting path is created successfully.  
-- The ocm-role should show correctly by `rosa list user-role`
+
+- The OCM role with the configured path is created successfully.
+- The OCM role displays correctly in `rosa list user-role`.
 
 ## Step
-Unlink the ocm-role created in step6
+
+1. Unlink the OCM role created in step 6.
 
 ## Expect
-It should succeed
+
+It succeeds.
 
 ## Step
-Delete the ocm-role with the arn created in step6
+
+1. Delete the OCM role created in step 6 by ARN.
 
 ## Expect
-It should succeed
+
+It succeeds.
 
 ## Step
-Check the validation for `rosa create ocm-role -i` and `rosa create user-role -i` for '--path'
+
+1. Check `--path` validation in `rosa create ocm-role -i` and `rosa create user-role -i`.
 
 ## Expect
-yuwan1-mac:rosa yuwan$ ./rosa create user-role -i  
-I: Creating User role  
-? Role prefix: a  
-? Permissions boundary ARN (optional):   
-X Sorry, your reply was invalid: invalid ARN Path. It must begin and end with / and contain only alphanumeric characters  
+
+```
+I: Creating User role
+? Role prefix: a
+? Permissions boundary ARN (optional):
+X Sorry, your reply was invalid: invalid ARN Path. It must begin and end with / and contain only alphanumeric characters
 ? Role Path (optional): [? for help]
+```

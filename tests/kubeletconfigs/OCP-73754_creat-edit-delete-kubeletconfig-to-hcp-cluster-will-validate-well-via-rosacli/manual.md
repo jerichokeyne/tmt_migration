@@ -1,59 +1,59 @@
 # Test
 
 ## Step
-Prepare a HCP cluster
+1. Prepare a HCP cluster.
 
 ## Expect
 
 ## Step
-List the kubeletconfig with not existing cluster
+2. List kubeletconfigs for a nonexistent cluster.
 
 ## Expect
-It should return error
+An error is returned.
 
 ## Step
-Create kubeletconfig with invalid name
+3. Create a kubeletconfig with an invalid name.
 
 ## Expect
-Error returns that the name is invalid
+An error states that the name is invalid.
 
 ## Step
-Create kubeletconfig with invalid pod pids limit value like 123456789
+4. Create a kubeletconfig with an invalid pod PIDs limit, such as `123456789`.
 
 ## Expect
-It should return error that the pod pids limit value is invalid
+An error states that the pod PIDs limit is invalid.
 
 ## Step
-Create a kubeletconfig
+5. Create a kubeletconfig.
 
 ## Expect
 
 ## Step
-Create another kubeletconfig with same name
+6. Create another kubeletconfig with the same name.
 
 ## Expect
-Got error for the creation
+An error is returned for the creation.
 
 ## Step
-Edit the pod pids limit value of the kubelet config with invalid value
+7. Edit the pod PIDs limit of the kubeletconfig with an invalid value.
 
 ## Expect
-It shows the error message that the pod pid limit is invalid
+An error states that the pod PIDs limit is invalid.
 
 ## Step
-Describe the not existing kubeletconfig
+8. Describe a nonexistent kubeletconfig.
 
 ## Expect
-It shows the kubeletconfig not found
+The kubeletconfig is reported as not found.
 
 ## Step
-Delete the not existingkubeletconfig
+9. Delete a nonexistent kubeletconfig.
 
 ## Expect
-It shows the kubeletconfig not found
+The kubeletconfig is reported as not found.
 
 ## Step
-Describe the not existingkuebeletconfig again
+10. Describe the nonexistent kubeletconfig again.
 
 ## Expect
-It shows the kubeletconfig not found
+The kubeletconfig is reported as not found.

@@ -14,6 +14,6 @@ Detach and Delete some operator-roles polcies+ and also attach one arbitrary pol
 Delete the operator-roles in auto mode
 
 ## Expect
-- All roles are deleted  
-- All not-arbitrary policies are deleted from AWS  
+- All roles are deleted
+- All not-arbitrary policies are deleted from AWS
 - arbitrary policies are detached and not be deleted.

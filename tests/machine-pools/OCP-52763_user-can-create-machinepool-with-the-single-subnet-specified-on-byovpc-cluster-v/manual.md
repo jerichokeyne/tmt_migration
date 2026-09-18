@@ -9,25 +9,27 @@ Prepare a multi zone ccs cluster with BYOVPC set via rosacli
 Create a single zone machinepool with the private subnet used to create the cluster
 
 ## Expect
-- the 'Subnet ID' list will show after choose "Create multi-AZ machine pool:No" and "Select subnet for a single AZ machine pool (optional): Yes"  
-- Only the private subnet under the same VPC are shown in the 'Subnet ID' list  
-  
-- The machinepool is created successfully  
-- The subnet should be the one used for the machinepool creation  
-- The availability zone should be detected correctly  
+- the 'Subnet ID' list will show after choose "Create multi-AZ machine pool:No" and "Select subnet for a single AZ machine pool (optional): Yes"
+- Only the private subnet under the same VPC are shown in the 'Subnet ID' list
+
+- The machinepool is created successfully
+- The subnet should be the one used for the machinepool creation
+- The availability zone should be detected correctly
 - The subnets list should contain the subnet_name and vpc_id and az info,If the subnet name is empty , it will show as ''
 
 ## Step
-Retrieve the machinepool.  
+Retrieve the machinepool.
 \# rosa list machinepool
 
 ## Expect
-- The subnet used for the machinepool creation will be in the 'SUBNETS' colume.  
+- The subnet used for the machinepool creation will be in the 'SUBNETS' colume.
 - The availability zone should be detected correctly
 
 ## Step
-Launch cluster console to check the machine  
-$ oc get machine -n openshift-machine-api
+Launch cluster console to check the machine
+```bash
+oc get machine -n openshift-machine-api
+```
 
 ## Expect
 - The machine should be started correctly and finally running
@@ -41,14 +43,16 @@ Prepare another subnet belongs to same vpc in other zones and has a label of [ku
 Create machinepool with the subnet
 
 ## Expect
-- The new created subnet will be shown in the 'Subnet ID' list.  
-  
-- The machinepool should be created successfully  
+- The new created subnet will be shown in the 'Subnet ID' list.
+
+- The machinepool should be created successfully
 - The zone should be detected correctly
 
 ## Step
-Launch cluster console to check the machine  
-$ oc get machine -n openshift-machine-api
+Launch cluster console to check the machine
+```bash
+oc get machine -n openshift-machine-api
+```
 
 ## Expect
 - The machine should be started correctly and finally running

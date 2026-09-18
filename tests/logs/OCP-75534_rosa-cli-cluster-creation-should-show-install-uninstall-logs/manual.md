@@ -1,41 +1,53 @@
 # Test
 
 ## Step
-Create one Hypershift cluster
+1. Create one Hypershift cluster.
 
 ## Expect
 
 ## Step
-Check the install logs of the hypershift cluster  
-$ rosa logs install -c <cluster name>
+2. Check the install logs of the Hypershift cluster.
+
+```bash
+rosa logs install -c <cluster name>
+```
 
 ## Expect
-The logs can be show correctly
+- The logs are shown correctly.
 
 ## Step
-Check the install logs of the hypershift cluster with flag "--watch"  
-$ rosa logs install -c <cluster name> --watch
+3. Check the install logs of the Hypershift cluster with the `--watch` flag.
+
+```bash
+rosa logs install -c <cluster name> --watch
+```
 
 ## Expect
-The process won't exit until cluster installation finished or cluster getting into error state
+- The process does not exit until cluster installation finishes or the cluster enters an error state.
 
 ## Step
-Delete the Hypershift cluster by `rosa delete cluster`
+4. Delete the Hypershift cluster by `rosa delete cluster`.
 
 ## Expect
-- The cluster can be deleted  
-- All resource on AWS should be deleted.
+- The cluster can be deleted.
+- All resources on AWS should be deleted.
 
 ## Step
-Check the uninstall log of the hosted cluster  
-$ rosa log uninstall -c <cluster name>
+5. Check the uninstall log of the hosted cluster.
+
+```bash
+rosa log uninstall -c <cluster name>
+```
 
 ## Expect
-The uninstall log can show correctly
+- The uninstall log is shown correctly.
 
 ## Step
-Check the uninstall log of the hosted cluster with flag --watch  
-$ rosa log uninstall -c <cluster name> --watch
+6. Check the uninstall log of the hosted cluster with the `--watch` flag.
+
+```bash
+rosa log uninstall -c <cluster name> --watch
+```
 
 ## Expect
-The process won't exit and the logs will refresh all the time until uninstallation finished or cluster gets into error
+- The process does not exit and the logs refresh until uninstallation finishes or the cluster enters an error state.

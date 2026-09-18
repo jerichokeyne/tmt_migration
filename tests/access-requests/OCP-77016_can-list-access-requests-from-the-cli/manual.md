@@ -196,24 +196,24 @@ Denied   2nZS9zZPUMQPm4EuqN0xV0ATkDs  2efdhq5agtt3l3f7grhdhn47pli540n4  Thu Oct 
 ## Step
 12. List the access requests, and make sure that when using no cluster ID that both access requests show up, and you can filter by either cluster ID
 
-### All clusters
+**All clusters**
 ```bash
 rosa list access-request
 ```
 
-### Cluster 1
+**Cluster 1**
 ```bash
 rosa list access-request -c $CLUSTER_ID1
 ```
 
-### Cluster 2
+**Cluster 2**
 ```bash
 rosa list access-request -c $CLUSTER_ID2
 ```
 
 ## Expect
 
-### All clusters
+**All clusters**
 ```
 STATE    ID                           CLUSTER ID                        UPDATED AT
 Pending  2ncd23fnkP4S6oNfBnZZU0OfU7z  2eg3rvgtm18l3j1sqg79fnn1q421etlu  Fri Oct 18 18:28:07 UTC 2024
@@ -224,7 +224,7 @@ I: Run the following command to approve or deny the Access Request:
    rosa create decision --access-request <ID> --decision Denied --justification "justification"
 ```
 
-### Cluster 1
+**Cluster 1**
 ```
 STATE    ID                           CLUSTER ID                        UPDATED AT
 Pending  2ncd1AAhrP500aemibnECp4NoYU  2efdhq5agtt3l3f7grhdhn47pli540n4  Fri Oct 18 18:28:00 UTC 2024
@@ -235,7 +235,7 @@ I: Run the following command to approve or deny the Access Request:
    rosa create decision --access-request 2ncd1AAhrP500aemibnECp4NoYU --decision Denied --justification "justification"
 ```
 
-### Cluster 2
+**Cluster 2**
 ```
 STATE    ID                           CLUSTER ID                        UPDATED AT
 Pending  2ncd23fnkP4S6oNfBnZZU0OfU7z  2eg3rvgtm18l3j1sqg79fnn1q421etlu  Fri Oct 18 18:28:07 UTC 2024
@@ -248,7 +248,7 @@ I: Run the following command to approve or deny the Access Request:
 ## Step
 13. Approve one access request
 
-```
+```bash
 rosa create decision --access-request ${ACCESS_REQUEST_ID} --decision Approved
 ```
 

@@ -1,62 +1,70 @@
 # Test
 
 ## Step
-Prepare a HCP cluster
+1. Prepare a HCP cluster.
 
 ## Expect
 
 ## Step
-List the kubeletconfig when cluster has no one
+2. List kubeletconfigs when the cluster has none.
 
 ## Expect
 
 ## Step
-Create kubeletconfig without name with --pod pids limit setting
+3. Create a kubeletconfig without a name and with `--pod-pids-limit` set.
 
 ## Expect
-~~The kubeletconfig should be created There will be message show the creation success~~ It goes into interactive mode asking name to be specified
+~~The kubeletconfig should be created. There will be a message showing successful creation.~~ Interactive mode prompts for a name.
 
 ## Step
-List the kubeletconfig
+4. List kubeletconfigs.
 
 ## Expect
-The created kubeletconfig should be listed with correct information  
-The name should be automated generated
+The created kubeletconfig is listed with correct information. Its name is automatically generated.
 
 ## Step
-Create kubeletconfig with name specified with flag --name
+5. Create a kubeletconfig with a name specified by `--name`.
 
 ## Expect
-The creation will work well
+The creation succeeds.
 
 ## Step
-List the kubeletconfig
+6. List kubeletconfigs.
 
 ## Expect
-The kubeletconfig should be listed with correct setting
+The kubeletconfig is listed with the correct setting.
 
 ## Step
-Edit the kubeletconfig with pid pids limit value  
-$ rosa edit kubeletconfig --name <name> -c <cluster> --pod-pids-limit 12345
+7. Edit the kubeletconfig pod PIDs limit.
+
+```bash
+rosa edit kubeletconfig --name <name> -c <cluster> --pod-pids-limit 12345
+```
 
 ## Expect
-It shows the edit succeeded
+The edit succeeds.
 
 ## Step
-Describe the kubeletconfig  
-$ rosa describe kubeletconfig --name <name> -c <cluster>
+8. Describe the kubeletconfig.
+
+```bash
+rosa describe kubeletconfig --name <name> -c <cluster>
+```
 
 ## Expect
 
 ## Step
-Delete the created kubeletconfigs  
-$ rosa delete kubeletconfig --name <kubeletconfig name> -c <cluster>
+9. Delete the created kubeletconfigs.
+
+```bash
+rosa delete kubeletconfig --name <kubeletconfig-name> -c <cluster>
+```
 
 ## Expect
-The deletion will succeed
+The deletion succeeds.
 
 ## Step
-Describe the kubelet config again
+10. Describe the kubeletconfig again.
 
 ## Expect
-It shows the kubeletconfig not found
+The kubeletconfig is reported as not found.

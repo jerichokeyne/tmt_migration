@@ -1,20 +1,20 @@
 # Test
 
 ## Step
-List region with `--hosted-cp` flag
+List regions with the `--hosted-cp` flag.
 
 ## Expect
-- Only support region shows in the region list  
-- The output should contain bellow column, `ID`, `NAME`, `MULTI-AZ SUPPORT`, `HOSTED_CP SUPPORT`
+- Only supported regions are shown in the region list.
+- The output contains the `ID`, `NAME`, `MULTI-AZ SUPPORT`, and `HOSTED_CP SUPPORT` columns.
 
 ## Step
-List regions without `--hosted-cp` flag
+List regions without the `--hosted-cp` flag.
 
 ## Expect
-- All support region should be shown.  
-- The output should contain bellow column, `ID`, `NAME`, `MULTI-AZ SUPPORT`, `HOSTED_CP SUPPORT`
+- All supported regions are shown.
+- The output contains the `ID`, `NAME`, `MULTI-AZ SUPPORT`, and `HOSTED_CP SUPPORT` columns.
 
 ## Step
-Use the supported region, the hypershift cluster can be created successfully.
+Use a supported region to create a HyperShift cluster.
 
 ## Expect

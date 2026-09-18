@@ -1,112 +1,109 @@
 # Test
 
 ## Step
-Create account-roles in the interactive mode  
-\# rosa create account-roles -i
+Create account roles in interactive mode.
+
+```bash
+rosa create account-roles -i
+```
 
 ## Expect
-`? Create Hosted CP account roles: Yes  
-? Use account roles for Hosted CP shared VPC?: Yes  
-? Set VPC endpoint role ARN (optional): arn:aws:iam::641733028092:role/yuwan-sharevpc-vpc-endpoint-role  
-? Set route53 role ARN (optional): arn:aws:iam::641733028092:role/yuwan-sharevpc-role`  
-  
-- If 'Create Hosted CP account roles' choose Yes, above three questions will prompte or they will not prompt  
-- If 'Use account roles for Hosted CP shared VPC' choose YES, 'Set VPC endpoint role ARN' and 'Set route53 role ARN' will prompt and as required values  
-- After input 'Set VPC endpoint role ARN' and 'Set route53 role ARN' and choose auto mode, account-roles will be created, the hostecp installer role will attach one managed policy and two assume role policies as command mode does  
-- If use manual mode, after input 'Set VPC endpoint role ARN' and 'Set route53 role ARN', the aws command to create account-roles should be print out as the command mode does. The commands includes two to create assume-role policies and attach them on the hostec-cp install role.  
-- The two assume role policies are with tags hcp-shared-vpc=true and red-hat-managed=true
+```
+? Create Hosted CP account roles: Yes
+? Use account roles for Hosted CP shared VPC?: Yes
+? Set VPC endpoint role ARN (optional): arn:aws:iam::641733028092:role/yuwan-sharevpc-vpc-endpoint-role
+? Set route53 role ARN (optional): arn:aws:iam::641733028092:role/yuwan-sharevpc-role
+```
+
+- When `Create Hosted CP account roles` is `Yes`, the three questions above are prompted; otherwise they are not.
+- When `Use account roles for Hosted CP shared VPC` is `Yes`, the VPC endpoint and Route 53 role ARN questions are prompted and required.
+- With auto mode, entered role ARNs create account roles; the Hosted CP installer role attaches one managed policy and two assume-role policies as in command mode.
+- With manual mode, AWS commands create account roles, create and attach the two assume-role policies to the Hosted CP installer role, as in command mode.
+- The two assume-role policies are tagged `hcp-shared-vpc=true` and `red-hat-managed=true`.
 
 ## Step
-Create shared vpc account-roles by command which doesn't set all required flags, like --prefix, --mode
+Create shared-VPC account roles with a command that omits required flags such as `--prefix` or `--mode`.
 
 ## Expect
-- Interacitve mode will be prompted and following flow should be same as step1  
-- The value has set by flags should be prefilled as default value in the questions
+- Interactive mode is prompted and follows the flow from step 1.
+- Values set by flags are prefilled as defaults in questions.
 
 ## Step
-Validations:  
-- vpc-endpoint-role-arn + NO route53-role-arn  
--  Empty vpc-endpoint-role-arn and route53-role-arn. NOTE: empty value can be passed by double quotation marks or entering the 'return/enter' key on the keyborad  
-- Invalid arn format
+Validate:
+- `vpc-endpoint-role-arn` without `route53-role-arn`.
+- Empty VPC endpoint and Route 53 role ARNs, passed with double quotation marks or the Enter key.
+- Invalid ARN format.
 
 ## Expect
-`  
-- X Sorry, your reply was invalid: Value is required  
-- X Sorry, your reply was invalid: Value is required  
-- X Sorry, your reply was invalid: Invalid ARN: arn: invalid prefix  
-  
-`
+```
+X Sorry, your reply was invalid: Value is required
+X Sorry, your reply was invalid: Value is required
+X Sorry, your reply was invalid: Invalid ARN: arn: invalid prefix
+```
 
 ## Step
-Check the help message for the three question
+Check help for the three questions.
 
 ## Expect
-? Whether or not to set route53/VPC endpoint role ARNs to be used for Hosted CP shared VPC (cross-account VPC)  
-? Role ARN associated with the shared VPC used for Hosted Control Plane clusters, this role contains policies to be used with the VPC endpoint  
+```
+? Whether or not to set route53/VPC endpoint role ARNs to be used for Hosted CP shared VPC (cross-account VPC)
+? Role ARN associated with the shared VPC used for Hosted Control Plane clusters, this role contains policies to be used with the VPC endpoint
 ? Role ARN associated with the private hosted zone used for Hosted Control Plane cluster shared VPC, this role contains policies to be used with Route 53
+```
 
 ## Step
-Delete the account-roles without mode flag to test the interactive mode
+Delete account roles without a mode flag to test interactive mode.
 
 ## Expect
-- Interactive mode will prompt, and ask for the mode  
-- There is a question "Attempt to delete Hosted CP shared VPC policies" if choose manual mode in the interactive mode.  
--- If choose auto mode and N at "Attempt to delete Hosted CP shared VPC policies", rosacli will delete the account-roles without trying to delete the two shared vpc assume role policies  
--- If choose auto mode and Y at "Attempt to delete Hosted CP shared VPC policies", rosacli will delete the account-roles roles and also try to delete the two shared vpc assume role policies  
---- If there is no resource attaching the shared vpc assume role policies, the two assume role policies will be deleted and bellow info message showns,  
-/ time=2024-12-03T16:37:37+08:00 level=info msg=Deleting policy 'arn:aws:iam::301721915996:policy/yuwan-sharevpc-vpc-endpoint-role2-assume-role'  
-...  
-\ time=2024-12-03T16:38:00+08:00 level=info msg=Deleting policy 'arn:aws:iam::301721915996:policy/yuwan-sharevpc-role2-assume-role'  
-  
---- If there is someresource attaching the shared vpc assume role policies blocking the policies deletion, the two assume role policies will be NOT deleted and bellow WARN message showns, and the warning message should be shown once for same policies  
-I: Deleting account role 'yw1203svpc1-HCP-ROSA-Installer-Role'  
-time=2024-12-03T17:14:01+08:00 level=warning msg=Unable to delete policy yuwan-sharevpc-role-assume-role: Policy still attached to 1 other resource(s)  
-time=2024-12-03T17:14:01+08:00 level=warning msg=Unable to delete policy yuwan-sharevpc-vpc-endpoint-role-assume-role: Policy still attached to 1 other resource(s)  
-  
-  
----- If choose manual mode, and Y at "Create commands to delete Hosted CP shared VPC policies? question in the interactive mode, the aws commands will contains the ones to delete the shared vpc account-roles and also the ones to delete the shared vpc assume role policies. Using all the prompted commands can delete all account-roles and also the created role policies(classic) and also the shared-vpc assume roles policies.  
-  
----- If choose manual mode, and Y at "Create commands to delete Hosted CP shared VPC policies?' question in the interactive mode, the aws commands will contains the ones to delete the shared vpc account-roles but NO ones to delete the shared vpc assume role policies. Using all the prompted commands can delete all account-roles and also the created role policies(classic) .
+- Interactive mode prompts for mode.
+- In manual mode, it asks `Attempt to delete Hosted CP shared VPC policies`.
+- In auto mode, choosing `N` does not attempt to delete the two shared-VPC assume-role policies; choosing `Y` tries to delete them.
+- When no resource attaches the policies, they are deleted with messages such as:
+
+```
+time=2024-12-03T16:37:37+08:00 level=info msg=Deleting policy 'arn:aws:iam::301721915996:policy/yuwan-sharevpc-vpc-endpoint-role2-assume-role'
+...
+time=2024-12-03T16:38:00+08:00 level=info msg=Deleting policy 'arn:aws:iam::301721915996:policy/yuwan-sharevpc-role2-assume-role'
+```
+
+- If another resource attaches the policies, they are not deleted, and each policy gets one warning:
+
+```
+I: Deleting account role 'yw1203svpc1-HCP-ROSA-Installer-Role'
+time=2024-12-03T17:14:01+08:00 level=warning msg=Unable to delete policy yuwan-sharevpc-role-assume-role: Policy still attached to 1 other resource(s)
+time=2024-12-03T17:14:01+08:00 level=warning msg=Unable to delete policy yuwan-sharevpc-vpc-endpoint-role-assume-role: Policy still attached to 1 other resource(s)
+```
+
+- In manual mode, choosing `Y` at `Create commands to delete Hosted CP shared VPC policies?` includes commands for shared-VPC account roles and assume-role policies; choosing `N` excludes the assume-role-policy commands.
 
 ## Step
-Check the '--delete-hcp-shared-vpc-policies' and the "? Attempt to delete Hosted CP shared VPC policies?" question in the interactive mode.  
-  
-Delete the account-roles calling out the interactive mode via the way which not apply all required flag, like '--mode', `rosa delete account-roles --prefix <--delete-hcp-shared-vpc-policies>`  
-  
-choose manual mode in the interactive mode:  
-- with --delete-hcp-shared-vpc-policies in the command  
-- without --delete-hcp-shared-vpc-policies in the command  
-- with --delete-hcp-shared-vpc-policies=false in the command  
-  
-choose auto mode in the interactive mode:  
-- with --delete-hcp-shared-vpc-policies in the command  
-- without --delete-hcp-shared-vpc-policies in the command  
-- with --delete-hcp-shared-vpc-policies=false in the command
+Check `--delete-hcp-shared-vpc-policies` and `? Attempt to delete Hosted CP shared VPC policies?` through interactive mode.
+
+```bash
+rosa delete account-roles --prefix <prefix> --delete-hcp-shared-vpc-policies
+```
+
+Test manual and auto modes with the flag, without the flag, and with `--delete-hcp-shared-vpc-policies=false`.
 
 ## Expect
-choose manual mode in the interactive mode:  
-- There is commands to delete the assume roles policies prompted  
-- There is no commands to delete the assume roles policies prompted  
-- There is no commands to delete the assume roles policies prompted  
-  
-  
-choose auto mode in the interactive mode:  
-- There is no "? Attempt to delete Hosted CP shared VPC policies?" question during hosted-cp shared vpc account-roles deletion and try to delete the assume polcies in following process.  
-  
-% ./rosa delete account-roles --prefix yw1211svpc1 --delete-hcp-shared-vpc-policies   
-? Account role deletion mode: auto  
-W: There are no classic account roles to be deleted  
-I: Deleting hosted CP account roles  
-? Delete the account role 'yw1211svpc1-HCP-ROSA-Worker-Role'? Yes  
-I: Deleting account role 'yw1211svpc1-HCP-ROSA-Worker-Role'  
-? Delete the account role 'yw1211svpc1-HCP-ROSA-Installer-Role'? Yes  
-I: Deleting account role 'yw1211svpc1-HCP-ROSA-Installer-Role'  
-time=2024-12-12T11:27:38+08:00 level=info msg=Deleting policy 'arn:aws:iam::301721915996:policy/a/b/yuwan-sharevpc-role2-assume-role'  
-time=2024-12-12T11:27:38+08:00 level=info msg=Deleting policy 'arn:aws:iam::301721915996:policy/a/b/yuwan-sharevpc-vpc-endpoint-role2-assume-role'  
-? Delete the account role 'yw1211svpc1-HCP-ROSA-Support-Role'? Yes  
-I: Deleting account role 'yw1211svpc1-HCP-ROSA-Support-Role'  
-I: Successfully deleted the hosted CP account roles  
-  
-- There is "? Attempt to delete Hosted CP shared VPC policies?" question. If choose Y, the following process will try to delete the assume role policies; If chosse N, it will not delete the assume role policies.  
-  
-- There is no "? Attempt to delete Hosted CP shared VPC policies?" question during hosted-cp shared vpc account-roles deletion and it will not delete the assume polcies in following process.
+- In manual mode, the flag produces assume-role-policy deletion commands; omitting it or setting it to `false` does not.
+- In auto mode, the flag does not ask the question and tries to delete assume-role policies.
+
+```
+$ rosa delete account-roles --prefix yw1211svpc1 --delete-hcp-shared-vpc-policies
+? Account role deletion mode: auto
+W: There are no classic account roles to be deleted
+I: Deleting hosted CP account roles
+? Delete the account role 'yw1211svpc1-HCP-ROSA-Worker-Role'? Yes
+I: Deleting account role 'yw1211svpc1-HCP-ROSA-Worker-Role'
+? Delete the account role 'yw1211svpc1-HCP-ROSA-Installer-Role'? Yes
+I: Deleting account role 'yw1211svpc1-HCP-ROSA-Installer-Role'
+time=2024-12-12T11:27:38+08:00 level=info msg=Deleting policy 'arn:aws:iam::301721915996:policy/a/b/yuwan-sharevpc-role2-assume-role'
+time=2024-12-12T11:27:38+08:00 level=info msg=Deleting policy 'arn:aws:iam::301721915996:policy/a/b/yuwan-sharevpc-vpc-endpoint-role2-assume-role'
+? Delete the account role 'yw1211svpc1-HCP-ROSA-Support-Role'? Yes
+I: Deleting account role 'yw1211svpc1-HCP-ROSA-Support-Role'
+I: Successfully deleted the hosted CP account roles
+```
+
+- Without the flag, auto mode asks the question; `Y` attempts deletion and `N` does not.
+- With `--delete-hcp-shared-vpc-policies=false`, auto mode neither asks the question nor deletes assume-role policies.

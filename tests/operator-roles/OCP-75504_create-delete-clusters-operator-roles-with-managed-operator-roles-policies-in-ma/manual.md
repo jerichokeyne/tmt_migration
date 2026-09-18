@@ -1,47 +1,51 @@
 # Test
 
 ## Step
-Create STS cluster with the account roles with managed polices,  
-NOTE: There is no validation for the compatibility of account-role version and cluster version, in other word, all managed roles will be shown in the account-roles list in the interactive mode, and the cluster creation should be successfully even the account roles version is less than the cluster version(SDA-8328).
+Create an STS cluster with account roles with managed policies.
+Note: There is no validation for the compatibility of account-role version and cluster version. All managed roles will be shown in the account-roles list in interactive mode, and cluster creation should succeed even if the account roles version is less than the cluster version (`SDA-8328`).
 
 ## Expect
 
 ## Step
-Create operator-roles with the managed operator role polices in auto mode  
-\# rosa create operator-roles --mode auto
+Create operator-roles with the managed operator role policies in auto mode:
+
+```bash
+```bash
+rosa create operator-roles --mode auto
+```
+```
 
 ## Expect
-- as the account-roles uses the managed policies, the operator roles will create with the managed operator policies by default  
-- The operator roles will be created with the managed operator policies attached.  
-- The roles on AWS should be tagged with rosa_managed_policies=true  
-- For the STS cluster which version >4.9, the additional operator role will be created with the managed operator policies attached  
+- as the account-roles uses the managed policies, the operator roles will create with the managed operator policies by default
+- The operator roles will be created with the managed operator policies attached.
+- The roles on AWS should be tagged with rosa_managed_policies=true
+- For the STS cluster which version >4.9, the additional operator role will be created with the managed operator policies attached
 - For the Hypershift cluster, the hypershift cluster specific operator roles will be created with the managed operator policies attached
 
 ## Step
-Create STS cluster with the account roles with managed policies then-->  
-Create STS cluster in the auto mode
+Create an STS cluster with account roles with managed policies, then create an STS cluster in auto mode.
 
 ## Expect
-- (Need to confirm with DEV) as the account-roles uses the managed policies, the operator roles will create with the managed operator policies by default  
-- The operator roles will be created with the managed operator policies attached.  
-- The roles on AWS should be tagged with rosa_managed_policies=true  
-- For the STS cluster which version >4.9, the additional operator role will be created with the managed operator policies attached  
+- (Need to confirm with DEV) as the account-roles uses the managed policies, the operator roles will create with the managed operator policies by default
+- The operator roles will be created with the managed operator policies attached.
+- The roles on AWS should be tagged with rosa_managed_policies=true
+- For the STS cluster which version >4.9, the additional operator role will be created with the managed operator policies attached
 - For the Hypershift cluster, the hypershift cluster specific operator roles will be created with the managed operator policies attached
 
 ## Step
 Repeat the step2 ~3 with manual mode
 
 ## Expect
-- The prompted aws commands have no ones to create policies and with the ones creating roles and attaching the manged policies  
-- For the STS cluster which version >4.9, there should be the aws command for the additional operator role with the managed operator policies attached  
-- For the Hypershift cluster, there should be the aws command for the hypershift cluster specific operator roles with the managed operator policies attached  
+- The prompted aws commands have no ones to create policies and with the ones creating roles and attaching the manged policies
+- For the STS cluster which version >4.9, there should be the aws command for the additional operator role with the managed operator policies attached
+- For the Hypershift cluster, there should be the aws command for the hypershift cluster specific operator roles with the managed operator policies attached
 - After run the commands, the account-roles are created on AWS and attached the managed polices
 
 ## Step
 Repeat step2~4 with the hypershift account-roles and the cluster created with them
 
 ## Expect
-- The operator roles should be created with the hypershift role polices which are named openshift_hcp_<roleType>_policy  
+- The operator roles should be created with the hypershift role polices which are named openshift_hcp_<roleType>_policy
 - Others should be same with the one of step2~4
 
 ## Step
@@ -72,13 +76,13 @@ The 'Managed Policies' in the output should show 'Yes'
 Delete the managed operator roles in auto mode
 
 ## Expect
-- The operator roles should be detached and deleted.  
-- The managed policies should NOT be deleted.  
+- The operator roles should be detached and deleted.
+- The managed policies should NOT be deleted.
 - For the hypershift cluster, the hypershift cluster specific opertor roles should be deleted.
 
 ## Step
 Delete the managed operator roles in manual mode
 
 ## Expect
-- There are aws commands to detach the policies and delete the roles  
+- There are AWS commands to detach the policies and delete the roles.
 - No aws commands to delete the managed policies
