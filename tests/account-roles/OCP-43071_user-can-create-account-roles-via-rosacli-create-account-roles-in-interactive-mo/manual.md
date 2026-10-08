@@ -1,16 +1,4 @@
-# Setup
-
-```bash
-rosa create cluster -c ${name}aa --region ${region} --version ${version}-${channel_group} --channel-group ${channel_group} --role-arn arn:aws:iam::${aws_account_id}:role/OSDCCSAdmin --tags cluster-name:${name},cluster-version:${version}-${channel_group} ${roles} --external-id "<external_id>"
-```
-
 # Test
-
-## Step
-Get the latest version of ROSA CLI.
-
-## Expect
-STS is supported from version `1.0.6`.
 
 ## Step
 Check the help message.
@@ -53,6 +41,12 @@ Flags:
       --version string                 Version of OpenShift that will be used to setup policy tag, for example "4.11"
       --vpc-endpoint-role-arn string   Role ARN associated with the shared VPC used for Hosted Control Plane clusters, this role contains policies to be used with the VPC endpoint
   -y, --yes                            Automatically answer yes to confirm operation.
+
+Global Flags:
+      --color string     Surround certain characters with escape sequences to display them in color on the terminal. Allowed options are [auto never always] (default "auto")
+      --debug            Enable debug mode.
+      --profile string   Use a specific AWS profile from your credential file.
+      --region string    Use a specific AWS region, overriding the AWS_REGION environment variable. (DEPRECATED: Region flag will be removed from this command in future versions)
 ```
 
 ## Step
@@ -67,24 +61,45 @@ rosa create account-roles -i
 - `Create Classic account roles` defaults to `Y`; `Create Hosted CP account roles` defaults to `N`.
 - All options work and take effect after input.
 - There is no guidance to create a cluster with the account roles: `I: To create a cluster with these roles, run the following command:` (OCM-1755).
-- Choosing `Y` for both Hosted CP and classic account roles prints the single-set hint.
+- Choosing `Y` for both Hosted CP and classic account roles creates account roles for both
 
 ```
 $ ./rosa create account-roles -i
-I: Logged in as 'sdqe-rosa' on 'https://api.stage.openshift.com'
+I: Logged in as 'ocmqe-jkeyne' on 'https://api.stage.openshift.com'
 I: Validating AWS credentials...
 I: AWS credentials are valid!
 I: Validating AWS quota...
 I: AWS quota ok. If cluster installation fails, validate actual AWS resource usage against https://docs.openshift.com/rosa/rosa_getting_started/rosa-required-aws-service-quotas.html
 I: Verifying whether OpenShift command-line tool is available...
-I: Current OpenShift Client Version: 4.7.13
+I: Current OpenShift Client Version: 4.22.17
 I: Creating account roles
-? Role prefix: yuwan-test3
-? Permissions boundary ARN (optional):
-? Path (optional): /asd/sf/
-? Role creation mode: manual
-? Create Classic account roles: No
-? Create Hosted CP account roles (optional): No
+? Role prefix: jkeyne
+? Permissions boundary ARN (optional): 
+? Path (optional): /test/path/
+? STS external ID (optional): 
+? Role creation mode: auto
+? Create Classic account roles: Yes
+? Create Hosted CP account roles: No
+I: Creating classic account roles using 'arn:aws:iam::090777400063:user/jkeyne'
+I: Attached trust policy to role 'jkeyne-Installer-Role(https://console.aws.amazon.com/iam/home?#/roles/jkeyne-Installer-Role)': {"Version": "2012-10-17", "Statement": [{"Action": ["sts:AssumeRole"], "Effect": "Allow", "Principal": {"AWS": ["arn:aws:iam::644306948063:role/RH-Managed-OpenShift-Installer"]}}]}
+I: Created role 'jkeyne-Installer-Role' with ARN 'arn:aws:iam::090777400063:role/test/path/jkeyne-Installer-Role'
+W: If policies created are not attached, or are missing, try re-running "rosa create account-roles" with "force-policy-creation"
+I: Attached policy 'arn:aws:iam::090777400063:policy/test/path/jkeyne-Installer-Role-Policy' to role 'jkeyne-Installer-Role(https://console.aws.amazon.com/iam/home?#/roles/jkeyne-Installer-Role)'
+
+I: Attached trust policy to role 'jkeyne-ControlPlane-Role(https://console.aws.amazon.com/iam/home?#/roles/jkeyne-ControlPlane-Role)': {"Version": "2012-10-17", "Statement": [{"Action": ["sts:AssumeRole"], "Effect": "Allow", "Principal": {"Service": ["ec2.amazonaws.com"]}}]}
+I: Created role 'jkeyne-ControlPlane-Role' with ARN 'arn:aws:iam::090777400063:role/test/path/jkeyne-ControlPlane-Role'
+W: If policies created are not attached, or are missing, try re-running "rosa create account-roles" with "force-policy-creation"
+I: Attached policy 'arn:aws:iam::090777400063:policy/test/path/jkeyne-ControlPlane-Role-Policy' to role 'jkeyne-ControlPlane-Role(https://console.aws.amazon.com/iam/home?#/roles/jkeyne-ControlPlane-Role)'
+
+I: Attached trust policy to role 'jkeyne-Worker-Role(https://console.aws.amazon.com/iam/home?#/roles/jkeyne-Worker-Role)': {"Version": "2012-10-17", "Statement": [{"Action": ["sts:AssumeRole"], "Effect": "Allow", "Principal": {"Service": ["ec2.amazonaws.com"]}}]}
+I: Created role 'jkeyne-Worker-Role' with ARN 'arn:aws:iam::090777400063:role/test/path/jkeyne-Worker-Role'
+W: If policies created are not attached, or are missing, try re-running "rosa create account-roles" with "force-policy-creation"
+I: Attached policy 'arn:aws:iam::090777400063:policy/test/path/jkeyne-Worker-Role-Policy' to role 'jkeyne-Worker-Role(https://console.aws.amazon.com/iam/home?#/roles/jkeyne-Worker-Role)'
+
+I: Attached trust policy to role 'jkeyne-Support-Role(https://console.aws.amazon.com/iam/home?#/roles/jkeyne-Support-Role)': {"Version": "2012-10-17", "Statement": [{"Action": ["sts:AssumeRole"], "Effect": "Allow", "Principal": {"AWS": ["arn:aws:iam::644306948063:role/RH-Technical-Support-13849960"]}}]}
+I: Created role 'jkeyne-Support-Role' with ARN 'arn:aws:iam::090777400063:role/test/path/jkeyne-Support-Role'
+W: If policies created are not attached, or are missing, try re-running "rosa create account-roles" with "force-policy-creation"
+I: Attached policy 'arn:aws:iam::090777400063:policy/test/path/jkeyne-Support-Role-Policy' to role 'jkeyne-Support-Role(https://console.aws.amazon.com/iam/home?#/roles/jkeyne-Support-Role)'
 ```
 
 ## Step
@@ -98,21 +113,12 @@ Set flags, then enter interactive mode.
 Create account roles while not logged in to ROSA CLI.
 
 ## Expect
-Interactive mode prompts for a token.
+Can't create account roles without being logged in
 
 ```
-$ ./rosa create account-roles
-To login to your Red Hat account, get an offline access token at https://console.redhat.com/openshift/token/rosa
-? Copy the token and paste it here: *********************************************************************************************************************************
-I: Logged in as 'sdqe-regular01' on 'https://api.openshift.com'
-I: Validating AWS credentials...
-I: AWS credentials are valid!
-I: Validating AWS quota...
-I: AWS quota ok. If cluster installation fails, validate actual AWS resource usage against https://docs.openshift.com/rosa/rosa_getting_started/rosa-required-aws-service-quotas.html
-I: Verifying whether OpenShift command-line tool is available...
-I: Current OpenShift Client Version: 4.8.0-fc.2
-I: Starting to create the account roles!
-? OpenShift version to create account roles: 4.8..........
+$ rosa logout
+$ rosa create account-roles -i
+E: Failed to create OCM connection: Not logged in, run the 'rosa login' command
 ```
 
 ## Step
@@ -134,5 +140,6 @@ Create account roles with invalid AWS credentials.
 
 ## Expect
 ```
-E: Failed to create AWS client: SignatureDoesNotMatch: The request signature we calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method. Consult the service documentation for details.
+E: Failed to create AWS client: invalid AWS Credentials: operation error STS: GetCallerIdentity, exceeded maximum number of attempts, 12, https response error StatusCode: 403, RequestID: fd48fcd1-81cf-47ae-9443-1865c63dc585, api error InvalidClientTokenId: The security token included in the request is invalid..
+ For help configuring your credentials, see https://docs.openshift.com/rosa/rosa_install_access_delete_clusters/rosa_getting_started_iam/rosa-config-aws-account.html#rosa-configuring-aws-account_rosa-config-aws-account
 ```
