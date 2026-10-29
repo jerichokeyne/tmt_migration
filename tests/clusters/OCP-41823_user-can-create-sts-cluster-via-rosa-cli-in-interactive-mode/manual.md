@@ -43,7 +43,7 @@ Input cluster name and press enter button
 
 There should be "Deploy cluster using AWS STS" showed
 
-![](Screenshot from 2021-08-31 17-43-07.png)
+![](Screenshot_from_2021-08-31_17-43-07.png)
 
 ## Step
 
@@ -65,7 +65,7 @@ There should be External ID and IAM role names show
 - The machinetype should be listed with the order of ("category asc"),'https://api.stage.openshift.com/api/clusters_mgmt/v1/machine_types?order=category+asc&page=1&search=cloud_provider.id+%3D+%27aws%27&size=100'" and set m5.xlarge as default
 - Default machine pool labels (optional): [? for help] is shown. Apply the default (no label by clicking Enter)
 
-![](Screenshot from 2021-08-31 17-44-07.png)
+![](Screenshot_from_2021-08-31_17-44-07.png)
 
 ## Step
 
