@@ -13,22 +13,26 @@ Usage in a plan:
 Load via: TMT_PLUGINS=/path/to/plugins tmt run ...
 """
 
-import re
-import sys
 import datetime
+import re
 from collections.abc import Iterator
-from typing import Optional
 
 import tmt
 import tmt.log
 import tmt.steps
 import tmt.steps.execute
-from tmt.container import container, field
+from rich.console import Console, Group
+from rich.markdown import Markdown
+from rich.panel import Panel
+from rich.prompt import Prompt
+from rich.text import Text
+from tmt.container import container
 from tmt.guest import Guest
 from tmt.result import Result, ResultOutcome
-from tmt.steps.execute import TestInvocation
 from tmt.steps.discover import DiscoverPlugin
 from tmt.utils import Environment, Path
+
+console = Console(highlight=False)
 
 
 def parse_manual_md(path: Path) -> list[dict[str, str]]:
@@ -103,37 +107,6 @@ def parse_manual_md(path: Path) -> list[dict[str, str]]:
     return steps
 
 
-def prompt_result(step_num: int, total: int) -> str:
-    """Prompt the tester for a step result."""
-    valid = {'p': 'pass', 'f': 'fail', 's': 'skip', 'a': 'abort'}
-    while True:
-        try:
-            answer = input(
-                f"  Step {step_num}/{total} result "
-                f"[\033[32mp\033[0m]ass / "
-                f"[\033[31mf\033[0m]ail / "
-                f"[\033[33ms\033[0m]kip / "
-                f"[\033[91ma\033[0m]bort: "
-            ).strip().lower()
-        except (EOFError, KeyboardInterrupt):
-            print()
-            return 'abort'
-        if answer in valid:
-            return valid[answer]
-        if answer in valid.values():
-            return answer
-        print(f"  Please enter one of: p, f, s, a")
-
-
-SEPARATOR = "\033[90m" + "─" * 72 + "\033[0m"
-BOLD = "\033[1m"
-RESET = "\033[0m"
-CYAN = "\033[36m"
-GREEN = "\033[32m"
-YELLOW = "\033[33m"
-DIM = "\033[2m"
-
-
 @container
 class ExecuteManualData(tmt.steps.execute.ExecuteStepData):
     pass
@@ -162,7 +135,7 @@ class ExecuteManual(tmt.steps.execute.ExecutePlugin[ExecuteManualData]):
     @property
     def tasks(
         self,
-    ) -> Iterator[tuple[Optional[str], list['Guest']]]:
+    ) -> Iterator[tuple[str | None, list[Guest]]]:
         for discover in self.step.plan.discover.phases(classes=(DiscoverPlugin,)):
             if not discover.enabled_by_when:
                 continue
@@ -178,8 +151,8 @@ class ExecuteManual(tmt.steps.execute.ExecutePlugin[ExecuteManualData]):
     def go(
         self,
         *,
-        guest: 'Guest',
-        environment: Optional[Environment] = None,
+        guest: Guest,
+        environment: Environment | None = None,
         logger: tmt.log.Logger,
     ) -> None:
         super().go(guest=guest, environment=environment, logger=logger)
@@ -192,17 +165,15 @@ class ExecuteManual(tmt.steps.execute.ExecutePlugin[ExecuteManualData]):
 
         for index, invocation in enumerate(test_invocations):
             test = invocation.test
-            invocation.start_time = tmt.utils.format_timestamp(
-                datetime.datetime.now(datetime.timezone.utc))
+            invocation.stopwatch.start_time = datetime.datetime.now(datetime.UTC)
 
             test_progress = f"[{index + 1}/{len(test_invocations)}]"
 
             if not test.node.get('manual', False):
-                print(f"\n{SEPARATOR}")
-                print(f"  {DIM}{test_progress} Skipping non-manual test: {test.name}{RESET}")
-                invocation.end_time = tmt.utils.format_timestamp(
-                    datetime.datetime.now(datetime.timezone.utc))
-                invocation.real_duration = "00:00:00"
+                console.rule()
+                console.print(f"  {test_progress} Skipping non-manual test: {test.name}", style="dim")
+                console.rule()
+                invocation.stopwatch.end_time = datetime.datetime.now(datetime.UTC)
                 self._results.append(Result.from_test_invocation(
                     invocation=invocation,
                     result=ResultOutcome.SKIP,
@@ -212,16 +183,14 @@ class ExecuteManual(tmt.steps.execute.ExecutePlugin[ExecuteManualData]):
                 continue
 
             test_path = invocation.test.path
-            md_file = test.node.get('test', 'manual.md')
-            md_path = Path(self.step.plan.worktree) / test_path.unrooted() / md_file
+            md_file: str = test.node.get('test', 'manual.md')
+            md_path:Path = self.step.plan.worktree / test_path.unrooted() / md_file
 
             if not md_path.exists():
-                md_path = Path(self.step.plan.discover.workdir) / test_path.unrooted() / md_file
+                md_path: Path = self.step.plan.discover.workdir / test_path.unrooted() / md_file
 
             if not md_path.exists():
-                invocation.end_time = tmt.utils.format_timestamp(
-                    datetime.datetime.now(datetime.timezone.utc))
-                invocation.real_duration = "00:00:00"
+                invocation.stopwatch.end_time = datetime.datetime.now(datetime.UTC)
                 self._results.append(Result.from_test_invocation(
                     invocation=invocation,
                     result=ResultOutcome.ERROR,
@@ -232,14 +201,14 @@ class ExecuteManual(tmt.steps.execute.ExecutePlugin[ExecuteManualData]):
 
             steps = parse_manual_md(md_path)
 
-            print(f"\n{SEPARATOR}")
-            print(f"  {BOLD}{test_progress} {test.summary or test.name}{RESET}")
-            if test.node.get('description'):
-                print(f"  {DIM}{test.node.get('description')}{RESET}")
-            print(f"  {DIM}ID: {test.node.get('id', 'N/A')} | "
-                  f"Tags: {', '.join(test.node.get('tag', []))}{RESET}")
-            print(f"  {DIM}{len(steps)} step(s) to execute{RESET}")
-            print(SEPARATOR)
+            header = Group(
+                Text(f"{test_progress} {test.summary or test.name}", style="dim"),
+                Text(test.node.get("description", ""), style="dim"),
+                Text("ID: " + test.node.get("id", "N/A"), style="dim"),
+                Text("Tags: " + ', '.join(test.node.get('tag', [])), style="dim"),
+                Text(f"{len(steps)} step(s) to execute", style="dim"),
+            )
+            console.print(header)
 
             step_results = []
             aborted = False
@@ -248,39 +217,28 @@ class ExecuteManual(tmt.steps.execute.ExecutePlugin[ExecuteManualData]):
                 step_text = step_data.get('step', '')
                 expect_text = step_data.get('expect', '')
 
-                print(f"\n  {CYAN}{BOLD}Step {step_num}/{len(steps)}{RESET}")
-                for line in step_text.split('\n'):
-                    print(f"  {line}")
+                console.print(Panel(Markdown(step_text), title=f"[bold cyan]Step {step_num}/{len(steps)}[/bold cyan]"))
 
                 if expect_text:
-                    print(f"\n  {GREEN}{BOLD}Expected:{RESET}")
-                    for line in expect_text.split('\n'):
-                        print(f"  {line}")
+                    console.print(Panel(Markdown(expect_text), title="[bold green]Expected[/bold green]"))
 
-                print()
-                result = prompt_result(step_num, len(steps))
+                console.print()
+                result = Prompt.ask(f"  Step {step_num}/{len(steps)} result [green]p[/green]ass [red]f[/red]ail [yellow]s[/yellow]kip [bold red]a[/bold red]bort", choices=["p", "f", "s", "a"], case_sensitive=False)
 
-                if result == 'abort':
+                if result == 'a':
                     step_results.append('fail')
                     aborted = True
-                    print(f"  {YELLOW}Test aborted by tester.{RESET}")
+                    console.print("  Test aborted by tester.", style="yellow")
                     break
                 step_results.append(result)
 
-            invocation.end_time = tmt.utils.format_timestamp(
-                datetime.datetime.now(datetime.timezone.utc))
-            start = datetime.datetime.fromisoformat(invocation.start_time)
-            end = datetime.datetime.fromisoformat(invocation.end_time)
-            duration = end - start
-            hours, remainder = divmod(int(duration.total_seconds()), 3600)
-            minutes, seconds = divmod(remainder, 60)
-            invocation.real_duration = f"{hours:02d}:{minutes:02d}:{seconds:02d}"
+            invocation.stopwatch.end_time = datetime.datetime.now(datetime.UTC)
 
-            if any(r == 'fail' for r in step_results):
+            if any(r == 'f' for r in step_results):
                 outcome = ResultOutcome.FAIL
                 failed_steps = [i + 1 for i, r in enumerate(step_results) if r == 'fail']
                 note = [f"failed step(s): {', '.join(str(s) for s in failed_steps)}"]
-            elif all(r == 'skip' for r in step_results):
+            elif all(r == 's' for r in step_results):
                 outcome = ResultOutcome.SKIP
                 note = ["all steps skipped"]
             else:
@@ -296,9 +254,8 @@ class ExecuteManual(tmt.steps.execute.ExecutePlugin[ExecuteManualData]):
                 ResultOutcome.SKIP: "\033[33m",
             }.get(outcome, "")
 
-            print(f"\n  Result: {outcome_color}{BOLD}{outcome.value}{RESET}"
-                  f" ({invocation.real_duration})")
-            print(SEPARATOR)
+            console.print(Panel(f"\n  Result: {outcome_color}[bold]{outcome.value}[/bold]"
+                  f" ({invocation.stopwatch.duration_formatted})"))
 
             self._results.append(Result.from_test_invocation(
                 invocation=invocation,
